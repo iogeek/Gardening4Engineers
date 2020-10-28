@@ -1,0 +1,13 @@
+---
+layout: null
+---
+<header>
+<h1><a style="text-decoration: none;"  href="{{ site.url }}">{{ site.title }}</a></h1>
+<h1><a class="site-title"  href="{{ site.url }}">{{ site.title }}</a></h1>
+</header>
+[{{ site.title }}]({{ site.url }})
+<h1>{{ page.title }}</h1>
+
+<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+
+{{ content }}
