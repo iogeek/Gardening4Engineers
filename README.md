@@ -1,5 +1,5 @@
 # Gardening4Engineers
 
-Tihs repo is best viewed via
+This repo is best viewed via
   https://iogeek.github.io/Gardening4Engineers/
-  http://gardening4engineers.com/
+
