@@ -26,7 +26,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           ACCESS_TOKEN: ${{ secrets.JEKYLL_PAT }}
-          BRANCH: master # The branch the action should deploy to.
+          BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: _site # The folder the action should deploy.
-          TARGET_FOLDER: site
           CLEAN: true # Automatically remove deleted files from the deploy branch
+
