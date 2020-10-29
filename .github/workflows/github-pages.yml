@@ -23,7 +23,7 @@ jobs:
         run: | 
           bundle exec jekyll build -d _site
       - name: Deploy_To_GithubPage
-        uses: JamesIves/github-pages-deploy-action
+        uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           ACCESS_TOKEN: ${{ secrets.JEKYLL_PAT }}
           BRANCH: master # The branch the action should deploy to.
