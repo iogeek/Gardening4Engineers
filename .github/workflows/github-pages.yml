@@ -6,10 +6,19 @@ on:
       - master
 
 jobs:
-  github-pages:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: helaili/jekyll-action@2.0.1
-        env:
-          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+      - name: 'pull master'
+        uses: actions/checkout@v2
+      - name: 'setup ruby'
+        uses: actions/setup-ruby@v1
+        with: 
+          ruby-version: '2.6'
+      - name: 'install jekyll'
+        run: |
+          gem install bundler
+          bundle install --jobs 4 --retry 3
+      - name: 'build'
+        run: | 
+          bundle exec jekyll build
