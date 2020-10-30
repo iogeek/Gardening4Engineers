@@ -37,7 +37,7 @@ Home Page
 <td>
 {% for mdoc in site.mydocs %}
   <div class="mydocs" markdown="1">
-  <a href="{{ mdoc.url }}">{{ mdoc.title }}</a>
+  <a href="{{ mdoc.url | relative_url }}">{{ mdoc.title }}</a>
   </div>
 {% endfor %}
 </td>
