@@ -14,5 +14,10 @@ regenerate: true
 </script>
 Seed planning usually starts early December when the seed catalogs arrive.  
 
-As I am looking to harvest on certain dates, I've cobbled together some tools.   This used to be in a spread sheet but as the garden grew so did the tools.
+Things to account for planning
+- Space
+- Harvest dates
+- Viability for the garden I have
+- Notes from last year (if this has been planted before) 
+
 
