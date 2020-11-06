@@ -44,6 +44,11 @@ Home Page
 <td>
 A crude collection of tidbits i have picked up.
 
+{% for mposts in site.myposts %}
+  <div class="myposts" markdown="1">
+  <a href="{{ mposts.url | relative_url }}">{{ mposts.title }}</a>
+  </div>
+{% endfor %}
 </td>
 </tr>
 </table>
