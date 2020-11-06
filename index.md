@@ -27,11 +27,11 @@ Home Page
   }
 </style>
 
-
+A crude collection of tidbits i have picked up.
 <table>
 <tr>
+<th> Instructions </th>
 <th> Posts </th>
-<th> Date </th>
 </tr>
 <tr>
 <td>
@@ -42,7 +42,7 @@ Home Page
 {% endfor %}
 </td>
 <td>
-A crude collection of tidbits i have picked up.
+
 
 {% for mposts in site.myposts %}
   <div class="myposts" markdown="1">
