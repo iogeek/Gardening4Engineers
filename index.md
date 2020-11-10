@@ -30,11 +30,11 @@ Home Page
 A crude collection of tidbits i have picked up.
 <table>
 <tr>
-<th> Instructions </th>
+<th> Projects </th>
 <th> Posts </th>
 </tr>
 <tr>
-<td>
+<td width="30%">
 {% for mdoc in site.mydocs %}
   <div class="mydocs" markdown="1">
   <a href="{{ mdoc.url | relative_url }}">{{ mdoc.title }}</a>
@@ -42,8 +42,6 @@ A crude collection of tidbits i have picked up.
 {% endfor %}
 </td>
 <td>
-
-
 {% for mposts in site.myposts %}
   <div class="myposts" markdown="1">
   <a href="{{ mposts.url | relative_url }}">{{ mposts.title }}</a>

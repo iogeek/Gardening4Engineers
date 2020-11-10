@@ -6,8 +6,9 @@ categories: planning info
 ---
  
 <style style="text/css">
-  	.hoverTable{
+  .hoverTable{
 		width:100%; 
+    position: relative;
 		border-collapse:collapse; 
 	}
 	.hoverTable td{ 
@@ -18,9 +19,12 @@ categories: planning info
 		background: #b8d1f3;
 	}
 	/* Define the hover highlight color for the table row */
-    .hoverTable tr:hover {
-          background-color: #ffff99;
-    }
+  .hoverTable tr:hover {
+        background-color: #ffff99;
+  }
+  .hoverTable th {
+    position: sticky;
+  }
 </style>
 <script>
   function myTableFilter() {

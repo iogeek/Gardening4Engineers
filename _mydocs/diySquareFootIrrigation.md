@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Irrigation tips for Square Foot Gardening"
+title:  "Irrigation Grids"
 date:   2020-09-02
 categories: irrigation square foot 
 regenerate: true

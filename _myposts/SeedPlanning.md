@@ -15,9 +15,11 @@ regenerate: true
 Seed planning usually starts early December when the seed catalogs arrive.  
 
 Things to account for planning
-- Space
+- Space - This will make sure you don't waste time and seed by overseeding.  Square foot gardei\
+  - viabilibity for the microclimiate your garden is in
 - Harvest dates
-- Viability for the garden I have
-- Notes from last year (if this has been planted before) 
+  - Show dates and spacing harvests according to what can be eaten.
+- Notes from last year (if this has been planted before)
+  - Apply the learning to  
 
 
