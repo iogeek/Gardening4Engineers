@@ -10,7 +10,6 @@ categories: planning info
 		width:90%; 
     display: inline-block;
     position: relative;
-    overflow:scroll;
     font-size:12pt; 
     border-collapse:collapse; 
 	}
@@ -20,7 +19,7 @@ categories: planning info
   }
  .hoverTable tbody {
     display: inline-block;
-    overflow: auto;
+    overflow: scroll;
   }
 	.hoverTable td{ 
 		padding:7px; border:#4e95f4 1px solid;
