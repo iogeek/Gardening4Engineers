@@ -7,18 +7,17 @@ categories: planning info
  
 <style style="text/css">
   .hoverTable{
-		width:90%; 
-    display: inline-block;
+		width:80%; 
     position: relative;
     font-size:12pt; 
     border-collapse:collapse; 
 	}
   .hoverTable thead {
-    display: inline-block;
+		width:80%; 
     position: sticky;
   }
  .hoverTable tbody {
-    display: inline-block;
+		width:80%; 
     overflow: scroll;
   }
 	.hoverTable td{ 
