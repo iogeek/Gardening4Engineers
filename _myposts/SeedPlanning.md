@@ -12,10 +12,10 @@ regenerate: true
 <script>
 
 </script>
-Seed planning is figuring out the best combination of what you want to grow, when you want it, and where will it grow best. planning usually starts early December when the seed catalogs arrive.  
+I think of seed planning as figuring out the best combination of what you want to grow, when you want it, and where will it grow best.  I loosely follow the principles behind (Square Foot Gardening)[https://squarefootgardening.org/].  Below are tips and tools collected over time.
 
-Things to consider
-- Space - This will make sure you don't waste time and seed by overseeding.  Square foot gardei\
+#Space
+- This will make sure you don't waste time and seed by overseeding.  Square foot gardei\
   - viabilibity for the microclimiate your garden is in
 - Harvest dates
   - Show dates and spacing harvests according to what can be eaten.
@@ -29,6 +29,6 @@ Things to consider
   1 part vermiculite
 
 
-  https://squarefootgardening.org/
+  
 
 
