@@ -30,13 +30,15 @@ Irrigation
 
 Managing the soild
 
-
   Soil mix
   1 part compost
   1 part peat
   1 part vermiculite
 
 
+hydroponic
+- greens
+solution build
   
 
 

@@ -20,7 +20,7 @@ Each 4x4 grid needs the following
 - 8 pvc lengths measuring 10-3/4"
 - 6 pvc lengths measuring 9-1/4" 
 - 2 pvc lengths measuring 2-1/2" 
-- 9 cross connectors ![pvc criss]({{ site.imagePath | relative_url }}/pvcCross.jpg){:height="48px" width="48px"}
+- 9 cross connectors ![pvc cross]({{ site.imagePath | relative_url }}/pvcCross.jpg){:height="48px" width="48px"}
 - 2 elbows 90&deg; ![pvc elbow]({{ site.imagePath | relative_url }}/pvc90elbow.jpg){:height="48px" width="48px"}
 - 1 PVC Reducer Male Adapter 3/4" MNPT x 1/2" Slip ![pvc reducer]({{ site.imagePath | relative_url }}/pvcReducerMNPT-Slip.jpg){:height="48px" width="48px"}
 - 2 Male Slip Adapter 1/2" x 1/2" ![pvc adapter]({{ site.imagePath | relative_url }}/pvcMaleSlipAdapter.jpg){:height="48px" width="48px"}
