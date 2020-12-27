@@ -29,6 +29,8 @@ github_username:  iogeek
 collections: 
   mydocs:
     output: true
+  myposts:
+    output: true
 
 # Build settings
 theme: minima
