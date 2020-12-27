@@ -17,7 +17,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Plant Information" />
 <script type="application/ld+json">
-{"description":"Collection of tips about gardening and any other life adventures.","@type":"BlogPosting","headline":"Plant Information","dateModified":"2020-09-01T00:00:00+00:00","datePublished":"2020-09-01T00:00:00+00:00","url":"https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/mydocs/plantData.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/mydocs/plantData.html"},"@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/mydocs/plantData.html"},"description":"Collection of tips about gardening and any other life adventures.","@type":"BlogPosting","url":"https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/mydocs/plantData.html","headline":"Plant Information","dateModified":"2020-09-01T00:00:00+00:00","datePublished":"2020-09-01T00:00:00+00:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Gardening4Engineers/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/feed.xml" title="Gardening 4 Engineers" /></head>
 <body><header class="site-header" role="banner">
@@ -45,10 +45,20 @@
 
   <div class="post-content">
     <style style="text/css">
-  	.hoverTable{
-		width:100%; 
-		border-collapse:collapse; 
+  .hoverTable{
+		width:80%; 
+    position: relative;
+    font-size:12pt; 
+    border-collapse:collapse; 
 	}
+  .hoverTable thead {
+		width:80%; 
+    position: sticky;
+  }
+ .hoverTable tbody {
+		width:80%; 
+    overflow: scroll;
+  }
 	.hoverTable td{ 
 		padding:7px; border:#4e95f4 1px solid;
 	}
@@ -57,9 +67,9 @@
 		background: #b8d1f3;
 	}
 	/* Define the hover highlight color for the table row */
-    .hoverTable tr:hover {
-          background-color: #ffff99;
-    }
+  .hoverTable tr:hover {
+    background-color: #ffff99;
+  }
 </style>
 
 <script>
@@ -87,25 +97,28 @@
 </script>
 
 <p><input type="text" id="myInput" onkeyup="myTableFilter()" placeholder="Search for.." /></p>
-<table id="myTable" class="hoverTable" width="100%" style="overflow:scroll;">
-  <tr>
-    <th>type</th>
-    <th>commonName</th>
-    <th>style</th>
-    <th>indoorSow</th>
-    <th>hardenTime</th>
-    <th>outdoorSow</th>
-    <th>perSquare</th>
-    <th>spacing</th>
-    <th>spacingNotes</th>
-    <th>exposure</th>
-    <th>soilPH</th>
-    <th>soilTemp</th>
-    <th>soilType</th>
-    <th>maturity</th>
-    <th>harvestNotes</th>
-    <th>notes</th>
-  </tr>
+<table id="myTable" class="hoverTable">
+  <thead>
+    <tr>
+      <th>type</th>
+      <th>commonName</th>
+      <th>style</th>
+      <th>indoorSow</th>
+      <th>hardenTime</th>
+      <th>outdoorSow</th>
+      <th>perSquare</th>
+      <th>spacing</th>
+      <th>spacingNotes</th>
+      <th>exposure</th>
+      <th>soilPH</th>
+      <th>soilTemp</th>
+      <th>soilType</th>
+      <th>maturity</th>
+      <th>harvestNotes</th>
+      <th>notes</th>
+    </tr>
+  </thead>
+  <tbody> 
 
   <tr>
     <td>Ageratum </td>
@@ -2828,6 +2841,7 @@
     <td> </td>
   </tr>
 
+</tbody>
 </table>
 
 
