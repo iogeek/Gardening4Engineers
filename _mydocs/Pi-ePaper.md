@@ -10,6 +10,9 @@ regenerate: true
 Purchased a [2.7 inch WaveShare ePaper hat](https://www.waveshare.com/wiki/2.7inch_e-Paper_HAT) to display output from projects.
 The setup is well documentation on the waveshare site.  The waveshare site contains a working sample.  I've opted to tweak the sample versus develop something new via super interesting iot extentions to [dotnet](https://docs.microsoft.com/en-us/dotnet/iot/intro).
 
+
+** https://github.com/iogeek/Gardening4Engineers/tree/gh-pages/src/pi/ePaper/screenTest
+** https://github.com/iogeek/Gardening4Engineers/tree/gh-pages/src/pi/ePaper/waveshare
  Here are the tweaks I made to the waveshare sample.
 
 - Installed latest [BCM2835](http://www.airspayce.com/mikem/bcm2835/) driver (vs version described on WaveShare)
@@ -34,4 +37,9 @@ The code I made creates a custom library from the Waveshare sample.  This libary
 - sudo ldconfig to reload paths
 - dotnet run test
 
+
+
 ## 
+Notes:  I have come across libraries that write to ePaper in c#. Things to consider in the future.
+- https://github.com/eXoCooLd/Waveshare.EPaperDisplay
+- https://github.com/paw3lx/EPaperHatCore

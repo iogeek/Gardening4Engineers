@@ -10,7 +10,8 @@ There are plenty of great setup tutorials.  Here are the ones I use.
 
 - [Enable Pi to boot from USB.](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md)
 - Pick the OS you plan to use from [raspberrypi site.](https://www.raspberrypi.org/software/operating-systems/)
-- Drop the OS on a flash drive.  [Etcher](https://www.balena.io/etcher/) works for me (also on [Github](https://github.com/balena-io/etcher)).  If on Windows, pick the portable version.  Other options are [WinFlashTool](https://sysprogs.com/winflashtool/download/) and [Raspberry Pi Imager](https://www.raspberrypi.org/software/) which works with both USB and SD media.
+- Drop the OS on a flash drive.  Several options for Windows.  I started with [Etcher](https://www.balena.io/etcher/)  (src on [Github](https://github.com/balena-io/etcher)) but moved to [Raspberry Pi Imager](https://www.raspberrypi.org/software/) which works with both USB and SD media.  Another option is [WinFlashTool](https://sysprogs.com/winflashtool/download/).
+
 
 # Headless tweaks
 https://danidudas.medium.com/install-raspberry-os-configure-wi-fi-and-ssh-headless-without-a-keyboard-or-network-cable-3d4f9d383165
@@ -23,14 +24,16 @@ touch /mnt/e/ssh
 
 in /mnt/e/wpa_supplicant.conf add the following
 
-country=US
-ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev 
-update_config=1
-network={
-    ssid="YourNetworkSSID"
-    psk="Your Network's Passphrase"
-    key_mgmt=WPA-PSK
-}
+```
+    country=US
+    ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev 
+    update_config=1
+    network={
+        ssid="YourNetworkSSID"
+        psk="Your Network's Passphrase"
+        key_mgmt=WPA-PSK
+    }
+```
 
 Remove USB drive and boot Pi
 
