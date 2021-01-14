@@ -17,7 +17,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Add ePaper display to Pi" />
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/mydocs/Pi-ePaper.html"},"description":"Enabling Waveshare epaper Purchased a 2.7 inch WaveShare ePaper hat to display output from projects. The setup is well documentation on the waveshare site. The waveshare site contains a working sample. I’ve opted to tweak the sample versus develop something new via super interesting iot extentions to dotnet.","@type":"BlogPosting","url":"https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/mydocs/Pi-ePaper.html","headline":"Add ePaper display to Pi","dateModified":"2020-12-20T00:00:00+00:00","datePublished":"2020-12-20T00:00:00+00:00","@context":"https://schema.org"}</script>
+{"description":"Enabling Waveshare epaper Purchased a 2.7 inch WaveShare ePaper hat to display output from projects. The setup is well documentation on the waveshare site. The waveshare site contains a working sample. I’ve opted to tweak the sample versus develop something new via super interesting iot extentions to dotnet.","url":"https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/mydocs/Pi-ePaper.html","@type":"BlogPosting","headline":"Add ePaper display to Pi","dateModified":"2020-12-20T00:00:00+00:00","datePublished":"2020-12-20T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/mydocs/Pi-ePaper.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Gardening4Engineers/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/feed.xml" title="Gardening 4 Engineers" /></head>
 <body><header class="site-header" role="banner">
@@ -48,7 +48,9 @@
 <p>Purchased a <a href="https://www.waveshare.com/wiki/2.7inch_e-Paper_HAT">2.7 inch WaveShare ePaper hat</a> to display output from projects.
 The setup is well documentation on the waveshare site.  The waveshare site contains a working sample.  I’ve opted to tweak the sample versus develop something new via super interesting iot extentions to <a href="https://docs.microsoft.com/en-us/dotnet/iot/intro">dotnet</a>.</p>
 
-<p>Here are the tweaks I made to the waveshare sample.</p>
+<p>** https://github.com/iogeek/Gardening4Engineers/tree/gh-pages/src/pi/ePaper/screenTest
+** https://github.com/iogeek/Gardening4Engineers/tree/gh-pages/src/pi/ePaper/waveshare
+ Here are the tweaks I made to the waveshare sample.</p>
 
 <ul>
   <li>Installed latest <a href="http://www.airspayce.com/mikem/bcm2835/">BCM2835</a> driver (vs version described on WaveShare)</li>
@@ -76,7 +78,12 @@ The setup is well documentation on the waveshare site.  The waveshare site conta
   <li>dotnet run test</li>
 </ul>
 
-<p>##</p>
+<p>## 
+Notes:  I have come across libraries that write to ePaper in c#. Things to consider in the future.</p>
+<ul>
+  <li>https://github.com/eXoCooLd/Waveshare.EPaperDisplay</li>
+  <li>https://github.com/paw3lx/EPaperHatCore</li>
+</ul>
 
   </div>
 

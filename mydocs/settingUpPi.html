@@ -17,7 +17,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Setting up the Raspberry Pi" />
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/mydocs/settingUpPi.html"},"description":"There are plenty of great setup tutorials. Here are the ones I use.","@type":"BlogPosting","url":"https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/mydocs/settingUpPi.html","headline":"Setting up the Raspberry Pi","dateModified":"2020-11-28T00:00:00+00:00","datePublished":"2020-11-28T00:00:00+00:00","@context":"https://schema.org"}</script>
+{"description":"There are plenty of great setup tutorials. Here are the ones I use.","url":"https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/mydocs/settingUpPi.html","@type":"BlogPosting","headline":"Setting up the Raspberry Pi","dateModified":"2020-11-28T00:00:00+00:00","datePublished":"2020-11-28T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/mydocs/settingUpPi.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Gardening4Engineers/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/feed.xml" title="Gardening 4 Engineers" /></head>
 <body><header class="site-header" role="banner">
@@ -49,7 +49,7 @@
 <ul>
   <li><a href="https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md">Enable Pi to boot from USB.</a></li>
   <li>Pick the OS you plan to use from <a href="https://www.raspberrypi.org/software/operating-systems/">raspberrypi site.</a></li>
-  <li>Drop the OS on a flash drive.  <a href="https://www.balena.io/etcher/">Etcher</a> works for me (also on <a href="https://github.com/balena-io/etcher">Github</a>).  If on Windows, pick the portable version.  Other options are <a href="https://sysprogs.com/winflashtool/download/">WinFlashTool</a> and <a href="https://www.raspberrypi.org/software/">Raspberry Pi Imager</a> which works with both USB and SD media.</li>
+  <li>Drop the OS on a flash drive.  Several options for Windows.  I started with <a href="https://www.balena.io/etcher/">Etcher</a>  (src on <a href="https://github.com/balena-io/etcher">Github</a>) but moved to <a href="https://www.raspberrypi.org/software/">Raspberry Pi Imager</a> which works with both USB and SD media.  Another option is <a href="https://sysprogs.com/winflashtool/download/">WinFlashTool</a>.</li>
 </ul>
 
 <h1 id="headless-tweaks">Headless tweaks</h1>
@@ -63,14 +63,15 @@ sudo mkdir -p /mnt/e &amp;&amp; sudo mount -t drvfs e: /mnt/e</p>
 
 <p>in /mnt/e/wpa_supplicant.conf add the following</p>
 
-<p>country=US
-ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev 
-update_config=1
-network={
-    ssid=”YourNetworkSSID”
-    psk=”Your Network’s Passphrase”
-    key_mgmt=WPA-PSK
-}</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    country=US
+    ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev 
+    update_config=1
+    network={
+        ssid="YourNetworkSSID"
+        psk="Your Network's Passphrase"
+        key_mgmt=WPA-PSK
+    }
+</code></pre></div></div>
 
 <p>Remove USB drive and boot Pi</p>
 
