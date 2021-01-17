@@ -1,18 +1,18 @@
 [
     {
-        "class": "herb",
+        "lot": "herb",
         "id": 1
     },
     {
-        "class": "veg",
+        "lot": "veg",
         "id": 2
     },
     {
-        "class": "green",
+        "lot": "green",
         "id": 3
     },
     {
-        "class": "flower",
+        "lot": "flower",
         "id": 4
     }
 ]
