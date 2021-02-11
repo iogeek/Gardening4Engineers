@@ -6,22 +6,25 @@ categories: pi Raspian setup
 regenerate: true
 ---
  
-There are plenty of great setup tutorials.  Here are the ones I use.
+There are plenty of great setup tutorials.  Here are the ones I use to setup the pi.
 
 - [Enable Pi to boot from USB.](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md)
-- Pick the OS you plan to use from [raspberrypi site.](https://www.raspberrypi.org/software/operating-systems/)
+- Pick the OS you plan to use from [raspberrypi site.](https://www.raspberrypi.org/software/operating-systems/).  
+  - If you prefer [headless](https://en.wikipedia.org/wiki/Headless_computer) for iot settings pick "Raspberry Pi OS Lite".
 - Drop the OS on a flash drive.  Several options for Windows.  I started with [Etcher](https://www.balena.io/etcher/)  (src on [Github](https://github.com/balena-io/etcher)) but moved to [Raspberry Pi Imager](https://www.raspberrypi.org/software/) which works with both USB and SD media.  Another option is [WinFlashTool](https://sysprogs.com/winflashtool/download/).
 
 
 # Headless tweaks
-https://danidudas.medium.com/install-raspberry-os-configure-wi-fi-and-ssh-headless-without-a-keyboard-or-network-cable-3d4f9d383165
+ Poached from [here](https://danidudas.medium.com/install-raspberry-os-configure-wi-fi-and-ssh-headless-without-a-keyboard-or-network-cable-3d4f9d383165)
 
+ - Step 1: Enable ssh
 from WSL
 Assuming the drive letter is e:\
 sudo mkdir -p /mnt/e && sudo mount -t drvfs e: /mnt/e
 
 touch /mnt/e/ssh
 
+- Step 2: Setup Wifi SSID and keys
 in /mnt/e/wpa_supplicant.conf add the following
 
 ```
