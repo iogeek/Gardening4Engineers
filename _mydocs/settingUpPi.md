@@ -76,3 +76,10 @@ dotnet run to build and run csproj
 
 # Assembling the box
 #
+
+
+linux maintenence
+        sudo apt update
+        sudo apt full-upgrade
+
+creating the autoststart script - https://www.raspberrypi.org/documentation/linux/usage/systemd.md
