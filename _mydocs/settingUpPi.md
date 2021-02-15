@@ -51,8 +51,14 @@ NOTE: Once you boot, be sure to change your password and lock down ssh access.
 
 
 ## Setting up dev environment and .Net for Pi
-sudo apt-get install git mono-complete
+-> obsolete with .net5 -> sudo apt-get install git mono-complete
 install (powershell)[https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux]
+```
+wget $(curl -s https://api.github.com/repos/PowerShell/PowerShell/releases/latest | grep "browser_download_url.*linux-arm32.tar.gz" | cut -d '"' -f 4)
+mkdir ~/powershell
+tar -xvf ./powershell*.tar.gz -C ~/powershell
+sudo ln -s ~/powershell/pwsh /usr/bin/pwsh
+```
 
 wget https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 mono nuget.exe install
@@ -65,6 +71,9 @@ sudo tar -xvf dotnet-sdk-*-linux-arm.tar.gz -C /opt/dotnet/
 sudo tar -xvf aspnetcore-runtime-*-linux-arm.tar.gz -C /opt/dotnet/
 sudo ln -s /opt/dotnet/dotnet /usr/local/bin
 echo 'export DOTNET_ROOT=/opt/dotnet' >> /home/pi/.bashrc
+
+Scripts to simplify the dotnet install https://github.com/pjgpetecodes/dotnet5pi
+
 dotnet --info
 
 note:  This adds msbuild and dotnet
