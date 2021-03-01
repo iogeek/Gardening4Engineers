@@ -51,8 +51,9 @@ NOTE: Once you boot, be sure to change your password and lock down ssh access.
 
 
 ## Setting up dev environment and .Net for Pi
--> obsolete with .net5 -> sudo apt-get install git mono-complete
-install (powershell)[https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux]
+- sudo apt-get install git
+- [powershell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux)
+
 ```
 wget $(curl -s https://api.github.com/repos/PowerShell/PowerShell/releases/latest | grep "browser_download_url.*linux-arm32.tar.gz" | cut -d '"' -f 4)
 mkdir ~/powershell
@@ -60,27 +61,14 @@ tar -xvf ./powershell*.tar.gz -C ~/powershell
 sudo ln -s ~/powershell/pwsh /usr/bin/pwsh
 ```
 
-wget https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
+deprecated -> wget https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 mono nuget.exe install
 
-download .net core from https://dotnet.microsoft.com/download/dotnet-core.
-   - Pick the latest version then downoad Arm32 versions of SDK and runtime. 
-
-sudo mkdir /opt/dotnet
-sudo tar -xvf dotnet-sdk-*-linux-arm.tar.gz -C /opt/dotnet/
-sudo tar -xvf aspnetcore-runtime-*-linux-arm.tar.gz -C /opt/dotnet/
-sudo ln -s /opt/dotnet/dotnet /usr/local/bin
-echo 'export DOTNET_ROOT=/opt/dotnet' >> /home/pi/.bashrc
-
-Scripts to simplify the dotnet install https://github.com/pjgpetecodes/dotnet5pi
-
-dotnet --info
-
-note:  This adds msbuild and dotnet
-
-dotnet msbuild to complile
-dotnet new console -o <dir>  to create a new project
-dotnet run to build and run csproj
+- [.net core](https://dotnet.microsoft.com/download/dotnet-core)
+    - helpful scripts https://github.com/pjgpetecodes/
+```
+  wget -O - https://raw.githubusercontent.com/pjgpetecodes/dotnet5pi/master/install.sh | sudo bash
+```
 
 
 # Assembling the box
