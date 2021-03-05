@@ -27,6 +27,10 @@ sudo reboot
 
 rtl_433 -D
 
+echo 'rtl_433 -T 90 -F mqtt://localhost:1883' >>  tmp.sh
+chmod +x tmp.sh
+sudo mv -f tmp.sh /etc/cron.hourly/tempHourCheck
+#/etc/init.d/crond status
 
 Future usage
 - rtl_fm to listen on other frequencies
