@@ -17,7 +17,7 @@ The pvc grid idea was found on [DavesGarden](https://davesgarden.com/community/f
 <img src="{{ site.imagePath | relative_url }}/SFWateringGrid.jpg"  />
 <br>
 Each 4x4 grid needs the following
-- 8 pvc lengths measuring 10-3/4"
+- 18 pvc lengths measuring 10-3/4"
 - 6 pvc lengths measuring 9-1/4" 
 - 2 pvc lengths measuring 2-1/2" 
 - 9 cross connectors ![pvc cross]({{ site.imagePath | relative_url }}/pvcCross.jpg){:height="48px" width="48px"}
@@ -26,3 +26,5 @@ Each 4x4 grid needs the following
 - 2 Male Slip Adapter 1/2" x 1/2" ![pvc adapter]({{ site.imagePath | relative_url }}/pvcMaleSlipAdapter.jpg){:height="48px" width="48px"}
 - 2 1/2" Threaded cap ![pvc threaded cap ]({{ site.imagePath | relative_url }}/pvcThreadedCap.jpg){:height="48px" width="48px"}
 - 9 Slip on PVC caps ![pvc cap]({{ site.imagePath | relative_url }}/pvcSlipCap.jpg){:height="48px" width="48px"}
+
+I used 1/2" PVC for the project and it worked will with my 3/4" water hose (note: this is why there is a 3/4" to 1/2" reducer)
