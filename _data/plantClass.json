@@ -1,0 +1,18 @@
+[
+    {
+        "class": "herb",
+        "id": 1
+    },
+    {
+        "class": "veg",
+        "id": 2
+    },
+    {
+        "class": "green",
+        "id": 3
+    },
+    {
+        "class": "flower",
+        "id": 4
+    }
+]

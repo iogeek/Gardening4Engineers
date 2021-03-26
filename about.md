@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-A crude wesbite for notes, projects and experiences.
+A crude website for notes, projects and experiences.
