@@ -28,12 +28,12 @@ sudo reboot
 rtl_433 -D
 
 
-echo 'rtl_433 -T 90 -F mqtt://farmpi:1883' >>  $HOME/getWeatherSensorData.sh
+echo 'rtl_433 -T 90 -F "mqtt://farmpi:1883"' >>  $HOME/getWeatherSensorData.sh
 chmod +x $HOME/getWeatherSensorData.sh
 echo "0 * * * * $HOME/getWeatherSensorData.sh" > ctab.txt
 crontab ctab.txt
 
-(crontab -l; echo "0 * * * * rtl_433 -T 90 -F mqtt://farmpi:1883";) | crontab 
+(crontab -l; echo '0 * * * * rtl_433 -T 90 -F "mqtt://farmpi:1883"';) | crontab 
 rm ctab.txt
 
 #sudo /etc/init.d/crond resrtart status
