@@ -52,6 +52,11 @@ NOTE: Once you boot, be sure to change your password and lock down ssh access.
 
 ## Setting up dev environment and .Net for Pi
 - sudo apt-get install git
+- timedatectl list-timezones
+sudo timedatectl set-timezone <your_time_zone>
+America/Los_Angeles
+
+sudo timedatectl set-timezone America/Los_Angeles
 - [powershell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux)
 
 ```
