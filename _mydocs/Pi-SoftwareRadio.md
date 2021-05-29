@@ -16,7 +16,7 @@ https://github.com/merbanan/rtl_433/
 
 ## Building rtl-433
 ```
-sudo apt-get install libtool libusb-dev librtlsdr-dev rtl-sdr build-essential autoconf cmake pkg-config
+sudo apt -y install libtool libusb-dev librtlsdr-dev rtl-sdr build-essential autoconf cmake pkg-config
 
 cd $HOME/git
 git clone https://github.com/merbanan/rtl_433.git
@@ -30,7 +30,7 @@ rtl_433 -D
 echo '#!/bin/bash' >>  $HOME/getWeatherSensorData.sh
 echo 'rtl_433 -T 90 -F "mqtt://farmpi:1883"' >>  $HOME/getWeatherSensorData.sh
 chmod +x $HOME/getWeatherSensorData.sh
-(crontab -l; echo '0 * * * * $HOME/getWeatherSensorData.sh';) | crontab
+(crontab -l; echo '0 * * * * /home/pi/getWeatherSensorData.sh';) | crontab
 
 #sudo /etc/init.d/crond resrtart status
 
