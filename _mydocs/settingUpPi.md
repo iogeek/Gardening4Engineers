@@ -66,8 +66,6 @@ tar -xvf ./powershell*.tar.gz -C ~/powershell
 sudo ln -s ~/powershell/pwsh /usr/bin/pwsh
 ```
 
-deprecated -> wget https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
-mono nuget.exe install
 
 - [.net core](https://dotnet.microsoft.com/download/dotnet-core)
     - helpful scripts https://github.com/pjgpetecodes/
