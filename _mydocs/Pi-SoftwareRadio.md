@@ -16,13 +16,8 @@ https://github.com/merbanan/rtl_433/
 
 ## Building rtl-433
 ```
-sudo apt -y install libtool libusb-dev librtlsdr-dev rtl-sdr build-essential autoconf cmake pkg-config
+see insallSwRadio.sh
 
-mkdir -p $HOME/git
-cd $HOME/git
-git clone https://github.com/merbanan/rtl_433.git
-cd rtl_433/ && mkdir build && cd build && cmake ../ && make
-sudo make install
 ```
 sudo reboot
 
