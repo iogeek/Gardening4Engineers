@@ -24,3 +24,7 @@ sudo systemctl daemon-reload
 
 sudo systemctl enable $APPSvcName
 sudo systemctl start $APPSvcName
+
+# kill remnants of fauxpi
+#ps -fA | grep python
+
