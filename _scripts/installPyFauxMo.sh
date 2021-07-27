@@ -12,7 +12,7 @@ mkdir -p $APPDIR
 cd $APPDIR
 
 #wget https://raw.githubusercontent.com/n8henrie/fauxmo/master/extras/fauxmo.service
-wget https://raw.githubusercontent.com/n8henrie/fauxmo-plugins/master/mqttplugin.py
+#wget https://raw.githubusercontent.com/n8henrie/fauxmo-plugins/master/mqttplugin.py
 
 #fauxmo -c config.json
 
