@@ -1,1 +1,1 @@
- git config user.email "iogeek@users.noreply.github.com" 
+ git config --global user.email "iogeek@users.noreply.github.com" 
