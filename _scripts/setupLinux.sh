@@ -17,4 +17,5 @@ echo ‘export DOTNET_ROOT=$HOME/.dotnet’ >> $HOME/.bashrc dotnet –info
  # jekyll
  gem update
  gem install jekyll bundler minima
+ #
 
