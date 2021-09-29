@@ -3,3 +3,22 @@
 ---
 $content-width: 100%;
 @import "minima";
+
+
+.panel-note
+{
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  background-color: #f0f7fb;
+  background-position: 5px 15px;
+  background-repeat: no-repeat;
+  border: solid 1px #3498db;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 13px 20px 15px 65px;
+  min-height: 80px;
+}
+
+.panel-note.top-padding {
+  padding-top: 25px;
+}
