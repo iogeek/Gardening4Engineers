@@ -31,7 +31,7 @@ A crude collection of tidbits i have picked up.
 <table>
 <tr>
 <th> Projects </th>
-<th> Posts </th>
+<th> Garden </th>
 </tr>
 <tr>
 <td width="30%">
