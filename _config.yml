@@ -31,6 +31,9 @@ collections:
     output: true
   myposts:
     output: true
+  myrecipes:
+    output: true
+    layout: recipe
 
 # Build settings
 theme: minima
