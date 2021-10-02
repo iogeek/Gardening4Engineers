@@ -54,6 +54,7 @@ layout: home
     <td>A crude collection of tidbits i have picked up.</td>
   </tr>
 </table>
+ {{ site.data.sidebar[1].title }}
 <table>
 <tr>
 <th> Projects </th>
