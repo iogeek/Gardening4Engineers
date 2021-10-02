@@ -42,8 +42,18 @@ layout: home
   padding-top: 25px;
 }
 </style>
-
-A crude collection of tidbits i have picked up.
+<table>
+  <tr>
+    <td width="10%">
+  <div class="panel-note" markdown="1">
+    {% for itm in site.data.sidebar %}
+    {{ itm.title }}
+    {% endfor %}
+  </div>
+    </td>
+    <td>A crude collection of tidbits i have picked up.</td>
+  </tr>
+</table>
 <table>
 <tr>
 <th> Projects </th>
@@ -53,9 +63,9 @@ A crude collection of tidbits i have picked up.
 <tr>
   <td width="10%">
   <div class="panel-note" markdown="1">
-  Projects
-  Garden
-  Recipes
+  {% for itm in site.data.sidebar %}
+  {{ itm.title }}<br>
+  {% endfor %}
   </div>
 
 </td>

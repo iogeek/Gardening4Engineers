@@ -1,16 +1,13 @@
 - title: Home
   slug: 
   location: 
-
 - title: Garden
   slug: garden
   location: _garden
-
 - title: Projects
   slug: projects
   location: _projects
-  
-  - title: Recipes
+- title: Recipes
   slug: recipes
   location: _recipes
 
