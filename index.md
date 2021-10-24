@@ -42,47 +42,60 @@ layout: home
   padding-top: 25px;
 }
 </style>
- {{ site.data.sidebar[0].title }}
 <table>
   <tr>
     <td width="10%">
-  <div class="panel-note" markdown="1">
+  <div class="panel-note">
     {% for itm in site.data.sidebar %}
-    {{ itm.title }}
+    <div class="navitm" id="{{ itm.title }}_nav">
+          {{ itm.title }}
+    </div>
     {% endfor %}
-  </div>
+    </div>
     </td>
-    <td>A crude collection of tidbits i have picked up.</td>
+    <td>
+    --<br>
+      {% for itm in site.data.sidebar %}
+      <div class="mainPage" id="{{ itm.title }}" style="display:none">
+          {{ itm.title }}
+      </div>
+      {% endfor %}
+      <br>--<br>
+       {{ site.data.sidebar[0].title }} <br>
+    A crude collection of tidbits i have picked up.
+    </td>
   </tr>
 </table>
-<table>
-<tr>
-<th> Projects </th>
-<th> Garden </th>
-<th> Recipes </th>
-</tr>
-<tr>
-  <td width="10%">
-  <div class="panel-note" markdown="1">
-  {% for itm in site.data.sidebar %}
-  {{ itm.title }}<br>
-  {% endfor %}
-  </div>
-
-</td>
-<td width="30%">
-{% for mdoc in site.projects %}
-  <div class="mydocs" markdown="1">
-  <a href="{{ mdoc.url | relative_url }}">{{ mdoc.title }}</a>
+--
+xx
+--
+{% for gdoc in site.garden %}
+  <div class="garden" markdown="1">
+  <a href="{{ gdoc.url | relative_url }}">{{ gdoc.title }}</a>
   </div>
 {% endfor %}
-</td>
-<td>
+--
+yy
+--
 {% for mposts in site.garden %}
   <div class="myposts" markdown="1">
   <a href="{{ mposts.url | relative_url }}">{{ mposts.title }}</a>
   </div>
 {% endfor %}
-</td>
-</tr>
-</table>
+
+<script>
+  var gVisible = "none";
+
+  function ToggleDiv(id) {
+    if (gVisible !== "none")
+      document.getElementById(gVisible).style.display = "none";
+    document.getElementById(id).style.display = "inline";
+    gVisible = id;    
+  }
+  {% for itm in site.data.sidebar %}
+    document.getElementById("{{ itm.title }}_nav").onclick = function() {
+      ToggleDiv("{{ itm.title }}");
+    }
+  {% endfor %}
+  ToggleDiv("{{ site.data.sidebar[0].title }}");
+</script>

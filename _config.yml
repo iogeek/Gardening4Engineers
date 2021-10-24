@@ -27,11 +27,11 @@ url: "https://iogeek.github.io/Gardening4Engineers" # the base hostname & protoc
 github_username:  iogeek
 
 collections: 
-  mydocs:
+  garden:
     output: true
-  myposts:
+  projects:
     output: true
-  myrecipes:
+  recipes:
     output: true
     layout: recipe
 
