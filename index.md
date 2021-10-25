@@ -54,15 +54,17 @@ layout: home
     </div>
     </td>
     <td>
-    --<br>
+      --<br>
       {% for itm in site.data.sidebar %}
       <div class="mainPage" id="{{ itm.title }}" style="display:none">
-          {{ itm.title }}
+        {{ itm.title }}
+        {% if itm.location and itm.location != "" %}
+        {% elsif itm.message and itm.message != "" %}
+        {% else %}
+        {% endif %}
       </div>
       {% endfor %}
       <br>--<br>
-       {{ site.data.sidebar[0].title }} <br>
-    A crude collection of tidbits i have picked up.
     </td>
   </tr>
 </table>
