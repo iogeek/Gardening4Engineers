@@ -59,8 +59,15 @@ layout: home
       <div class="mainPage" id="{{ itm.title }}" style="display:none">
         {{ itm.title }}
         {% if itm.location and itm.location != "" %}
+          {% for gdoc in itm.location %}
+            <div class="myposts" markdown="1">
+            <a href="{{ gdoc.url | relative_url }}">{{ gdoc.title }}</a>
+            </div>
+          {% endfor %}
         {% elsif itm.message and itm.message != "" %}
+          {{ itm.message }}
         {% else %}
+          dunno what to do
         {% endif %}
       </div>
       {% endfor %}
