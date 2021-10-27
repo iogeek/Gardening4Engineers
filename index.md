@@ -59,11 +59,7 @@ layout: home
       <div class="mainPage" id="{{ itm.title }}" style="display:none">
         {{ itm.title }}
         {% if itm.location and itm.location != "" %}
-          {% for gdoc in itm.location %}
-            <div class="myposts" markdown="1">
-            <a href="{{ gdoc.url | relative_url }}">{{ gdoc.title }}</a>
-            </div>
-          {% endfor %}
+          zz
         {% elsif itm.message and itm.message != "" %}
           {{ itm.message }}
         {% else %}
@@ -75,6 +71,19 @@ layout: home
     </td>
   </tr>
 </table>
+--
+{% for collection in site.collections %}
+  <h2>Items from {{ collection.title }}</h2>
+{% endfor %}
+--
+{% for collection in site.collections %}
+  xx {{ collection.label }}
+{% endfor %}
+<!--
+{% for item in site[collection.label] %}
+  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+{% endfor %}
+-->
 --
 xx
 --
