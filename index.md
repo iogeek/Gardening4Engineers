@@ -101,6 +101,7 @@ yy
   </div>
 {% endfor %}
 
+
 <script>
   var gVisible = "none";
 
@@ -115,5 +116,9 @@ yy
       ToggleDiv("{{ itm.title }}");
     }
   {% endfor %}
-  ToggleDiv("{{ site.data.sidebar[0].title }}");
+
+  {% assign homePage = site.collections 
+      | where_exp:"firstCollectionPage", "firstCollectionPage.sequence == 1" 
+      | first %}
+  ToggleDiv("{{ firstCollectionPage.title }}");
 </script>

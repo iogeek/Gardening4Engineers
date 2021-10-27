@@ -30,16 +30,21 @@ collections:
   home:
     message: A crude collection of tidbits i have picked up.
     output: false
+    path: ""
+    sequence: 1
     title: Home
   garden:
     output: true
+    sequence: 2
     title: Garden
   projects:
     output: true
+    sequence: 3
     title: Projects
   recipes:
     layout: recipe
     output: true
+    sequence: 4
     title: Recipes
 
 # Build settings
