@@ -42,65 +42,45 @@ layout: home
   padding-top: 25px;
 }
 </style>
+{% assign sortedCollection = site.collections | sort: 'sequence' %}
 <table>
   <tr>
     <td width="10%">
   <div class="panel-note">
-    {% for itm in site.data.sidebar %}
+    {% for itm in sortedCollection %}
+    {% if itm.title and itm.title != "" %}
     <div class="navitm" id="{{ itm.title }}_nav">
-          {{ itm.title }}
+    {{ itm.title }}
     </div>
+    {% endif %}
     {% endfor %}
     </div>
     </td>
     <td>
-      --<br>
-      {% for itm in site.data.sidebar %}
+      {% for itm in sortedCollection %}
+      {% if itm.title and itm.title != "" %}
       <div class="mainPage" id="{{ itm.title }}" style="display:none">
         {{ itm.title }}
-        {% if itm.location and itm.location != "" %}
-          zz
-        {% elsif itm.message and itm.message != "" %}
+        {% if itm.message and itm.message != "" %}
+          <br>
           {{ itm.message }}
         {% else %}
-          dunno what to do
+          {% for gdoc in site[itm.label] %}
+          <br>
+          <a href="{{ gdoc.url | relative_url }}">{{ gdoc.title }}</a>
+          {% endfor %}
         {% endif %}
       </div>
+      {% endif %}
       {% endfor %}
-      <br>--<br>
     </td>
   </tr>
 </table>
---
-{% for collection in site.collections %}
-  <h2>Items from {{ collection.title }}</h2>
-{% endfor %}
---
-{% for collection in site.collections %}
-  xx {{ collection.label }}
-{% endfor %}
 <!--
 {% for item in site[collection.label] %}
   <li><a href="{{ item.url }}">{{ item.title }}</a></li>
 {% endfor %}
 -->
---
-xx
---
-{% for gdoc in site.garden %}
-  <div class="garden" markdown="1">
-  <a href="{{ gdoc.url | relative_url }}">{{ gdoc.title }}</a>
-  </div>
-{% endfor %}
---
-yy
---
-{% for mposts in site.garden %}
-  <div class="myposts" markdown="1">
-  <a href="{{ mposts.url | relative_url }}">{{ mposts.title }}</a>
-  </div>
-{% endfor %}
-
 
 <script>
   var gVisible = "none";
@@ -111,14 +91,16 @@ yy
     document.getElementById(id).style.display = "inline";
     gVisible = id;    
   }
-  {% for itm in site.data.sidebar %}
+  {% for itm in sortedCollection %}
+  {% if itm.title and itm.title != "" %}
     document.getElementById("{{ itm.title }}_nav").onclick = function() {
       ToggleDiv("{{ itm.title }}");
     }
+  {% endif %}
   {% endfor %}
 
   {% assign homePage = site.collections 
       | where_exp:"firstCollectionPage", "firstCollectionPage.sequence == 1" 
       | first %}
-  ToggleDiv("{{ firstCollectionPage.title }}");
+  ToggleDiv("{{ homePage.title }}");
 </script>
