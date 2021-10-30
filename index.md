@@ -41,6 +41,7 @@ layout: home
   padding-top: 25px;
 }
 </style>
+
 {% assign sortedCollection = site.collections | sort: 'sequence' %}
 <table>
   <tr>

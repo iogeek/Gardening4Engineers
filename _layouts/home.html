@@ -1,24 +1,11 @@
----
----
-<!-- {% assign data = site.data.data %} -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Styles -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-        <!-- Meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico">
-        
-        <title>{{site.title}}</title>
-    </head>
+{% include head.html %} 
 <body>
-    <title>{{site.title}}</title>
-    {{content}}
+<h1>
+    {% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}
+</h1>
+{{content}}
 </body>
 <!-- {% include scripts.html %} -->
 </html>
