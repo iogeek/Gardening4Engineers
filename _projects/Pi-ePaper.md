@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title:  "Add ePaper display to Pi"
 date:   2020-12-20
 categories: pi Raspian ePaper dotnet

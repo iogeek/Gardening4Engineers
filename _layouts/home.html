@@ -5,7 +5,41 @@
 <h1>
     {% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}
 </h1>
-{{content}}
+{% assign sortedCollection = site.collections | sort: 'sequence' %}
+<table>
+  <tr>
+    <td width="10%">
+  <div class="panel-note">
+    {% for itm in sortedCollection %}
+    {% if itm.title and itm.title != "" %}
+    <div class="navitm" id="{{ itm.title }}_nav">
+    {{ itm.title }}
+    </div>
+    {% endif %}
+    {% endfor %}
+    </div>
+    </td>
+    <td>
+      {{content}}
+      {% for itm in sortedCollection %}
+      {% if itm.title and itm.title != "" %}
+      <div class="mainPage" id="{{ itm.title }}" style="display:none">
+        {{ itm.title }}
+        {% if itm.message and itm.message != "" %}
+          <br>
+          {{ itm.message }}
+        {% else %}
+          {% for gdoc in site[itm.label] %}
+          <br>
+          <a href="{{ gdoc.url | relative_url }}">{{ gdoc.title }}</a>
+          {% endfor %}
+        {% endif %}
+      </div>
+      {% endif %}
+      {% endfor %}
+    </td>
+  </tr>
+</table>
+{% include scriptsBottomPage.html %}
 </body>
-<!-- {% include scripts.html %} -->
 </html>

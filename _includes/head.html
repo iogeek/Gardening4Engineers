@@ -13,4 +13,68 @@
     </title>
       <meta name="description"
         content="{{ site.description }}" />
+      <style style="text/css">
+          .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+          }
+          
+          .active, .accordion:hover {
+            background-color: #ccc; 
+          }
+          
+          .panel {
+            padding: 0 18px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+          }
+
+          table {
+              border-left: 0;
+              border-right: 0;
+              border-top: 0;
+              border-bottom: 0;
+            }
+
+            table tr td {
+              border-left: 0;
+              border-right: 0;
+              border-top: 0;
+              border-bottom: 0;
+            }
+
+            table th {
+              border-left: 0;
+              border-right: 0;
+              border-top: 0;
+              border-bottom:1pt solid black;
+            }
+            
+            .panel-note {
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            background-color: #f0f7fb;
+            background-position: 5px 15px;
+            background-repeat: no-repeat;
+            border: solid 1px #3498db;
+            border-radius: 6px;
+            overflow: hidden;
+            padding: 13px 20px 15px 65px;
+            min-height: 80px;
+          }
+
+          .panel-note.top-padding {
+            padding-top: 25px;
+          }
+        </style>
+        {% include scripts.html %} 
 </head>
