@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title:  "Seed Planning"
 date:   2020-09-02
 categories: seeding planning 

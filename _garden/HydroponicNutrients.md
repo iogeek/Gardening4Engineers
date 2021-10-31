@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title:  "DIY Hydroponic Nutrient Mixes"
 date:   2020-09-02
 categories: hydroponic nutrients 

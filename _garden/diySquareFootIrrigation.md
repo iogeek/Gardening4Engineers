@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title:  "Irrigation Grids"
 date:   2020-09-02
 categories: irrigation square foot 

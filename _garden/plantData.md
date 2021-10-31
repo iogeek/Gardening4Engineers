@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title:  "Plant Information"
 date:   2020-09-01
 categories: planning info
