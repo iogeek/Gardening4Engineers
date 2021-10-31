@@ -1,0 +1,24 @@
+<script>
+    {% assign sortedCollection = site.collections | sort: 'sequence' %}
+    var gVisible = "none";
+  
+    function ToggleDiv(id) {
+      if (gVisible !== "none")
+        document.getElementById(gVisible).style.display = "none";
+      document.getElementById(id).style.display = "inline";
+      gVisible = id;    
+    }
+    {% for itm in sortedCollection %}
+    {% if itm.title and itm.title != "" %}
+      document.getElementById("{{ itm.title }}_nav").onclick = function() {
+        ToggleDiv("{{ itm.title }}");
+      }
+    {% endif %}
+    {% endfor %}
+  
+    {% assign homePage = site.collections 
+        | where_exp:"firstCollectionPage", "firstCollectionPage.sequence == 1" 
+        | first %}
+    ToggleDiv("{{ homePage.title }}");
+  </script>
+  
