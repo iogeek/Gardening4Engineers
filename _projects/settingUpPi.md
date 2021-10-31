@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title:  "Setting up the Raspberry Pi"
 date:   2020-11-28
 categories: pi Raspian setup

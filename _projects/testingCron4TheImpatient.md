@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title:  "Testing cron for the impatient"
 date:   2021-04-13
 categories: pi Raspian linux cron

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title:  "Add SDR (Software Defined Radio)"
 date:   2020-12-20
 categories: pi Raspian SDR 433mhz
