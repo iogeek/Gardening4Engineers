@@ -4,15 +4,18 @@
   
     function ToggleDiv(id) {
       if (gVisible !== "none")
-        document.getElementById(gVisible).style.display = "none";
-      document.getElementById(id).style.display = "inline";
+        if (document.getElementById(gVisible))
+          document.getElementById(gVisible).style.display = "none";
+        if (document.getElementById(id))
+          document.getElementById(id).style.display = "inline";
       gVisible = id;    
     }
     {% for itm in sortedCollection %}
     {% if itm.title and itm.title != "" %}
-      document.getElementById("{{ itm.title }}_nav").onclick = function() {
-        ToggleDiv("{{ itm.title }}");
-      }
+      if (document.getElementById("{{ itm.title }}_nav"))
+        document.getElementById("{{ itm.title }}_nav").onclick = function() {
+          ToggleDiv("{{ itm.title }}");
+        }
     {% endif %}
     {% endfor %}
   
@@ -20,5 +23,20 @@
         | where_exp:"firstCollectionPage", "firstCollectionPage.sequence == 1" 
         | first %}
     ToggleDiv("{{ homePage.title }}");
+
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
   </script>
   
