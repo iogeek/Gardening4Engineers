@@ -9,34 +9,24 @@
 <table>
   <tr>
     <td width="10%">
-  <div class="panel-note">
-    {% for itm in sortedCollection %}
-    {% if itm.title and itm.title != "" %}
-    <div class="navitm" id="{{ itm.title }}_nav">
-    {{ itm.title }}
-    </div>
-    {% endif %}
-    {% endfor %}
-    </div>
+      {% for itm in sortedCollection %}
+      {% if itm.title and itm.title != "" %}
+        {% if itm.path and itm.path != "" %}
+        <button class="accordion">{{ itm.title }}</button>
+        <div class="panel">
+        {% for gdoc in site[itm.label] %}
+        <br>
+        <a href="{{ gdoc.url | relative_url }}">{{ gdoc.title }}</a>
+        {% endfor %}
+        </div>
+        {% else %}
+
+        {% endif %}
+      {% endif %}
+      {% endfor %}
     </td>
     <td>
       {{content}}
-      {% for itm in sortedCollection %}
-      {% if itm.title and itm.title != "" %}
-      <div class="mainPage" id="{{ itm.title }}" style="display:none">
-        {{ itm.title }}
-        {% if itm.message and itm.message != "" %}
-          <br>
-          {{ itm.message }}
-        {% else %}
-          {% for gdoc in site[itm.label] %}
-          <br>
-          <a href="{{ gdoc.url | relative_url }}">{{ gdoc.title }}</a>
-          {% endfor %}
-        {% endif %}
-      </div>
-      {% endif %}
-      {% endfor %}
     </td>
   </tr>
 </table>
