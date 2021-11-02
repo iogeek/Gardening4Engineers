@@ -2,34 +2,31 @@
 <html lang="en">
 {% include head.html %} 
 <body>
-<h1>
-    {% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}
-</h1>
-{% assign sortedCollection = site.collections | sort: 'sequence' %}
-<table>
-  <tr>
-    <td width="10%">
-      {% for itm in sortedCollection %}
-      {% if itm.title and itm.title != "" %}
-        {% if itm.path and itm.path != "" %}
-        <button class="accordion">{{ itm.title }}</button>
-        <div class="panel">
-        {% for gdoc in site[itm.label] %}
-        <br>
-        <a href="{{ gdoc.url | relative_url }}">{{ gdoc.title }}</a>
-        {% endfor %}
-        </div>
-        {% else %}
-
-        {% endif %}
-      {% endif %}
+  {% assign sortedCollection = site.collections | sort: 'sequence' %}
+  <div style="width: 20%; float:left; position: fixed;">>
+    {% for itm in sortedCollection %}
+    {% if itm.title and itm.title != "" %}
+      {% if itm.path and itm.path != "" %}
+      <button class="accordion">{{ itm.title }}</button>
+      <div class="panel">
+      {% for gdoc in site[itm.label] %}
+      <br>
+      <a href="{{ gdoc.url | relative_url }}">{{ gdoc.title }}</a>
       {% endfor %}
-    </td>
-    <td>
-      {{content}}
-    </td>
-  </tr>
-</table>
-{% include scriptsBottomPage.html %}
+      </div>
+      {% else %}
+      <a href="{{ site.url | relative_url }}"  style="text-decoration: none;" class="linkBtn">{{ itm.title }}</a>
+      {% endif %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div style="width: 80%; float:right">> <!-- body content -->
+  <h1>
+      {% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}
+  </h1>
+  {{content}}    
+  </div>
+  <br style="clear:both;"/>
+  {% include scriptsBottomPage.html %}
 </body>
 </html>
