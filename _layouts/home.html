@@ -3,7 +3,8 @@
 {% include head.html %} 
 <body>
   {% assign sortedCollection = site.collections | sort: 'sequence' %}
-  <div style="width: 20%; float:left; position: fixed;">>
+  <div>
+  <div style="width: 20%; float:left; position: fixed; padding: 5px">
     {% for itm in sortedCollection %}
     {% if itm.title and itm.title != "" %}
       {% if itm.path and itm.path != "" %}
@@ -20,13 +21,13 @@
     {% endif %}
     {% endfor %}
   </div>
-  <div style="width: 80%; float:right">> <!-- body content -->
+  <div style="width: 80%; float:right; padding: 5px">
   <h1>
       {% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}
   </h1>
   {{content}}    
   </div>
-  <br style="clear:both;"/>
+  </div>
   {% include scriptsBottomPage.html %}
 </body>
 </html>
