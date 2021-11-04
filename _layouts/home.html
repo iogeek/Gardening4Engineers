@@ -3,8 +3,8 @@
 {% include head.html %} 
 <body>
   {% assign sortedCollection = site.collections | sort: 'sequence' %}
-  <div>
-  <div style="width: 20%; float:left; position: fixed; padding: 5px">
+  <div class="gridContainer">
+  <div class="gridSideNav">
     {% for itm in sortedCollection %}
     {% if itm.title and itm.title != "" %}
       {% if itm.path and itm.path != "" %}
@@ -21,7 +21,7 @@
     {% endif %}
     {% endfor %}
   </div>
-  <div style="width: 80%; float:right; padding: 5px">
+  <div class="gridContent">
   <h1>
       {% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}
   </h1>

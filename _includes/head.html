@@ -13,14 +13,37 @@
     </title>
       <meta name="description"
         content="{{ site.description }}" />
-      <style style="text/css">
-        #navSidebar {
-          position: fixed;
-          float:left;
-          width: 10%;
-          background-color: lightblue;
+      <style>
+        .gridContainer {
+          display: grid;
+          grid-template-columns: max-content auto;
         }
 
+        .gridContainerOld {
+          grid-template-columns: auto auto;
+        }
+
+        .gridSideNav {
+          color: #444;
+          position: sticky;
+          top: 0; 
+        }
+
+        .gridSideNavOld {
+          float:left;
+          position: fixed;
+          padding: 5px
+        }
+        
+        .gridContent {
+          position: relative;
+        }
+
+        .gridContentOld {        
+          float:right;
+          padding: 5px;
+          right: 0;
+        }
         
         .linkBtn, .accordion {
           background-color: #eee;
