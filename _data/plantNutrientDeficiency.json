@@ -1,0 +1,50 @@
+[
+    {
+        "symptom": "Entire plant is light green in color; lower leaves are yellow; growth is stunted",
+        "nutrient": "Nitrogen"
+    },
+    {
+        "symptom": "Young leaves are scorched at tips and margins",
+        "nutrient": "Boron"
+    },
+    {
+        "symptom": "Leaves are stunted, pale green, and malformed",
+        "nutrient": "Molybdenum"
+    },
+    {
+        "symptom": "Leaves have a papery appearance; dead areas along the edges of the leaves; growth is stunted",
+        "nutrient": "Potassium"
+    },
+    {
+        "symptom": "Lower leaves turn yellow along the tips and margin and between the veins; the lower leaves wilt",
+        "nutrient": "Magnesium"
+    },
+    {
+        "symptom": "Young stems and new leaves die",
+        "nutrient": "Calcium"
+    },
+    {
+        "symptom": "Entire plant is bluish-green, often developing a red or purplish cast; lower leaves may be yellow, drying to a greenish-brown to black color; growth may be stunted",
+        "nutrient": "Phosphorous"
+    },
+    {
+        "symptom": "Leaf tissue between the veins is lighter in color; yellowed; papery in appearance",
+        "nutrient": "Zinc"
+    },
+    {
+        "symptom": "Leaf tissue appears yellow, while the veins remain green",
+        "nutrient": "Nitrogen"
+    },
+    {
+        "symptom": "Leaf edges appear dark green or blue; leaf edges curl upward; young leaves permanently wilt",
+        "nutrient": "Copper"
+    },
+    {
+        "symptom": "Young leaves turn pale green, while the older leaves remain green; plant is stunted and spindly",
+        "nutrient": "Sulfur"
+    },
+    {
+        "symptom": "Growth is stunted; lower leaves have a checkered pattern of yellow and green",
+        "nutrient": "Manganese"
+    }
+]
