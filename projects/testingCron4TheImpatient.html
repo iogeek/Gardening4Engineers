@@ -11,7 +11,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
     <title>
-         Gardening 4 Engineers 
+         Testing cron for the impatient 
     </title>
       <meta name="description"
         content="Collection of tips about gardening and any other life adventures." />
@@ -189,10 +189,17 @@
   </div>
   <div class="gridContent">
   <h1>
-       Gardening 4 Engineers 
+       Testing cron for the impatient 
   </h1>
-  
-<p>A crude collection of tidbits i have picked up.</p>
+  <p>Running scripts under cron (crontab to be exact) is tricky.</p>
+
+<p>env -i /home/pi/<yourScriptName></yourScriptName></p>
+
+<p>basics</p>
+<ul>
+  <li>needs to be executable (chmod +x)</li>
+  <li>will not have environment variables (test w/ env -i)</li>
+</ul>
     
   </div>
   </div>

@@ -11,7 +11,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
     <title>
-         Gardening 4 Engineers 
+         Add ePaper display to Pi 
     </title>
       <meta name="description"
         content="Collection of tips about gardening and any other life adventures." />
@@ -189,10 +189,48 @@
   </div>
   <div class="gridContent">
   <h1>
-       Gardening 4 Engineers 
+       Add ePaper display to Pi 
   </h1>
-  
-<p>A crude collection of tidbits i have picked up.</p>
+  <h2 id="enabling-waveshare-epaper">Enabling Waveshare epaper</h2>
+<p>Purchased a <a href="https://www.waveshare.com/wiki/2.7inch_e-Paper_HAT">2.7 inch WaveShare ePaper hat</a> to display output from projects.
+The setup is well documentation on the waveshare site.  The waveshare site contains a working sample.  I’ve opted to tweak the sample versus develop something new via super interesting iot extentions to <a href="https://docs.microsoft.com/en-us/dotnet/iot/intro">dotnet</a>.</p>
+
+<p>** https://github.com/iogeek/Gardening4Engineers/tree/gh-pages/src/pi/ePaper/screenTest
+** https://github.com/iogeek/Gardening4Engineers/tree/gh-pages/src/pi/ePaper/waveshare
+ Here are the tweaks I made to the waveshare sample.</p>
+
+<ul>
+  <li>Installed latest <a href="http://www.airspayce.com/mikem/bcm2835/">BCM2835</a> driver (vs version described on WaveShare)</li>
+  <li>Removed uneeded files from <a href="https://github.com/waveshare/e-Paper">Waveshare sample</a>.  Ex python, arduino, etc</li>
+  <li>Trimmed makefile and added capability to build shared libary</li>
+  <li>Added fonts (see tips on FontEdit below)</li>
+</ul>
+
+<h2 id="getting-your-own-fonts">Getting your own fonts</h2>
+<p><a href="https://github.com/ayoy/fontedit/">FontEdit</a> made getting fonts as simple as cut and paste.</p>
+<ul>
+  <li>Be sure the “reverse bits (MSB)” is checked.
+<img src="/Gardening4Engineers/images/piSetup/fontEditOutput.png" alt="FontEdit Output Settingspvc cross" height="289px" width="165px" /></li>
+  <li>See font48.c and font36.c for fonts I used FontEdit to create.  Take a look at fonts.h for how the new font datastructures were added.</li>
+</ul>
+
+<h2 id="adding-the-custom-library">Adding the “Custom” Library</h2>
+<p>The code I made creates a custom library from the Waveshare sample.  This libary needs to be built, copied to a known location, and add the location to the search path.</p>
+
+<ul>
+  <li>Make clean &amp;&amp; makefile libary</li>
+  <li>Copy libepd.so to /home/pi/libs</li>
+  <li>add path to sudo vi /etc/ld.so.conf</li>
+  <li>sudo ldconfig to reload paths</li>
+  <li>dotnet run test</li>
+</ul>
+
+<p>## 
+Notes:  I have come across libraries that write to ePaper in c#. Things to consider in the future.</p>
+<ul>
+  <li>https://github.com/eXoCooLd/Waveshare.EPaperDisplay</li>
+  <li>https://github.com/paw3lx/EPaperHatCore</li>
+</ul>
     
   </div>
   </div>

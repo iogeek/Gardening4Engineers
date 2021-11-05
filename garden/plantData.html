@@ -1,50 +1,197 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Plant Information | Gardening 4 Engineers</title>
-<meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Plant Information" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Collection of tips about gardening and any other life adventures." />
-<meta property="og:description" content="Collection of tips about gardening and any other life adventures." />
-<link rel="canonical" href="https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/mydocs/plantData.html" />
-<meta property="og:url" content="https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/mydocs/plantData.html" />
-<meta property="og:site_name" content="Gardening 4 Engineers" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-09-01T00:00:00+00:00" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Plant Information" />
-<script type="application/ld+json">
-{"description":"Collection of tips about gardening and any other life adventures.","url":"https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/mydocs/plantData.html","@type":"BlogPosting","headline":"Plant Information","dateModified":"2020-09-01T00:00:00+00:00","datePublished":"2020-09-01T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/mydocs/plantData.html"},"@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/Gardening4Engineers/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://iogeek.github.io/Gardening4Engineers/Gardening4Engineers/feed.xml" title="Gardening 4 Engineers" /></head>
-<body><header class="site-header" role="banner">
+<html lang="en">
+<head>
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/Gardening4Engineers/">Gardening 4 Engineers</a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>
+         Plant Information 
+    </title>
+      <meta name="description"
+        content="Collection of tips about gardening and any other life adventures." />
+      <style>
+        .gridContainer {
+          display: grid;
+          grid-template-columns: max-content auto;
+        }
 
-        <div class="trigger"><a class="page-link" href="/Gardening4Engineers/about/">About</a></div>
-      </nav></div>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post">
+        .gridContainerOld {
+          grid-template-columns: auto auto;
+        }
 
-  <header class="post-header">
-    <h1 class="post-title">Plant Information</h1>
-  </header>
+        .gridSideNav {
+          color: #444;
+          position: sticky;
+          top: 0; 
+        }
 
-  <div class="post-content">
-    <style style="text/css">
+        .gridSideNavOld {
+          float:left;
+          position: fixed;
+          padding: 5px
+        }
+        
+        .gridContent {
+          position: relative;
+        }
+
+        .gridContentOld {        
+          float:right;
+          padding: 5px;
+          right: 0;
+        }
+        
+        .linkBtn, .accordion {
+          background-color: #eee;
+          color: #444;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 15px;
+          transition: 0.4s;
+        }
+        
+          .active, .linkBtn:hover, .accordion:hover {
+            background-color: #ccc; 
+          }
+          
+          .panel {
+            padding: 0 18px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+          }
+
+          table {
+              border-left: 0;
+              border-right: 0;
+              border-top: 0;
+              border-bottom: 0;
+            }
+
+            table tr td {
+              border-left: 0;
+              border-right: 0;
+              border-top: 0;
+              border-bottom: 0;
+            }
+
+            table th {
+              border-left: 0;
+              border-right: 0;
+              border-top: 0;
+              border-bottom:1pt solid black;
+            }
+            
+            .panel-note {
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            background-color: #f0f7fb;
+            background-position: 5px 15px;
+            background-repeat: no-repeat;
+            border: solid 1px #3498db;
+            border-radius: 6px;
+            overflow: hidden;
+            padding: 13px 20px 15px 65px;
+            min-height: 80px;
+          }
+
+          .panel-note.top-padding {
+            padding-top: 25px;
+          }
+        </style>
+        <script>
+
+</script> 
+</head> 
+<body>
+  
+  <div class="gridContainer">
+  <div class="gridSideNav">
+    
+    
+    
+    
+      
+      <a href="https://iogeek.github.io/Gardening4Engineers"  style="text-decoration: none;" class="linkBtn">Home</a>
+      
+    
+    
+    
+      
+      <button class="accordion">Garden</button>
+      <div class="panel">
+      
+      <br>
+      <a href="/Gardening4Engineers/garden/plantData.html">Plant Information</a>
+      
+      <br>
+      <a href="/Gardening4Engineers/garden/HydroponicNutrients.html">DIY Hydroponic Nutrient Mixes</a>
+      
+      <br>
+      <a href="/Gardening4Engineers/garden/MilkJugGreenHouse.html">Seed Planning</a>
+      
+      <br>
+      <a href="/Gardening4Engineers/garden/SeedPlanning.html">Seed Planning</a>
+      
+      <br>
+      <a href="/Gardening4Engineers/garden/diyIrrigationControl.html">Sprinkler Control</a>
+      
+      <br>
+      <a href="/Gardening4Engineers/garden/diySquareFootIrrigation.html">Irrigation Grids</a>
+      
+      </div>
+      
+    
+    
+    
+      
+      <button class="accordion">Projects</button>
+      <div class="panel">
+      
+      <br>
+      <a href="/Gardening4Engineers/projects/settingUpPi.html">Setting up the Raspberry Pi</a>
+      
+      <br>
+      <a href="/Gardening4Engineers/projects/Pi-SoftwareRadio.html">Add SDR (Software Defined Radio)</a>
+      
+      <br>
+      <a href="/Gardening4Engineers/projects/Pi-ePaper.html">Add ePaper display to Pi</a>
+      
+      <br>
+      <a href="/Gardening4Engineers/projects/testingCron4TheImpatient.html">Testing cron for the impatient</a>
+      
+      </div>
+      
+    
+    
+    
+      
+      <button class="accordion">Recipes</button>
+      <div class="panel">
+      
+      <br>
+      <a href="/Gardening4Engineers/recipes/pumpkinVeggieBurger.html">Moist flapjack with condensed milk</a>
+      
+      </div>
+      
+    
+    
+  </div>
+  <div class="gridContent">
+  <h1>
+       Plant Information 
+  </h1>
+  <style style="text/css">
   .hoverTable{
 		width:80%; 
     position: relative;
@@ -2844,36 +2991,71 @@
 </tbody>
 </table>
 
-
+    
   </div>
-
-</article>
-
-      </div>
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/Gardening4Engineers/"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">Gardening 4 Engineers</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">Gardening 4 Engineers</li></ul>
-      </div>
-
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/iogeek"><svg class="svg-icon"><use xlink:href="/Gardening4Engineers/assets/minima-social-icons.svg#github"></use></svg> <span class="username">iogeek</span></a></li></ul>
-</div>
-
-      <div class="footer-col footer-col-3">
-        <p>Collection of tips about gardening and any other life adventures.</p>
-      </div>
-    </div>
-
   </div>
+  <script>
+    
+    var gVisible = "none";
+  
+    function ToggleDiv(id) {
+      if (gVisible !== "none")
+        if (document.getElementById(gVisible))
+          document.getElementById(gVisible).style.display = "none";
+        if (document.getElementById(id))
+          document.getElementById(id).style.display = "inline";
+      gVisible = id;    
+    }
+    
+    
+    
+    
+      if (document.getElementById("Home_nav"))
+        document.getElementById("Home_nav").onclick = function() {
+          ToggleDiv("Home");
+        }
+    
+    
+    
+      if (document.getElementById("Garden_nav"))
+        document.getElementById("Garden_nav").onclick = function() {
+          ToggleDiv("Garden");
+        }
+    
+    
+    
+      if (document.getElementById("Projects_nav"))
+        document.getElementById("Projects_nav").onclick = function() {
+          ToggleDiv("Projects");
+        }
+    
+    
+    
+      if (document.getElementById("Recipes_nav"))
+        document.getElementById("Recipes_nav").onclick = function() {
+          ToggleDiv("Recipes");
+        }
+    
+    
+  
+    
+    ToggleDiv("Home");
 
-</footer>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+  </script>
+  
 </body>
-
 </html>

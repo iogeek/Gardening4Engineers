@@ -11,7 +11,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
     <title>
-         Gardening 4 Engineers 
+         Setting up the Raspberry Pi 
     </title>
       <meta name="description"
         content="Collection of tips about gardening and any other life adventures." />
@@ -189,10 +189,95 @@
   </div>
   <div class="gridContent">
   <h1>
-       Gardening 4 Engineers 
+       Setting up the Raspberry Pi 
   </h1>
-  
-<p>A crude collection of tidbits i have picked up.</p>
+  <p>There are plenty of great setup tutorials.  Here are the ones I use to setup the pi.</p>
+
+<ul>
+  <li><a href="https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md">Enable Pi to boot from USB.</a></li>
+  <li>Pick the OS you plan to use from <a href="https://www.raspberrypi.org/software/operating-systems/">raspberrypi site.</a>.
+    <ul>
+      <li>If you prefer <a href="https://en.wikipedia.org/wiki/Headless_computer">headless</a> for iot settings pick “Raspberry Pi OS Lite”.</li>
+    </ul>
+  </li>
+  <li>Drop the OS on a flash drive.  Several options for Windows.  I started with <a href="https://www.balena.io/etcher/">Etcher</a>  (src on <a href="https://github.com/balena-io/etcher">Github</a>) but moved to <a href="https://www.raspberrypi.org/software/">Raspberry Pi Imager</a> which works with both USB and SD media.  Another option is <a href="https://sysprogs.com/winflashtool/download/">WinFlashTool</a>.</li>
+</ul>
+
+<h1 id="headless-tweaks">Headless tweaks</h1>
+<p>Poached from <a href="https://danidudas.medium.com/install-raspberry-os-configure-wi-fi-and-ssh-headless-without-a-keyboard-or-network-cable-3d4f9d383165">here</a></p>
+
+<ul>
+  <li>Step 1: Enable ssh
+from WSL
+Assuming the drive letter is e:<br />
+sudo mkdir -p /mnt/e &amp;&amp; sudo mount -t drvfs e: /mnt/e</li>
+</ul>
+
+<p>touch /mnt/e/ssh</p>
+
+<ul>
+  <li>Step 2: Setup Wifi SSID and keys
+in /mnt/e/wpa_supplicant.conf add the following</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    country=US
+    ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev 
+    update_config=1
+    network={
+        ssid="YourNetworkSSID"
+        psk="Your Network's Passphrase"
+        key_mgmt=WPA-PSK
+    }
+</code></pre></div></div>
+
+<p>Remove USB drive and boot Pi</p>
+
+<p>The defaults will be”
+system name -&gt; raspberrypi
+username -&gt; pi
+password -&gt; raspberry</p>
+
+<p><br />
+NOTE: Once you boot, be sure to change your password and lock down ssh access.</p>
+
+<h2 id="setting-up-dev-environment-and-net-for-pi">Setting up dev environment and .Net for Pi</h2>
+<ul>
+  <li>sudo apt-get install git</li>
+  <li>timedatectl list-timezones
+sudo timedatectl set-timezone <your_time_zone>
+America/Los_Angeles</your_time_zone></li>
+</ul>
+
+<p>sudo timedatectl set-timezone America/Los_Angeles</p>
+<ul>
+  <li><a href="https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux">powershell</a></li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget $(curl -s https://api.github.com/repos/PowerShell/PowerShell/releases/latest | grep "browser_download_url.*linux-arm32.tar.gz" | cut -d '"' -f 4)
+mkdir ~/powershell
+tar -xvf ./powershell*.tar.gz -C ~/powershell
+sudo ln -s ~/powershell/pwsh /usr/bin/pwsh
+</code></pre></div></div>
+
+<ul>
+  <li><a href="https://dotnet.microsoft.com/download/dotnet-core">.net core</a>
+    <ul>
+      <li>helpful scripts https://github.com/pjgpetecodes/
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget -O - https://raw.githubusercontent.com/pjgpetecodes/dotnet5pi/master/install.sh | sudo bash
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="assembling-the-box">Assembling the box</h1>
+<p>#</p>
+
+<p>linux maintenence
+        sudo apt update
+        sudo apt full-upgrade</p>
+
+<p>creating the autoststart script - https://www.raspberrypi.org/documentation/linux/usage/systemd.md</p>
     
   </div>
   </div>

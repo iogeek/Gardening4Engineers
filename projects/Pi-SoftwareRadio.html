@@ -11,7 +11,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
     <title>
-         Gardening 4 Engineers 
+         Add SDR (Software Defined Radio) 
     </title>
       <meta name="description"
         content="Collection of tips about gardening and any other life adventures." />
@@ -189,10 +189,36 @@
   </div>
   <div class="gridContent">
   <h1>
-       Gardening 4 Engineers 
+       Add SDR (Software Defined Radio) 
   </h1>
-  
-<p>A crude collection of tidbits i have picked up.</p>
+  <h2 id="web-sites-for-info">Web sites for info</h2>
+<p>https://www.nooelec.com/
+https://www.rtl-sdr.com/
+https://www.adafruit.com/product/1497
+https://raspberrypiandstuff.wordpress.com/2017/08/04/rtl_433-on-a-raspberry-pi-made-bulletproof/
+https://triq.org/rtl_433
+https://github.com/merbanan/rtl_433/</p>
+
+<h2 id="building-rtl-433">Building rtl-433</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>see insallSwRadio.sh
+
+</code></pre></div></div>
+<p>sudo reboot</p>
+
+<p>rtl_433 -D</p>
+
+<p>echo ‘#!/bin/bash’ »  $HOME/getWeatherSensorData.sh
+echo ‘rtl_433 -T 90 -F “mqtt://farmpi:1883”’ »  $HOME/getWeatherSensorData.sh
+chmod +x $HOME/getWeatherSensorData.sh
+(crontab -l; echo ‘0 * * * * /home/pi/getWeatherSensorData.sh’;) | crontab</p>
+
+<p>#sudo /etc/init.d/crond resrtart status</p>
+
+<p>Future usage</p>
+<ul>
+  <li>rtl_fm to listen on other frequencies</li>
+</ul>
+
     
   </div>
   </div>
