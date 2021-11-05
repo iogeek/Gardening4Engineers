@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title:  "Sprinkler Control"
 date:   2020-09-02
 categories: irrigation arduino

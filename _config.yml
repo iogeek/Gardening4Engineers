@@ -27,10 +27,28 @@ url: "https://iogeek.github.io/Gardening4Engineers" # the base hostname & protoc
 github_username:  iogeek
 
 collections: 
-  mydocs:
+  home:
+    message: A crude collection of tidbits i have picked up.
+    output: false
+    path: ""
+    sequence: 1
+    title: Home
+  garden:
     output: true
-  myposts:
+    path: _garden
+    sequence: 2
+    title: Garden
+  projects:
     output: true
+    path: _projects
+    sequence: 3
+    title: Projects
+  recipes:
+    layout: recipe
+    output: true
+    path: _recipe
+    sequence: 4
+    title: Recipes
 
 # Build settings
 theme: minima
