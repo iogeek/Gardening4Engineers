@@ -1,9 +1,25 @@
 ---
+layout: recipe
+title:  "Pumpkin Veggie Burger"
+date:   2020-09-01
+categories: burger vegetarian
+---
 ingredients:
-  porridge oats: 1kg
-  condensed milk: 400g
-  soft brown sugar: 500g
-  butter: 500g
+  - 1 cup oats
+  - 1 (15.5 oz.) can cannellini beans, drained and rinsed
+  - 1 cup pure pumpkin purée Robbie’s homegrown is best :) 
+  - 1 cup cooked quinoa (or cooked brown rice)
+  - 1/2 cup diced red onion
+  - 2 cloves garlic, minced
+  - 1 stalk celery, diced
+  - 1 tablespoon hot sauce (optional)
+  - 1 tablespoon Worcestershire sauce (optional)
+  - 1 teaspoon salt
+ -  1 teaspoon cumin
+  - 1 teaspoon fresh thyme
+  - 1 teaspoon fresh sage
+  - 1/4 teaspoon freshly ground black pepper
+
 instructions:
   - Preheat the oven to 150C fan.
   - Line a large baking tin with baking parchment (my tin measures 39cm x 26cm).
@@ -16,9 +32,6 @@ instructions:
 calories: 10547
 prepmins: 20
 cookmins: 15
-layout: recipe
-title: Moist flapjack with condensed milk
-date: 2017-04-21 08:00:00 +0100
 image: flapjack.jpg
 thumbnail: flapjack.jpg
 tags:
