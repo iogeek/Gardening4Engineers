@@ -7,7 +7,7 @@ categories: burger vegetarian
 ingredients:
   - 1 cup oats
   - 1 (15.5 oz.) can cannellini beans, drained and rinsed
-  - 1 cup pure pumpkin purée Robbie’s homegrown is best :) 
+  - 1 cup pure pumpkin purée
   - 1 cup cooked quinoa (or cooked brown rice)
   - 1/2 cup diced red onion
   - 2 cloves garlic, minced

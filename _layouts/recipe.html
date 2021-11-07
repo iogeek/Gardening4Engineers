@@ -1,12 +1,16 @@
----
-layout: null
----
-<header>
-<h1>[{{ site.title }}]({{ site.url }})</h1>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %} 
+<body>
 
-<h1>{{ page.title }}</h1>
-
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
-
-{{ content }}
+    ingredients
+    ingredients
+0000
+{{ page.ingredients[0] }}
+0000
+1111
+{{ page.ingredients[1] }}
+11111
+{% include scriptsBottomPage.html %}
+</body>
+</html>
