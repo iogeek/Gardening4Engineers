@@ -3,14 +3,17 @@
 {% include head.html %} 
 <body>
 
-    ingredients
-    ingredients
-0000
-{{ page.ingredients[0] }}
-0000
-1111
-{{ page.ingredients[1] }}
-11111
+<h3>Ingredients</h3>
+<ul>
+   {% for ingredient in page.ingredients %}
+   <li itemprop="ingredients">{{ ingredient }}</li>
+   {% endfor %}
+</ul>
+<br>
+<h3>Instructions</h3>
+<ol>
+  <li>{{ page.ingredients | join: '</li> <li>' }}</li>
+</ol>
 {% include scriptsBottomPage.html %}
 </body>
 </html>
