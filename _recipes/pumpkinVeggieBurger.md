@@ -11,29 +11,28 @@ ingredients:
   - 1/2 cup diced red onion
   - 2 cloves garlic, minced
   - 1 stalk celery, diced
-  - 1 tablespoon hot sauce (optional)
-  - 1 tablespoon Worcestershire sauce (optional)
+  - 1 tablespoon hot sauce
+  - 1 tablespoon Worcestershire sauce
   - 1 teaspoon salt
   - 1 teaspoon cumin
+  - 1 teaspoon curry powder
   - 1 teaspoon fresh thyme
   - 1 teaspoon fresh sage
   - 1/4 teaspoon freshly ground black pepper
 instructions: 
-  - Preheat the oven to 150C fan.
-  - Line a large baking tin with baking parchment (my tin measures 39cm x 26cm).
-  - Melt the butter and sugar in a large pan over a low heat. Don't cook the butter, just warm it enough to melt it.
-  - Remove the pan from the heat and stir in the condensed milk.
-  - Mix in the oats until well coated by the mixture.
-  - Pour into the baking tin and smooth out with the back of a large spoon.
-  - Cook for about 15-20 minutes. When the flapjack starts to brown around the edges of the tin, take it out of the oven - it should still be relatively pale in the middle.
-  - Leave to cool for a few minutes before cutting into pieces.
-calories: 10547
-prepmins: 20
-cookmins: 15
+  - Preheat oven to 375°F.
+  - Mix all in ingredients in a big bowl.
+  - In a food processor, add in  all of the ingredients. Process for 30-45 seconds, or until all ingredients are blended together but still remain a bit chunky.
+  - Line a large sheet pan with parchment paper. Form mixture into patties then place them onto the lined pan. Each patty should be about 1/3 cup large, and should result in 8 patties.
+  - Bake patties for 25 minutes, carefully flip, then bake for another 5-10 minutes or until browned.
+calories: 0
+prepmins: 0
+cookmins: 0
 image: flapjack.jpg
 thumbnail: flapjack.jpg
 tags: 
-  - featured
+  - pumpkin
   - recipe
+  - vegetarian
 ---
-This recipe makes enough flapjack for two hungry children for several weeks of school lunches.
+A family favorite.
