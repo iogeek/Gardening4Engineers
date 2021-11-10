@@ -4,23 +4,7 @@
 <body>
   {% assign sortedCollection = site.collections | sort: 'sequence' %}
   <div class="gridContainer">
-  <div class="gridSideNav">
-    {% for itm in sortedCollection %}
-    {% if itm.title and itm.title != "" %}
-      {% if itm.path and itm.path != "" %}
-      <button class="accordion">{{ itm.title }}</button>
-      <div class="panel">
-      {% for gdoc in site[itm.label] %}
-      <br>
-      <a href="{{ gdoc.url | relative_url }}">{{ gdoc.title }}</a>
-      {% endfor %}
-      </div>
-      {% else %}
-      <a href="{{ site.url | relative_url }}"  style="text-decoration: none;" class="linkBtn">{{ itm.title }}</a>
-      {% endif %}
-    {% endif %}
-    {% endfor %}
-  </div>
+  {% include sideBar.html %} 
   <div class="gridContent">
   <h1>
       {% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}

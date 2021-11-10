@@ -2,18 +2,26 @@
 <html lang="en">
 {% include head.html %} 
 <body>
-
-<h3>Ingredients</h3>
-<ul>
-   {% for ingredient in page.ingredients %}
-   <li itemprop="ingredients">{{ ingredient }}</li>
-   {% endfor %}
-</ul>
-<br>
-<h3>Instructions</h3>
-<ol>
-  <li>{{ page.instructions | join: '</li> <li>' }}</li>
-</ol>
+{% assign sortedCollection = site.collections | sort: 'sequence' %}
+<div class="gridContainer">
+  {% include sideBar.html %} 
+  <div class="gridContent">
+  <h1>
+      {% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}
+  </h1>
+  <h3>Ingredients</h3>
+  <ul>
+    {% for ingredient in page.ingredients %}
+    <li itemprop="ingredients">{{ ingredient }}</li>
+    {% endfor %}
+  </ul>
+  <br>
+  <h3>Instructions</h3>
+  <ol>
+    <li>{{ page.instructions | join: '</li> <li>' }}</li>
+  </ol>
+  </div>
+</div>
 {% include scriptsBottomPage.html %}
 </body>
 </html>

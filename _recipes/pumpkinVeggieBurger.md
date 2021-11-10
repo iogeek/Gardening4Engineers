@@ -23,7 +23,7 @@ instructions:
   - Preheat oven to 375°F.
   - Mix all in ingredients in a big bowl.
   - In a food processor, add in  all of the ingredients. Process for 30-45 seconds, or until all ingredients are blended together but still remain a bit chunky.
-  - Line a large sheet pan with parchment paper. Form mixture into patties then place them onto the lined pan. Each patty should be about 1/3 cup large, and should result in 8 patties.
+  - Line a large sheet pan with parchment paper. Form mixture into patties then place them onto the lined pan. Each patty should be about 1/3 cup.  This should result in 8 patties.
   - Bake patties for 25 minutes, carefully flip, then bake for another 5-10 minutes or until browned.
 calories: 0
 prepmins: 0
