@@ -4,6 +4,7 @@
 <body>
   {% assign sortedCollection = site.collections | sort: 'sequence' %}
   <div class="gridContainer">
+<<<<<<< HEAD
   <div class="gridSideNav">
     {% for itm in sortedCollection %}
     {% if itm.title and itm.title != "" %}
@@ -21,6 +22,9 @@
     {% endif %}
     {% endfor %}
   </div>
+=======
+  {% include sideBar.html %} 
+>>>>>>> dev
   <div class="gridContent">
   <h1>
       {% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}
@@ -28,6 +32,10 @@
   {{content}}    
   </div>
   </div>
+<<<<<<< HEAD
   {% include scriptsBottomPage.html %}
+=======
+{% include scriptsBottomPage.html %}
+>>>>>>> dev
 </body>
 </html>
