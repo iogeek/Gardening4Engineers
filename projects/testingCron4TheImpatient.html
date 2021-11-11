@@ -116,6 +116,7 @@
 <body>
   
   <div class="gridContainer">
+<<<<<<< HEAD
   <div class="gridSideNav">
     
     
@@ -180,13 +181,86 @@
       <div class="panel">
       
       <br>
-      <a href="/Gardening4Engineers/recipes/pumpkinVeggieBurger.html">Moist flapjack with condensed milk</a>
+      <a href="/Gardening4Engineers/recipes/pumpkinVeggieBurger.html"></a>
       
       </div>
       
     
     
   </div>
+=======
+  <div class="gridSideNav">
+    
+    
+    
+    
+      
+      <a href="https://iogeek.github.io/Gardening4Engineers"  style="text-decoration: none;" class="linkBtn">Home</a>
+      
+    
+    
+    
+      
+      <button class="accordion">Garden</button>
+      <div class="panel">
+      
+      <br>
+      <a href="/Gardening4Engineers/garden/plantData.html">Plant Information</a>
+      
+      <br>
+      <a href="/Gardening4Engineers/garden/HydroponicNutrients.html">DIY Hydroponic Nutrient Mixes</a>
+      
+      <br>
+      <a href="/Gardening4Engineers/garden/MilkJugGreenHouse.html">Seed Planning</a>
+      
+      <br>
+      <a href="/Gardening4Engineers/garden/SeedPlanning.html">Seed Planning</a>
+      
+      <br>
+      <a href="/Gardening4Engineers/garden/diyIrrigationControl.html">Sprinkler Control</a>
+      
+      <br>
+      <a href="/Gardening4Engineers/garden/diySquareFootIrrigation.html">Irrigation Grids</a>
+      
+      </div>
+      
+    
+    
+    
+      
+      <button class="accordion">Projects</button>
+      <div class="panel">
+      
+      <br>
+      <a href="/Gardening4Engineers/projects/settingUpPi.html">Setting up the Raspberry Pi</a>
+      
+      <br>
+      <a href="/Gardening4Engineers/projects/Pi-SoftwareRadio.html">Add SDR (Software Defined Radio)</a>
+      
+      <br>
+      <a href="/Gardening4Engineers/projects/Pi-ePaper.html">Add ePaper display to Pi</a>
+      
+      <br>
+      <a href="/Gardening4Engineers/projects/testingCron4TheImpatient.html">Testing cron for the impatient</a>
+      
+      </div>
+      
+    
+    
+    
+      
+      <button class="accordion">Recipes</button>
+      <div class="panel">
+      
+      <br>
+      <a href="/Gardening4Engineers/recipes/pumpkinVeggieBurger.html"></a>
+      
+      </div>
+      
+    
+    
+  </div> 
+>>>>>>> dev
   <div class="gridContent">
   <h1>
        Testing cron for the impatient 
@@ -203,6 +277,7 @@
     
   </div>
   </div>
+<<<<<<< HEAD
   <script>
     
     var gVisible = "none";
@@ -266,5 +341,70 @@
     }
   </script>
   
+=======
+<script>
+    
+    var gVisible = "none";
+  
+    function ToggleDiv(id) {
+      if (gVisible !== "none")
+        if (document.getElementById(gVisible))
+          document.getElementById(gVisible).style.display = "none";
+        if (document.getElementById(id))
+          document.getElementById(id).style.display = "inline";
+      gVisible = id;    
+    }
+    
+    
+    
+    
+      if (document.getElementById("Home_nav"))
+        document.getElementById("Home_nav").onclick = function() {
+          ToggleDiv("Home");
+        }
+    
+    
+    
+      if (document.getElementById("Garden_nav"))
+        document.getElementById("Garden_nav").onclick = function() {
+          ToggleDiv("Garden");
+        }
+    
+    
+    
+      if (document.getElementById("Projects_nav"))
+        document.getElementById("Projects_nav").onclick = function() {
+          ToggleDiv("Projects");
+        }
+    
+    
+    
+      if (document.getElementById("Recipes_nav"))
+        document.getElementById("Recipes_nav").onclick = function() {
+          ToggleDiv("Recipes");
+        }
+    
+    
+  
+    
+    ToggleDiv("Home");
+
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+  </script>
+  
+>>>>>>> dev
 </body>
 </html>
