@@ -1,7 +1,7 @@
 ---
 layout: home
 title:  "Reading seed packets"
-date:   2020-09-02
+date:   2021-11-17
 categories: seeding garden planning 
 regenerate: true
 ---
