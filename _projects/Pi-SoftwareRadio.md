@@ -14,24 +14,27 @@ I use outdoor wireless sensors to capture temperature, wind, and light intensity
  Adafruit has a great [tutorial](https://www.adafruit.com/product/1497) on signal capture and the hardware needed.  The radio I used is from [nooelec](https://www.nooelec.com/). 
 
 ## Building rtl-433 libaries
-<p class="codeBlock">sudo apt -y install libtool libusb-dev librtlsdr-dev rtl-sdr build-essential autoconf cmake pkg-config
-
+The following commands will setup and install the rtl-433 libaries on a pi.
+<p class="codeBlock">sudo apt -y install git libtool libusb-dev librtlsdr-dev rtl-sdr build-essential autoconf cmake pkg-config
 mkdir -p $HOME/git
 cd $HOME/git
-git clone https://github.com/merbanan/rtl_433.git
-cd rtl_433/ && mkdir build && cd build && cmake ../ && make
-sudo make install</p>
+if [[ ! -d "$HOME/git/rtl_433" ]]; then git clone https://github.com/merbanan/rtl_433.git; fi
+cd rtl_433 && git pull
+if [[ ! -d "$HOME/git/rtl_433/build" ]]; then mkdir build; fi
+if [[ -d "$HOME/git/rtl_433" ]]; then cd build && cmake ../ && make; fi
+if [[ -d "$HOME/git/rtl_433" ]]; then sudo make install; fi</p>
 
-Once the rtl_433 libaries are built and installed, typing 'rtl_433 -D' from a cmd shell  will 'run' the capture.
+Once the rtl_433 libaries are built and installed, typing 'rtl_433 -D' from a cmd shell  will start capture until ctrl-c.
 
 ## Automating capture
 
-<p class="codeBlock">echo '#!/bin/bash' >>  $HOME/getWeatherSensorData.sh
-echo 'rtl_433 -T 90 -F "mqtt://farmpi:1883"' >>  $HOME/getWeatherSensorData.sh
+<p class="codeBlock">echo '#!/bin/bash' >>  $HOME/getSensorData.sh
+echo 'rtl_433 -T 90 -F "mqtt://farmpi:1883"' >>  $HOME/getSensorData.sh
 chmod +x $HOME/getWeatherSensorData.sh
-(crontab -l; echo '0 * * * * /home/pi/getWeatherSensorData.sh';) | crontab</p>
+(crontab -l; echo '0 * * * * /home/pi/getSensorData.sh';) | crontab</p>
 
-#sudo /etc/init.d/crond resrtart status
+Retart cron by **sudo /etc/init.d/crond restart status**
+Edit crontab by **crontab -e**
 
 ## Links I found useful
 https://github.com/merbanan/rtl_433/
