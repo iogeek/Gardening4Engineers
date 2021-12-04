@@ -28,9 +28,10 @@ Once the rtl_433 libaries are built and installed, typing 'rtl_433 -D' from a cm
 
 ## Automating capture
 
-<p class="codeBlock">echo '#!/bin/bash' >>  $HOME/getSensorData.sh
-echo 'rtl_433 -T 90 -F "mqtt://farmpi:1883"' >>  $HOME/getSensorData.sh
-chmod +x $HOME/getWeatherSensorData.sh
+<p class="codeBlock">echo '#!/bin/bash' >  $HOME/getSensorData.sh
+which rtl_433 | xargs -I {} echo 'APP='{} >>  $HOME/getSensorData.sh
+echo '$APP -T 90 -F "mqtt://farmpi:1883"' >>  $HOME/getSensorData.sh
+chmod +x $HOME/getSensorData.sh
 (crontab -l; echo '0 * * * * /home/pi/getSensorData.sh';) | crontab</p>
 
 Retart cron by **sudo /etc/init.d/crond restart status**
