@@ -1,12 +1,12 @@
 ---
 layout: home
-title:  "Debugging cron"
+title:  "Debugging Pi"
 date:   2021-04-13
-categories: pi Raspian linux cron
+categories: pi Raspian linux debugging scron
 regenerate: true
 ---
-Some tidbits I stumbled upon while debugging cron jobs.
-Script run by cron (crontab) do not inherit environment variables.
+# Cron 
+Scripts run by cron (crontab) do not inherit environment variables.
 
 ## Filtering Cron jobs from syslog
 grep -i CRON /var/log/syslog
@@ -45,3 +45,5 @@ basics
 - will not have environment variables (test w/ env -i)
 - every 5 minutes
     */5 * * * * /home/pi/getSensorData.sh
+
+# Services

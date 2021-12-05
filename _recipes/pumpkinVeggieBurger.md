@@ -2,7 +2,7 @@
 layout: recipe
 title:  "Pumpkin Veggie Burger"
 date:   2020-09-01
-categories: burger vegetarian
+categories: burger vegetarian recipe
 ingredients: 
   - 1 cup oats
   - 1 (15.5 oz) can cannellini beans, drained and rinsed
