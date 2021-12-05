@@ -3,10 +3,10 @@
 	"file": "main.css",
 	"sources": [
 		"main.scss",
-		"../../../../../opt/hostedtoolcache/Ruby/2.7.4/x64/lib/ruby/gems/2.7.0/gems/minima-2.5.1/_sass/minima.scss",
-		"../../../../../opt/hostedtoolcache/Ruby/2.7.4/x64/lib/ruby/gems/2.7.0/gems/minima-2.5.1/_sass/minima/_base.scss",
-		"../../../../../opt/hostedtoolcache/Ruby/2.7.4/x64/lib/ruby/gems/2.7.0/gems/minima-2.5.1/_sass/minima/_layout.scss",
-		"../../../../../opt/hostedtoolcache/Ruby/2.7.4/x64/lib/ruby/gems/2.7.0/gems/minima-2.5.1/_sass/minima/_syntax-highlighting.scss"
+		"../../../../../opt/hostedtoolcache/Ruby/2.7.5/x64/lib/ruby/gems/2.7.0/gems/minima-2.5.1/_sass/minima.scss",
+		"../../../../../opt/hostedtoolcache/Ruby/2.7.5/x64/lib/ruby/gems/2.7.0/gems/minima-2.5.1/_sass/minima/_base.scss",
+		"../../../../../opt/hostedtoolcache/Ruby/2.7.5/x64/lib/ruby/gems/2.7.0/gems/minima-2.5.1/_sass/minima/_layout.scss",
+		"../../../../../opt/hostedtoolcache/Ruby/2.7.5/x64/lib/ruby/gems/2.7.0/gems/minima-2.5.1/_sass/minima/_syntax-highlighting.scss"
 	],
 	"sourcesContent": [
 		"$content-width: 100%;\n@import \"minima\";\n\n\n.panel-note\n{\n  -moz-border-radius: 6px;\n  -webkit-border-radius: 6px;\n  background-color: #f0f7fb;\n  background-position: 5px 15px;\n  background-repeat: no-repeat;\n  border: solid 1px #3498db;\n  border-radius: 6px;\n  overflow: hidden;\n  padding: 13px 20px 15px 65px;\n  min-height: 80px;\n}\n\n.panel-note.top-padding {\n  padding-top: 25px;\n}\n",

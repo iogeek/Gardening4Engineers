@@ -11,7 +11,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
     <title>
-         Gardening 4 Engineers 
+         Debugging Pi 
     </title>
       <meta name="description"
         content="Collection of tips about gardening and any other life adventures." />
@@ -204,10 +204,52 @@
   </div> 
   <div class="gridContent">
   <h1>
-       Gardening 4 Engineers 
+       Debugging Pi 
   </h1>
-  
-<p>A crude collection of tidbits i have picked up.</p>
+  <h1 id="cron">Cron</h1>
+<p>Scripts run by cron (crontab) do not inherit environment variables.</p>
+
+<h2 id="filtering-cron-jobs-from-syslog">Filtering Cron jobs from syslog</h2>
+<p>grep -i CRON /var/log/syslog</p>
+
+<h2 id="common-error">Common error</h2>
+<p>Nov 29 06:00:01 farmpi CRON[17531]: (pi) CMD (/home/pi/getSensorData.sh)
+Nov 29 06:00:01 farmpi CRON[17530]: (CRON) info (No MTA installed, discarding output)</p>
+
+<p>In this instance there is no message interface so no errors were logged.
+option 1 - install postfix
+    sudo apt-get install postfix
+    If you select local installation, the output from your cron jobs will be relayed to a local “mailbox” that you can easily tail:
+    sudo tail -f /var/mail/<cron user="">
+option 2 - Add email to crontab
+    MAILTO=""
+    MAILTO="mymail.com"
+   **NOTE:**  Never attempted mail.  This is tbd notes for later.</cron></p>
+
+<h2 id="reloading-cron">Reloading cron</h2>
+<p>/etc/init.d/cron reload
+sudo service cron restart</p>
+
+<p>env -i /home/pi/<yourScriptName></yourScriptName></p>
+
+<p>bsh for cron
+SHELL=/bin/bash</p>
+
+<p>list cron
+crontab -l</p>
+
+<p>/etc/cron.allow
+/etc/cron.deny</p>
+
+<p>basics</p>
+<ul>
+  <li>needs to be executable (chmod +x)</li>
+  <li>will not have environment variables (test w/ env -i)</li>
+  <li>every 5 minutes
+  */5 * * * * /home/pi/getSensorData.sh</li>
+</ul>
+
+<h1 id="services">Services</h1>
     
   </div>
   </div>

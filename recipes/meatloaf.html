@@ -11,7 +11,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
     <title>
-         Testing cron for the impatient 
+         Meatloaf 
     </title>
       <meta name="description"
         content="Collection of tips about gardening and any other life adventures." />
@@ -108,14 +108,26 @@
           .panel-note.top-padding {
             padding-top: 25px;
           }
+          
+          p.codeBlock{
+            box-sizing: border-box;
+            white-space: pre;
+            display: inline-block;
+            width: auto;
+            margin:auto;
+            padding: 10px; 
+            border: 2px solid #0066FF; 
+            background-color: lightgrey;
+            color: black;
+          }
         </style>
         <script>
 
 </script> 
 </head> 
 <body>
-  
-  <div class="gridContainer">
+
+<div class="gridContainer">
   <div class="gridSideNav">
     
     
@@ -146,6 +158,9 @@
       <br>
       <a href="/garden/diySquareFootIrrigation.html">Irrigation Grids</a>
       
+      <br>
+      <a href="/garden/readingSeedPacket.html">Reading seed packets</a>
+      
       </div>
       
     
@@ -159,13 +174,13 @@
       <a href="/projects/settingUpPi.html">Setting up the Raspberry Pi</a>
       
       <br>
-      <a href="/projects/Pi-SoftwareRadio.html">Add SDR (Software Defined Radio)</a>
+      <a href="/projects/Pi-SoftwareRadio.html">Wireless 433mhz sensors</a>
       
       <br>
       <a href="/projects/Pi-ePaper.html">Add ePaper display to Pi</a>
       
       <br>
-      <a href="/projects/testingCron4TheImpatient.html">Testing cron for the impatient</a>
+      <a href="/projects/debuggingRPi.html">Debugging Pi</a>
       
       </div>
       
@@ -177,6 +192,9 @@
       <div class="panel">
       
       <br>
+      <a href="/recipes/meatloaf.html">Meatloaf</a>
+      
+      <br>
       <a href="/recipes/pumpkinVeggieBurger.html">Pumpkin Veggie Burger</a>
       
       </div>
@@ -186,20 +204,31 @@
   </div> 
   <div class="gridContent">
   <h1>
-       Testing cron for the impatient 
+       Meatloaf 
   </h1>
-  <p>Running scripts under cron (crontab to be exact) is tricky.</p>
-
-<p>env -i /home/pi/<yourScriptName></yourScriptName></p>
-
-<p>basics</p>
-<ul>
-  <li>needs to be executable (chmod +x)</li>
-  <li>will not have environment variables (test w/ env -i)</li>
-</ul>
+  <h3>Ingredients</h3>
+  <ul>
     
+    <li itemprop="ingredients">1 cup rolled oats</li>
+    
+    <li itemprop="ingredients">1 1/2 lb ground meat</li>
+    
+    <li itemprop="ingredients">3/4 c catsup divded</li>
+    
+    <li itemprop="ingredients">1/4 c chopped onion</li>
+    
+    <li itemprop="ingredients">1 egg</li>
+    
+    <li itemprop="ingredients">1 tbsp Worcestershire</li>
+    
+  </ul>
+  <br>
+  <h3>Instructions</h3>
+  <ol>
+    <li>Preheat oven to 350°F.</li> <li>Combine meat; oats; 1/2c catsup; onion; egg; Worcestershire and 1 tsp salt (if desired).</li> <li>Press into ungreased 8x4x2 inch pan or shape into loaf and place in shallow baking pan.</li> <li>Spread remaining 1/4c catsup over top. Bake 60 minutes.</li> <li>Let stand 5-10 minutes before servicing.</li> <li>Makes 6 to 8 servings</li>
+  </ol>
   </div>
-  </div>
+</div>
 <script>
     
     var gVisible = "none";
@@ -265,3 +294,4 @@
   
 </body>
 </html>
+

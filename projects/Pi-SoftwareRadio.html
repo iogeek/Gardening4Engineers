@@ -11,7 +11,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
     <title>
-         Add SDR (Software Defined Radio) 
+         Wireless 433mhz sensors 
     </title>
       <meta name="description"
         content="Collection of tips about gardening and any other life adventures." />
@@ -108,6 +108,18 @@
           .panel-note.top-padding {
             padding-top: 25px;
           }
+          
+          p.codeBlock{
+            box-sizing: border-box;
+            white-space: pre;
+            display: inline-block;
+            width: auto;
+            margin:auto;
+            padding: 10px; 
+            border: 2px solid #0066FF; 
+            background-color: lightgrey;
+            color: black;
+          }
         </style>
         <script>
 
@@ -146,6 +158,9 @@
       <br>
       <a href="/garden/diySquareFootIrrigation.html">Irrigation Grids</a>
       
+      <br>
+      <a href="/garden/readingSeedPacket.html">Reading seed packets</a>
+      
       </div>
       
     
@@ -159,13 +174,13 @@
       <a href="/projects/settingUpPi.html">Setting up the Raspberry Pi</a>
       
       <br>
-      <a href="/projects/Pi-SoftwareRadio.html">Add SDR (Software Defined Radio)</a>
+      <a href="/projects/Pi-SoftwareRadio.html">Wireless 433mhz sensors</a>
       
       <br>
       <a href="/projects/Pi-ePaper.html">Add ePaper display to Pi</a>
       
       <br>
-      <a href="/projects/testingCron4TheImpatient.html">Testing cron for the impatient</a>
+      <a href="/projects/debuggingRPi.html">Debugging Pi</a>
       
       </div>
       
@@ -177,6 +192,9 @@
       <div class="panel">
       
       <br>
+      <a href="/recipes/meatloaf.html">Meatloaf</a>
+      
+      <br>
       <a href="/recipes/pumpkinVeggieBurger.html">Pumpkin Veggie Burger</a>
       
       </div>
@@ -186,36 +204,49 @@
   </div> 
   <div class="gridContent">
   <h1>
-       Add SDR (Software Defined Radio) 
+       Wireless 433mhz sensors 
   </h1>
-  <h2 id="web-sites-for-info">Web sites for info</h2>
-<p>https://www.nooelec.com/
-https://www.rtl-sdr.com/
-https://www.adafruit.com/product/1497
-https://raspberrypiandstuff.wordpress.com/2017/08/04/rtl_433-on-a-raspberry-pi-made-bulletproof/
-https://triq.org/rtl_433
-https://github.com/merbanan/rtl_433/</p>
-
-<h2 id="building-rtl-433">Building rtl-433</h2>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>see insallSwRadio.sh
-
-</code></pre></div></div>
-<p>sudo reboot</p>
-
-<p>rtl_433 -D</p>
-
-<p>echo ‘#!/bin/bash’ »  $HOME/getWeatherSensorData.sh
-echo ‘rtl_433 -T 90 -F “mqtt://farmpi:1883”’ »  $HOME/getWeatherSensorData.sh
-chmod +x $HOME/getWeatherSensorData.sh
-(crontab -l; echo ‘0 * * * * /home/pi/getWeatherSensorData.sh’;) | crontab</p>
-
-<p>#sudo /etc/init.d/crond resrtart status</p>
-
-<p>Future usage</p>
+  <h1 id="capturing-data-from-outdoor-sensors">Capturing Data From Outdoor Sensors</h1>
+<p>I use outdoor wireless sensors to capture temperature, wind, and light intensity.  This projects uses the following…</p>
 <ul>
-  <li>rtl_fm to listen on other frequencies</li>
+  <li>Raspberry pi for capturing and storing the sensor data.</li>
+  <li><a href="https://github.com/merbanan/rtl_433/">rtl_433</a> - libary that reads and parses the wireless signals</li>
+  <li>USB attached radio and antenna</li>
 </ul>
 
+<p>Adafruit has a great <a href="https://www.adafruit.com/product/1497">tutorial</a> on signal capture and the hardware needed.  The radio I used is from <a href="https://www.nooelec.com/">nooelec</a>.</p>
+
+<h2 id="building-rtl-433-libaries">Building rtl-433 libaries</h2>
+<p>The following commands will setup and install the rtl-433 libaries on a pi.</p>
+<p class="codeBlock">sudo apt -y install git libtool libusb-dev librtlsdr-dev rtl-sdr build-essential autoconf cmake pkg-config
+mkdir -p $HOME/git
+cd $HOME/git
+if [[ ! -d "$HOME/git/rtl_433" ]]; then git clone https://github.com/merbanan/rtl_433.git; fi
+cd rtl_433 &amp;&amp; git pull
+if [[ ! -d "$HOME/git/rtl_433/build" ]]; then mkdir build; fi
+if [[ -d "$HOME/git/rtl_433" ]]; then cd build &amp;&amp; cmake ../ &amp;&amp; make; fi
+if [[ -d "$HOME/git/rtl_433" ]]; then sudo make install; fi</p>
+
+<p>Once the rtl_433 libaries are built and installed, typing ‘rtl_433 -D’ from a cmd shell  will start capture until ctrl-c.</p>
+
+<h2 id="automating-capture">Automating capture</h2>
+
+<p class="codeBlock">echo '#!/bin/bash' &gt;  $HOME/getSensorData.sh
+which rtl_433 | xargs -I {} echo 'APP='{} &gt;&gt;  $HOME/getSensorData.sh
+echo '$APP -T 90 -F "mqtt://farmpi:1883"' &gt;&gt;  $HOME/getSensorData.sh
+chmod +x $HOME/getSensorData.sh
+(crontab -l; echo '0 * * * * /home/pi/getSensorData.sh';) | crontab</p>
+
+<p>Retart cron by <strong>sudo /etc/init.d/crond restart status</strong>
+Edit crontab by <strong>crontab -e</strong></p>
+
+<h2 id="links-i-found-useful">Links I found useful</h2>
+<p>https://github.com/merbanan/rtl_433/
+https://www.adafruit.com/product/1497
+https://triq.org/rtl_433
+https://www.nooelec.com/
+https://www.rtl-sdr.com/
+https://raspberrypiandstuff.wordpress.com/2017/08/04/rtl_433-on-a-raspberry-pi-made-bulletproof/</p>
     
   </div>
   </div>
