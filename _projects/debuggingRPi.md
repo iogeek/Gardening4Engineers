@@ -51,9 +51,12 @@ basics
 sudo systemctl enable kasaMqtt
 sudo systemctl start kasaMqtt
 sudo systemctl daemon-reload
+sudo systemctl service --status-all
+systemctl list-units --type service --all
 
 sudo systemctl status kasaMqtt.service
         farmpi.service
+        farmclock.service
 journalctl -u kasaMqtt.service | tail -n 300
 
 
@@ -72,3 +75,6 @@ journalctl -p 0
 journalctl --list-boots
 
 journalctl -u kasaMqtt.service
+
+## Shutting down the Pi
+sudo shutdown -h now
