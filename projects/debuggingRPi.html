@@ -197,6 +197,12 @@
       <br>
       <a href="/recipes/pumpkinVeggieBurger.html">Pumpkin Veggie Burger</a>
       
+      <br>
+      <a href="/recipes/pizzaDough.html">Pizza Dough</a>
+      
+      <br>
+      <a href="/recipes/pizzaSourdough.html">Pizza Sourdough</a>
+      
       </div>
       
     
@@ -250,6 +256,27 @@ crontab -l</p>
 </ul>
 
 <h1 id="services">Services</h1>
+<h2 id="debugging-systemctl-services">debugging systemctl services</h2>
+<p>sudo systemctl enable kasaMqtt sudo systemctl start kasaMqtt sudo systemctl daemon-reload sudo systemctl service –status-all systemctl list-units –type service –all</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>sudo systemctl status kasaMqtt.service farmpi.service farmclock.service journalctl -u kasaMqtt.service</td>
+      <td>tail -n 300</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="see-errors">see errors</h2>
+<p>journalctl -p 0 0: emergency 1: alerts 2: critical 3: errors 4: warning 5: notice 6: info 7: debug</p>
+
+<p>#list reboots journalctl –list-boots</p>
+
+<p>journalctl -u kasaMqtt.service</p>
+
+<h2 id="shutting-down-the-pi">Shutting down the Pi</h2>
+<p>sudo shutdown -h now</p>
     
   </div>
   </div>
