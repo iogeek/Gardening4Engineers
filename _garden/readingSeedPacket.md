@@ -10,7 +10,7 @@ Seed packets contain a lot of information that can be used for garden planning.
 
 ## Time considerations....  Can I grow it?
 - Days to germination - Time for seeds to sprout under ideal conditions. 
-- Days to harvest / maturity -  Time from once planted/adjusted to first fruit / veegtable under ideal ideal conditions. 
+- Days to harvest / maturity -  Time from once planted/adjusted to first fruit / vegtable under ideal ideal conditions. 
 
 Using a tomato as an example:
     7 days to germination
@@ -20,8 +20,13 @@ Using a tomato as an example:
     Total: 115 days from seed to harvest vegetable
 This pretty helpful for timing (including succession planting)and seeing if there is enough growing season. The times are not exact but tend to be good enough for planning purposes.
 
+Look up the typical first frost date where you live (example: October 1).
+Count back 114 days (example: October 1 minus 114 days = June 9).
+Go back another 14 days to allow for cooler weather or mishaps. (May 26)
+The latest you could safely start the watermelon seeds is May 26 (unless you have polytunnels or some other way of extending the season).
 
-## Where to plant it?
+
+## Where to plant?
 - Sowing or planting instructions
 - Thinning and transplanting
 - Shade and sun tolerance.
