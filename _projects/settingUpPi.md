@@ -57,6 +57,23 @@ sudo timedatectl set-timezone <your_time_zone>
 America/Los_Angeles
 
 sudo timedatectl set-timezone America/Los_Angeles
+
+## Settup up Snap Store
+Adding the [Snap](https://snapcraft.io/) store simplifies adding / updating packages. Full instructions for rPi are [here](https://snapcraft.io/install/snapd/raspbian#:~:text=On%20a%20Raspberry%20Pi%20running%20the%20latest%20version,get%20the%20latest%20snapd%3A%20sudo%20snap%20install%20core.)
+```
+sudo apt update
+sudo apt install snapd
+sudo snap install core
+sudo snap install snapd
+sudo reboot
+```
+
+To Refresh a store package
+
+- snap refresh
+- snap list
+
+
 - [powershell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux)
 
 ```
@@ -70,7 +87,7 @@ sudo ln -s ~/powershell/pwsh /usr/bin/pwsh
 - [.net core](https://dotnet.microsoft.com/download/dotnet-core)
     - helpful scripts https://github.com/pjgpetecodes/
 ```
-  wget -O - https://raw.githubusercontent.com/pjgpetecodes/dotnet5pi/master/install.sh | sudo bash
+  wget -O - https://raw.githubusercontent.com/pjgpetecodes/dotnet6pi/master/install.sh | sudo bash
 ```
 
 
