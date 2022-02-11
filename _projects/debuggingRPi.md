@@ -47,6 +47,32 @@ basics
     */5 * * * * /home/pi/getSensorData.sh
 
 # Services
+# debugging systemctl services
+sudo systemctl enable kasaMqtt
+sudo systemctl start kasaMqtt
+sudo systemctl daemon-reload
+sudo systemctl service --status-all
+systemctl list-units --type service --all
+
+sudo systemctl status kasaMqtt.service
+        farmpi.service
+        farmclock.service
+journalctl -u kasaMqtt.service | tail -n 300
+
+
+# see errors
+journalctl -p 0
+0: emergency
+1: alerts
+2: critical
+3: errors
+4: warning
+5: notice
+6: info
+7: debug
+
+#list reboots
+journalctl --list-boots
 ## debugging systemctl services
 sudo systemctl enable kasaMqtt sudo systemctl start kasaMqtt sudo systemctl daemon-reload sudo systemctl service --status-all systemctl list-units --type service --all
 

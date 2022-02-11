@@ -5,10 +5,10 @@ date:   2021-12-22
 categories: recipe pizza
 ingredients: 
   - 1 cup room temp water
-  - 1/4 c olive oil
   - 1 tsp sugar
   - 2 1/2 tsp active yeast
   - 3 c flour
+  - 1/4 c olive oil
   - 1/4 tsp salt
 instructions: 
   - Mix  yeast, water, and sugar in large bowl.
