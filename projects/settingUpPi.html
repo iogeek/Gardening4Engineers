@@ -182,6 +182,9 @@
       <br>
       <a href="/projects/debuggingRPi.html">Debugging Pi</a>
       
+      <br>
+      <a href="/projects/regex.html">Regular Expressions</a>
+      
       </div>
       
     
@@ -202,6 +205,12 @@
       
       <br>
       <a href="/recipes/pizzaSourdough.html">Pizza Sourdough</a>
+      
+      <br>
+      <a href="/recipes/pumpkinLasagna.html">Pumpkin Lasagna</a>
+      
+      <br>
+      <a href="/recipes/squashWaffles.html">Squash Waffles</a>
       
       </div>
       
@@ -270,7 +279,23 @@ America/Los_Angeles</your_time_zone></li>
 </ul>
 
 <p>sudo timedatectl set-timezone America/Los_Angeles</p>
+
+<h2 id="settup-up-snap-store">Settup up Snap Store</h2>
+<p>Adding the <a href="https://snapcraft.io/">Snap</a> store simplifies adding / updating packages. Full instructions for rPi are <a href="https://snapcraft.io/install/snapd/raspbian#:~:text=On%20a%20Raspberry%20Pi%20running%20the%20latest%20version,get%20the%20latest%20snapd%3A%20sudo%20snap%20install%20core.">here</a></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt update
+sudo apt install snapd
+sudo snap install core
+sudo snap install snapd
+sudo reboot
+</code></pre></div></div>
+
+<p>To Refresh a store package</p>
+
 <ul>
+  <li>snap refresh</li>
+  <li>
+    <p>snap list</p>
+  </li>
   <li><a href="https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux">powershell</a></li>
 </ul>
 
@@ -284,7 +309,7 @@ sudo ln -s ~/powershell/pwsh /usr/bin/pwsh
   <li><a href="https://dotnet.microsoft.com/download/dotnet-core">.net core</a>
     <ul>
       <li>helpful scripts https://github.com/pjgpetecodes/
-        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget -O - https://raw.githubusercontent.com/pjgpetecodes/dotnet5pi/master/install.sh | sudo bash
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget -O - https://raw.githubusercontent.com/pjgpetecodes/dotnet6pi/master/install.sh | sudo bash
 </code></pre></div>        </div>
       </li>
     </ul>

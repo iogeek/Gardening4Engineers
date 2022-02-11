@@ -11,7 +11,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
     <title>
-         Gardening 4 Engineers 
+         Regular Expressions 
     </title>
       <meta name="description"
         content="Collection of tips about gardening and any other life adventures." />
@@ -219,10 +219,20 @@
   </div> 
   <div class="gridContent">
   <h1>
-       Gardening 4 Engineers 
+       Regular Expressions 
   </h1>
-  
-<p>A crude collection of tidbits i have picked up.</p>
+  <h1 id="common-regex">Common Regex</h1>
+<p>All examples below assume you doing this in vim</p>
+
+<h2 id="find-the-first-lowercase-after--and-make-it-uppercase">Find the first lowercase after “ and make it uppercase</h2>
+<p>:%s/”\l/\U&amp;/g</p>
+
+<p>%s        : Do substitute command on the entire buffer
+  /”        : Find quote
+  \l        : followed by lowercase char
+  \U&amp;       : then make it capitalize
+  /g        “ global</p>
+
     
   </div>
   </div>

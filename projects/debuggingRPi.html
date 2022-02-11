@@ -182,6 +182,9 @@
       <br>
       <a href="/projects/debuggingRPi.html">Debugging Pi</a>
       
+      <br>
+      <a href="/projects/regex.html">Regular Expressions</a>
+      
       </div>
       
     
@@ -202,6 +205,12 @@
       
       <br>
       <a href="/recipes/pizzaSourdough.html">Pizza Sourdough</a>
+      
+      <br>
+      <a href="/recipes/pumpkinLasagna.html">Pumpkin Lasagna</a>
+      
+      <br>
+      <a href="/recipes/squashWaffles.html">Squash Waffles</a>
       
       </div>
       
@@ -256,7 +265,32 @@ crontab -l</p>
 </ul>
 
 <h1 id="services">Services</h1>
-<h2 id="debugging-systemctl-services">debugging systemctl services</h2>
+<h1 id="debugging-systemctl-services">debugging systemctl services</h1>
+<p>sudo systemctl enable kasaMqtt
+sudo systemctl start kasaMqtt
+sudo systemctl daemon-reload
+sudo systemctl service –status-all
+systemctl list-units –type service –all</p>
+
+<p>sudo systemctl status kasaMqtt.service
+        farmpi.service
+        farmclock.service
+journalctl -u kasaMqtt.service | tail -n 300</p>
+
+<h1 id="see-errors">see errors</h1>
+<p>journalctl -p 0
+0: emergency
+1: alerts
+2: critical
+3: errors
+4: warning
+5: notice
+6: info
+7: debug</p>
+
+<p>#list reboots
+journalctl –list-boots</p>
+<h2 id="debugging-systemctl-services-1">debugging systemctl services</h2>
 <p>sudo systemctl enable kasaMqtt sudo systemctl start kasaMqtt sudo systemctl daemon-reload sudo systemctl service –status-all systemctl list-units –type service –all</p>
 
 <table>
@@ -268,7 +302,7 @@ crontab -l</p>
   </tbody>
 </table>
 
-<h2 id="see-errors">see errors</h2>
+<h2 id="see-errors-1">see errors</h2>
 <p>journalctl -p 0 0: emergency 1: alerts 2: critical 3: errors 4: warning 5: notice 6: info 7: debug</p>
 
 <p>#list reboots journalctl –list-boots</p>
