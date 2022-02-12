@@ -5,29 +5,25 @@ date:   2021-11-17
 categories: seeding garden planning 
 regenerate: true
 ---
-# Using seed packet information for planning 
 Seed packets contain a lot of information that can be used for garden planning.
 
 ## Time considerations....  Can I grow it?
 - Days to germination - Time for seeds to sprout under ideal conditions. 
-- Days to harvest / maturity -  Time from once planted/adjusted to first fruit / vegetable under ideal ideal conditions. <br>
+- Days to harvest / maturity -  Time from once planted/adjusted to first fruit / vegetable under ideal conditions. <br>
 
 ![seed packet]({{ site.imagePath | relative_url }}/seedPacketTomato.png){:height="50%" width="50%"}
 <br>
 
 Using a tomato as an example:
-    7 days to germination
-    14 days to transplant size
-    14 days for plant to adjust to soil
-    48 days to harvest
-    Total: 83 days from seed to harvest vegetable
-This pretty helpful for timing (including succession planting)and seeing if there is enough growing season. The times are not exact but tend to be good enough for planning purposes.
+- 7 days to germination
+- 14 days to transplant size
+- 14 days for plant to adjust to soil
+- 48 days to harvest
+- Total: 83 days from seed to harvest
 
-Look up the typical frost dates for where you live (example: First frost is October 1 and last frost is April 17th for my area).
+This can be helpful for determing when to start, succession planting, and if the growing season is long enough. As with most aspects of gardening,  times are not exact but tend to be good enough for planning purposes. To calculate this for your area, look up the typical frost dates for where you live (example: First frost is October 1 and last frost is April 17th for my area).
 
-To calculate the earliest and latest to plant this vegetable do the following.
-
-**Last day to germinate**
+**What is the last day to germinate?**
 
 Count back 83 days from first frost date. Example: October 1 minus 83 days = July 10.
  
@@ -43,7 +39,7 @@ Having plants ready at the earliest time (ie start conditioning them for transpl
 So you have from March 27 to July 10 to germinate this variety.
 
 ## Other care instructions
-- Sowing or planting tips (some seeds need to be soaked over night)
+- Sowing or planting tips (some seeds need to be soaked overnight)
 - Thinning and transplanting
 - Shade and sun tolerance.
 

@@ -31,7 +31,7 @@ sfgTemplate:
     text: 24 inch pacing with cage = 4 squares
 ---
 
-The following visualization loosely follows the techniques from "square foot gardening" books.  The premise is to think of your garden in 12 inch by 12 inch sqaures. 
+The following visualization loosely follows the techniques from "square foot gardening" books.  The premise is to think of your garden in 12 inch by 12 inch squares. 
 
 This is just a guide and not a rule.
 ## Plant spacing diagram
@@ -49,5 +49,5 @@ This is just a guide and not a rule.
 
 ## Additional information
 - Square foot gardening website - https://squarefootgardening.org/
-- Square foot gardening books are likely availble in both paper and digital formats from your local library.
+- Square foot gardening books are likely available in both paper and digital formats from your local library.
 
