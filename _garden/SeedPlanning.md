@@ -6,12 +6,6 @@ categories: seeding planning
 regenerate: true
 ---
  
-<style style="text/css">
-
-</style>
-<script>
-
-</script>
 Seed planning (to me) is figuring out the best combination of what to grow, when you want it, and where will it grow best.  I loosely follow the principles behind (Square Foot Gardening)[https://squarefootgardening.org/].  Below are tips and tools collected over time.
 
 # Space
@@ -30,10 +24,6 @@ Irrigation
 
 Managing the soild
 
-  Soil mix
-  1 part compost
-  1 part peat
-  1 part vermiculite
 
 
 hydroponic

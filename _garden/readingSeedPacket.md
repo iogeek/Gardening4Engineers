@@ -10,7 +10,7 @@ Seed packets contain a lot of information that can be used for garden planning.
 
 ## Time considerations....  Can I grow it?
 - Days to germination - Time for seeds to sprout under ideal conditions. 
-- Days to harvest / maturity -  Time from once planted/adjusted to first fruit / vegtable under ideal ideal conditions. <br>
+- Days to harvest / maturity -  Time from once planted/adjusted to first fruit / vegetable under ideal ideal conditions. <br>
 
 ![seed packet]({{ site.imagePath | relative_url }}/seedPacketTomato.png){:height="50%" width="50%"}
 <br>
@@ -53,9 +53,3 @@ Other extension resources for reading seed packets.
 - https://pss.uvm.edu/ppp/articles/seedpkt.html
 - https://wyoextension.org/laramiecounty/wp-content/uploads/How-to-Read-a-Seed-Packet.pdf
 
-
-## Making soil blocks with diy tools
-- https://extension.psu.edu/programs/master-gardener/counties/susquehanna/penn-state-master-gardener-articles/making-soil-blocks
-
-## DIY potting soil mix
-- https://sfyl.ifas.ufl.edu/lawn-and-garden/homemade-potting-mix/
