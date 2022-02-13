@@ -1,5 +1,15 @@
 # Seed Germination
 
+## Use stuff from home
+
+-   take out containers
+
+-   Be creative
+
+-   wash before using with regular soap.
+
+-   Wash at the end of the season
+
 ## Seeds
 
 -   Sharing seeds with friends and family.
@@ -17,16 +27,6 @@
         -   Chard -\> overnight soak
 
         -   Pumpkin -\> long maturity (ie start soon)
-
-## Use stuff from home
-
--   take out containers
-
--   Be creative
-
--   wash before using with regular soap.
-
--   Wash at the end of the season
 
 ## Soil Block
 
