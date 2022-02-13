@@ -1,5 +1,13 @@
 # Seed Germination
 
+# Links for this presentation
+
+-   https://www.gardening4engineers.com/garden/readingSeedPacket.html
+
+-   <https://www.gardening4engineers.com/garden/soilTips.html>
+
+-   <https://www.gardening4engineers.com/garden/plantSpacing.html>
+
 ## Use stuff from home
 
 -   take out containers
