@@ -7,7 +7,7 @@ regenerate: true
 ---
  
 
-Nutrient Deficiencies 
+# Nutrient Deficiencies 
 
 <table id="myTable" class="hoverTable">
   <thead>
@@ -26,4 +26,8 @@ Nutrient Deficiencies
 </tbody>
 </table>
 
-from https://ext.vt.edu/content/pubs_ext_vt_edu/en/426/426-084/426-084.html
+Table sources from
+- https://ext.vt.edu/content/pubs_ext_vt_edu/en/426/426-084/426-084.html
+- https://www.pubs.ext.vt.edu/content/dam/pubs_ext_vt_edu/426/426-323/SPES-295.pdf
+
+
