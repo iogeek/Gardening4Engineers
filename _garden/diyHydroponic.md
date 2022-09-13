@@ -14,8 +14,12 @@ My first setup was a simple bucket similar to https://blogs.ifas.ufl.edu/orangec
 
 
 # Picking a nutrient mix
-Using your favorite search engine look for "hydroponic recipe edu" and you'll come across academic researched 
+Using your favorite search engine look for "hydroponic recipe edu" and you'll come across academic researched
+
+# Choosing 
+Aeroponics is the method I chose for my outdoor lettuce / basil system.
+ ![aeroponics system]({{ site.imagePath | relative_url }}/hydroponics/aeroponic.jpg)
 
 
-
-
+Oklahoma State has a great primer of the different types of hydroponic systems
+https://extension.okstate.edu/fact-sheets/hydroponics.html
