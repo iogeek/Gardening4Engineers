@@ -13,6 +13,7 @@ Before building your own hydroponics, I encourage folks to start with something 
 [Oklahoma State](https://extension.okstate.edu/fact-sheets/hydroponics.html) has a great primer of the different types of hydroponic systems.
 
 # My first setup
+ First setup was a "water culture system" using a rough tote container and an aquarium bubbler.
  
 ![water culture system]({{ site.imagePath | relative_url }}/hydroponics/waterCulture.jpg)
 
@@ -24,14 +25,14 @@ Before building your own hydroponics, I encourage folks to start with something 
 # Picking a nutrient mix
 I purchase commercial nutrient mixes.  Ingredients between brands are inconsistent.  To help understands the nutrients your setup will need, typing "hydroponic recipe edu" into your browser should bring up some peer reviewed publications. 
 
-# Aeroponics worked for me
-My outdoor lettuce / basil system sprays the root system from below. 
+# Aeroponics for the outdoors
+My outdoor lettuce / basil system sprays the roots from below. 
 
  ![aeroponics system]({{ site.imagePath | relative_url }}/hydroponics/aeroponic.jpg)
 
 
 Problems I avoided:
-- Lighting expense.  My hydroponic is outside thus 
+- Lighting expense.  No charge to use the the sun. 
 
 Problems I continue to have:
 - Leaking.  My mitigation is regular checks and planting strawberries underneath the hydroponics.  
