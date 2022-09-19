@@ -29,5 +29,6 @@ regenerate: true
 Table sources from
 - https://ext.vt.edu/content/pubs_ext_vt_edu/en/426/426-084/426-084.html
 - https://www.pubs.ext.vt.edu/content/dam/pubs_ext_vt_edu/426/426-323/SPES-295.pdf
+- https://extension.umn.edu/how/small-scale-hydroponics#fertilizing-2645213
 
 
