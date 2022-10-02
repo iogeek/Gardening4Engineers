@@ -1,7 +1,9 @@
 [
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Ageratum",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -15,13 +17,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Ageratum"
+        "spacingNotes": null
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Corn Cockle",
+        "genus":"Agrostemma",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -35,13 +37,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Agrostemma"
+        "spacingNotes": null
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Amaranthus",
+        "species":null,
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -55,13 +57,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Amaranthus"
+        "spacingNotes": null
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "False Queen Anne's Lace",
+        "genus":"Ammi",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -75,13 +77,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Ammi"
+        "spacingNotes": null
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Sweet Annie",
+        "genus":"Artemisia",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -95,13 +97,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Artemisia"
+        "spacingNotes": null
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Butterfly Weed",
+        "genus":"Asclepias",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -115,13 +117,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Asclepias"
+        "spacingNotes": null
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Aster",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -135,9 +137,7 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Aster China"
+        "spacingNotes": null
     },
     {
         "lot": "flower",
