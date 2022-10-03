@@ -140,8 +140,10 @@
         "spacingNotes": null
     },
     {
-        "lot": "flower",
-        "commonName": null,
+        "commonType": "flower",
+        "commonName": "Bells Of Ireland",
+        "genus":"Moluccella",
+        "species":"Moluccella laevis",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -155,13 +157,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Bells Of Ireland"
+        "spacingNotes": null
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Calendula",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -175,9 +177,7 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Calendula"
+        "spacingNotes": null
     },
     {
         "lot": "flower",
