@@ -180,8 +180,10 @@
         "spacingNotes": null
     },
     {
-        "lot": "flower",
-        "commonName": null,
+        "commonType": "flower",
+        "commonName": "California Poppy",
+        "genus":"Eschscholzia",
+        "species":"Eschscholzia californica",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -195,13 +197,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "California Poppy"
+        "spacingNotes": null
     },
     {
-        "lot": "flower",
-        "commonName": null,
+        "commonType": "flower",
+        "commonName": "Cardoon",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -215,13 +217,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Cardoon"
+        "spacingNotes": null
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Safflower",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -240,8 +242,10 @@
         "type": "Carthamus"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -260,8 +264,10 @@
         "type": "Castor Bean"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -280,8 +286,10 @@
         "type": "Celosia"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Bachelor's Button",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -300,8 +308,10 @@
         "type": "Centaurea"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -320,8 +330,10 @@
         "type": "Chinese Lantern"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -340,8 +352,10 @@
         "type": "Coleus"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -360,8 +374,10 @@
         "type": "Corn Poppy"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -380,8 +396,10 @@
         "type": "Cosmos"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Drumstick Flower",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -400,8 +418,10 @@
         "type": "Craspedia"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Angel's Trumpet",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "2 to 3",
         "harvestNotes": null,
@@ -420,8 +440,10 @@
         "type": "Datura"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -440,8 +462,10 @@
         "type": "Delphinium"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Sweet William",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-1 to -2",
         "harvestNotes": null,
@@ -460,8 +484,10 @@
         "type": "Dianthus"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Foxglove",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -480,8 +506,10 @@
         "type": "Digitalis"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -500,8 +528,10 @@
         "type": "Eucalyptus"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Snow-on-the-Mountain",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -520,8 +550,10 @@
         "type": "Euphorbia"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -540,8 +572,10 @@
         "type": "Forget-Me-Not"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Blanket Flower",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -560,8 +594,10 @@
         "type": "Gaillardia"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Globe Amaranth",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -580,8 +616,10 @@
         "type": "Gomphrena"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -600,8 +638,10 @@
         "type": "Helianthus Maximillianii"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -620,8 +660,10 @@
         "type": "Hibiscus"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -640,8 +682,10 @@
         "type": "Hollyhock"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -660,8 +704,10 @@
         "type": "Hyacinth Bean"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -680,8 +726,10 @@
         "type": "Iceland Poppy"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -700,8 +748,10 @@
         "type": "Impatiens"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Stachys byzantina",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": "",
         "hardenTime": "",
         "harvestNotes": "",
@@ -720,8 +770,10 @@
         "type": "Lambs Ear"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -740,8 +792,10 @@
         "type": "Larkspur"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -760,8 +814,10 @@
         "type": "Lisianthus"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": "full sun",
         "hardenTime": "",
         "harvestNotes": "",
@@ -780,8 +836,10 @@
         "type": "Lobelia"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-2",
         "harvestNotes": null,
@@ -800,8 +858,10 @@
         "type": "Lupine"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -820,8 +880,10 @@
         "type": "Marigold"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Bee Balm",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -840,8 +902,10 @@
         "type": "Monarda"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "3 to 4",
         "harvestNotes": null,
@@ -860,8 +924,10 @@
         "type": "Morning Glory"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": "full sun",
         "hardenTime": "1",
         "harvestNotes": "",
@@ -880,8 +946,10 @@
         "type": "Nasturtium"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -900,8 +968,10 @@
         "type": "Nigella"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -920,8 +990,10 @@
         "type": "Petunia"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-1 to -2",
         "harvestNotes": null,
@@ -940,8 +1012,10 @@
         "type": "Phlox"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Prince's Feather",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -960,8 +1034,10 @@
         "type": "Polygonum"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -977,11 +1053,13 @@
         "spacing": null,
         "spacingNotes": null,
         "style": null,
-        "type": "Ptilotus"
+        "type": "PticommonTypeus"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": null,
@@ -1000,8 +1078,10 @@
         "type": "Rose"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Black Eyed Susan",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -1020,8 +1100,10 @@
         "type": "Rudbeckia"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Painted Tongue",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -1040,8 +1122,10 @@
         "type": "Salpiglossis"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -1060,8 +1144,10 @@
         "type": "Salvia"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -1080,8 +1166,10 @@
         "type": "Sanvitalia"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Pincushion Flower",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -1100,8 +1188,10 @@
         "type": "Scabiosa"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -1120,8 +1210,10 @@
         "type": "Snapdragon"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -1140,8 +1232,10 @@
         "type": "Statice"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -1160,8 +1254,10 @@
         "type": "Strawflower"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -1180,8 +1276,10 @@
         "type": "Sunflower"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-1 to -2",
         "harvestNotes": null,
@@ -1200,8 +1298,10 @@
         "type": "Sweet Pea"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Black Eyed Susan Vine",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -1220,8 +1320,10 @@
         "type": "Thunbergia"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": "Mexican Sunflower",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -1240,8 +1342,10 @@
         "type": "Tithonia"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -1260,8 +1364,10 @@
         "type": "Verbena"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-1 to -2",
         "harvestNotes": null,
@@ -1280,8 +1386,10 @@
         "type": "Viola"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -1300,8 +1408,10 @@
         "type": "Yarrow"
     },
     {
-        "lot": "flower",
+        "commonType": "flower",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -1320,8 +1430,10 @@
         "type": "Zinnia"
     },
     {
-        "lot": "green",
+        "commonType": "green",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": null,
@@ -1340,8 +1452,10 @@
         "type": "Hops"
     },
     {
-        "lot": "herb",
+        "commonType": "herb",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -1360,8 +1474,10 @@
         "type": "Basil"
     },
     {
-        "lot": "herb",
+        "commonType": "herb",
         "commonName": "cat mint",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": "sun",
         "hardenTime": "",
         "harvestNotes": "",
@@ -1380,8 +1496,10 @@
         "type": "Catnip"
     },
     {
-        "lot": "herb",
+        "commonType": "herb",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -1400,8 +1518,10 @@
         "type": "Chamomile"
     },
     {
-        "lot": "herb",
+        "commonType": "herb",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": null,
@@ -1420,8 +1540,10 @@
         "type": "Cilantro"
     },
     {
-        "lot": "herb",
+        "commonType": "herb",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": null,
@@ -1440,8 +1562,10 @@
         "type": "Dill"
     },
     {
-        "lot": "herb",
+        "commonType": "herb",
         "commonName": "",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": "",
         "hardenTime": "0",
         "harvestNotes": "",
@@ -1460,8 +1584,10 @@
         "type": "Marjoram"
     },
     {
-        "lot": "herb",
+        "commonType": "herb",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": null,
@@ -1480,8 +1606,10 @@
         "type": "Oregano"
     },
     {
-        "lot": "herb",
+        "commonType": "herb",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-2 to -3",
         "harvestNotes": null,
@@ -1500,8 +1628,10 @@
         "type": "Parsley"
     },
     {
-        "lot": "herb",
+        "commonType": "herb",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": null,
@@ -1520,8 +1650,10 @@
         "type": "Rosemary"
     },
     {
-        "lot": "herb",
+        "commonType": "herb",
         "commonName": "",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": "full sun",
         "hardenTime": "1",
         "harvestNotes": "",
@@ -1540,8 +1672,10 @@
         "type": "Sage"
     },
     {
-        "lot": "herb",
+        "commonType": "herb",
         "commonName": "",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": "full sun",
         "hardenTime": "0",
         "harvestNotes": "",
@@ -1560,8 +1694,10 @@
         "type": "Savory"
     },
     {
-        "lot": "herb",
+        "commonType": "herb",
         "commonName": "",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": "",
         "hardenTime": "0",
         "harvestNotes": "",
@@ -1580,8 +1716,10 @@
         "type": "Tarragon"
     },
     {
-        "lot": "herb",
+        "commonType": "herb",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": null,
@@ -1600,8 +1738,10 @@
         "type": "Thyme"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0 to -2",
         "harvestNotes": "6\" to 8\" long; no fiber",
@@ -1620,8 +1760,10 @@
         "type": "Artichoke"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-3.5",
         "harvestNotes": null,
@@ -1640,8 +1782,10 @@
         "type": "Arugula"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": "When buds are 2\" to 4\" in diameter",
@@ -1660,8 +1804,10 @@
         "type": "Aspargus"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "2",
         "harvestNotes": null,
@@ -1680,8 +1826,10 @@
         "type": "Beans"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "2",
         "harvestNotes": null,
@@ -1700,8 +1848,10 @@
         "type": "Beans"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-2",
         "harvestNotes": "Up to 1/3 of the beet foliage can be harvested for greens without harming the root. Harvest when roots 2\" to 3\" in diameter",
@@ -1720,8 +1870,10 @@
         "type": "Beet"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": "Pak Choi",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -1740,8 +1892,10 @@
         "type": "Bok Choi"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-1 to -2",
         "harvestNotes": "Harvest before yellow flower buds start to open, side shoots can be harvested after main head is removed.",
@@ -1760,8 +1914,10 @@
         "type": "Broccoli"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-1",
         "harvestNotes": null,
@@ -1780,8 +1936,10 @@
         "type": "Brussel Sprouts"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-2 to -4",
         "harvestNotes": "Harvest when heads are large and solid.",
@@ -1800,8 +1958,10 @@
         "type": "Cabbage"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "2",
         "harvestNotes": "When mature, stem separates easily from melon.",
@@ -1820,8 +1980,10 @@
         "type": "Cantaloupe"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": "full / partial",
         "hardenTime": "no",
         "harvestNotes": "Harvest when orange shoulder pushes through the soil. ½\" to ¾\" at shoulder",
@@ -1840,8 +2002,10 @@
         "type": "Carrot"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-2",
         "harvestNotes": "Blanch heads when 2-3 across by carefully tying leaves over heads.",
@@ -1860,8 +2024,10 @@
         "type": "Cauliflower"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-4",
         "harvestNotes": "Plant stands 12\" to 15\" tall; medium-thick stem",
@@ -1880,8 +2046,10 @@
         "type": "Celery"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -1900,8 +2068,10 @@
         "type": "Celery & Celeriac"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-2",
         "harvestNotes": null,
@@ -1920,8 +2090,10 @@
         "type": "Chard"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-6",
         "harvestNotes": null,
@@ -1940,8 +2112,10 @@
         "type": "Chinese Cabbage"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": null,
@@ -1960,8 +2134,10 @@
         "type": "Chives"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-4",
         "harvestNotes": null,
@@ -1980,8 +2156,10 @@
         "type": "Collards"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": "full",
         "hardenTime": "0 to 2",
         "harvestNotes": null,
@@ -2000,8 +2178,10 @@
         "type": "Corn"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": "Mache",
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-3 to -6",
         "harvestNotes": null,
@@ -2020,8 +2200,10 @@
         "type": "Corn Salad"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "1 to 2",
         "harvestNotes": "Harvest plants every 2 to 3 days. Leave small piece of stem attached to fruit.",
@@ -2040,8 +2222,10 @@
         "type": "Cucumber"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "2 to 3",
         "harvestNotes": "Fruit should have shiny finish. Side springs back when pressed",
@@ -2060,8 +2244,10 @@
         "type": "Eggplant"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-3.5",
         "harvestNotes": null,
@@ -2080,8 +2266,10 @@
         "type": "Endive"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "2",
         "harvestNotes": null,
@@ -2100,8 +2288,10 @@
         "type": "Erba Stella"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": "Harvest when foliage topples over and dries or just before first frost.",
@@ -2120,8 +2310,10 @@
         "type": "Garlic"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-4",
         "harvestNotes": null,
@@ -2140,8 +2332,10 @@
         "type": "Kale"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-4",
         "harvestNotes": "Store with leaves and roots removed.",
@@ -2160,8 +2354,10 @@
         "type": "Kohlrabi"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-2",
         "harvestNotes": null,
@@ -2180,8 +2376,10 @@
         "type": "Leeks"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-3 to -4",
         "harvestNotes": null,
@@ -2200,8 +2398,10 @@
         "type": "Lettuce"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-3 to -4",
         "harvestNotes": "Harvest outer leaves. Hot weather causes bitterness.",
@@ -2220,8 +2420,10 @@
         "type": "Lettuce"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "no",
         "harvestNotes": null,
@@ -2240,8 +2442,10 @@
         "type": "Mache"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "2",
         "harvestNotes": null,
@@ -2260,8 +2464,10 @@
         "type": "Melons"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "no",
         "harvestNotes": null,
@@ -2280,8 +2486,10 @@
         "type": "Miners Lettuce"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-4",
         "harvestNotes": null,
@@ -2300,8 +2508,10 @@
         "type": "Mizuna"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-4",
         "harvestNotes": null,
@@ -2320,8 +2530,10 @@
         "type": "Mustard"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "2 to 4",
         "harvestNotes": "Harvest frequently to maintain productivity.",
@@ -2340,8 +2552,10 @@
         "type": "Okra"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-4",
         "harvestNotes": "Harvest when tops fall over and begin to dry.",
@@ -2360,8 +2574,10 @@
         "type": "Onion"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-4",
         "harvestNotes": null,
@@ -2380,8 +2596,10 @@
         "type": "Onion"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-2",
         "harvestNotes": null,
@@ -2400,8 +2618,10 @@
         "type": "Orach"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-4",
         "harvestNotes": "Can be overwintered in the ground. Mulch and dig before new growth starts in spring.",
@@ -2420,8 +2640,10 @@
         "type": "Parsnips"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-6 to -8",
         "harvestNotes": "Harvest when pods are long and thin as the seeds begin to develop.",
@@ -2440,8 +2662,10 @@
         "type": "Pea"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "2",
         "harvestNotes": null,
@@ -2460,8 +2684,10 @@
         "type": "Pepper"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "no",
         "harvestNotes": "Dig when tops turn brown and die.",
@@ -2480,8 +2706,10 @@
         "type": "Potatoes"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "2",
         "harvestNotes": "Harvest when uniformly orange. Leave 3-4 on stem.",
@@ -2500,8 +2728,10 @@
         "type": "Pumpkin"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-3.5",
         "harvestNotes": null,
@@ -2520,8 +2750,10 @@
         "type": "Radicchio"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "no",
         "harvestNotes": "Radishes larger than 2 in diameter are often pithy and unusable.",
@@ -2540,8 +2772,10 @@
         "type": "Radish"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": "Stem 8\" to 15\" long is best",
@@ -2560,8 +2794,10 @@
         "type": "Rhubarb"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": null,
@@ -2580,8 +2816,10 @@
         "type": "Rutabagas"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "no",
         "harvestNotes": null,
@@ -2600,8 +2838,10 @@
         "type": "Salsify"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-4",
         "harvestNotes": null,
@@ -2620,8 +2860,10 @@
         "type": "Scallions"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-3 to -6",
         "harvestNotes": null,
@@ -2640,8 +2882,10 @@
         "type": "Spinach"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "2",
         "harvestNotes": null,
@@ -2660,8 +2904,10 @@
         "type": "Squash"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": null,
@@ -2680,8 +2926,10 @@
         "type": "Strawberry"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "2",
         "harvestNotes": "Harvest when skin is soft.",
@@ -2700,8 +2948,10 @@
         "type": "Summer Squash"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-3.5",
         "harvestNotes": null,
@@ -2720,8 +2970,10 @@
         "type": "Tatsoi"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "2 to 2",
         "harvestNotes": null,
@@ -2740,8 +2992,10 @@
         "type": "Tomatillo"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": "full",
         "hardenTime": "1 to 2",
         "harvestNotes": "Foliage can be harvested for greens.",
@@ -2760,8 +3014,10 @@
         "type": "Tomato"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": "Harvest when 'belly' turns from white to creamy yellow.",
@@ -2780,8 +3036,10 @@
         "type": "Turnip"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "-2",
         "harvestNotes": null,
@@ -2800,8 +3058,10 @@
         "type": "Watercress"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "2",
         "harvestNotes": "Rind should be hard and difficult to puncture with fingernail. Fruits are ready to harvest when stems turn from green to brown and begin to dry. In addition look for the underside — where the fruit rests on the ground — to turn from a greenish white to yellow or cream colored. Cut from vines with at least one inch of stem attached.",
@@ -2820,8 +3080,10 @@
         "type": "Watermelon"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": "2",
         "harvestNotes": "Mature kernels exude milky sap when punctured.",
@@ -2840,8 +3102,10 @@
         "type": "Winter Squash"
     },
     {
-        "lot": "veg",
+        "commonType": "veg",
         "commonName": null,
+        "genus":"Cynara",
+        "species":"Cynara cardunculus",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": null,
