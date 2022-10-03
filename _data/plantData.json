@@ -305,9 +305,9 @@
     },
     {
         "commonType": "flower",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Chinese Lantern",
+        "genus":"Alkekengi",
+        "species":"Alkekengi officinarum",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -321,15 +321,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Chinese Lantern"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
         "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "genus":"Coleus",
+        "species":null,
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -343,15 +341,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Coleus"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Corn Poppy",
+        "genus":"Papaver",
+        "species":"Papaver rhoeas",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -365,15 +361,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Corn Poppy"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Cosmos",
+        "genus":"Cosmos",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -387,15 +381,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Cosmos"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
         "commonName": "Drumstick Flower",
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "genus":"Craspedia",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -409,9 +401,7 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Craspedia"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
