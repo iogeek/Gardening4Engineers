@@ -243,9 +243,9 @@
     },
     {
         "commonType": "flower",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Castor Bean",
+        "genus":"Ricinus",
+        "species":"Ricinus communis",
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -259,15 +259,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Castor Bean"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
         "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "genus":"Celosia",
+        "species":null,
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -281,9 +279,7 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Celosia"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
