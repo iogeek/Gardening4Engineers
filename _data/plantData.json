@@ -406,8 +406,8 @@
     {
         "commonType": "flower",
         "commonName": "Angel's Trumpet",
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "genus":"Datura",
+        "species":null,
         "exposure": null,
         "hardenTime": "2 to 3",
         "harvestNotes": null,
@@ -421,15 +421,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Datura"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
         "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "genus":"Delphinium",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -443,15 +441,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Delphinium"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
         "commonName": "Sweet William",
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "genus":"Dianthus",
+        "species":"Dianthus barbatus",
         "exposure": null,
         "hardenTime": "-1 to -2",
         "harvestNotes": null,
@@ -465,15 +461,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Dianthus"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
         "commonName": "Foxglove",
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "genus":"Digitalis",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -487,15 +481,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Digitalis"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
         "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "genus":"Eucalyptus",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -509,15 +501,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Eucalyptus"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
         "commonName": "Snow-on-the-Mountain",
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "genus":"Euphorbia",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -531,15 +521,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Euphorbia"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Forget-Me-Not",
+        "genus":"Myosotis",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -553,15 +541,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Forget-Me-Not"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
         "commonName": "Blanket Flower",
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "genus":"Gaillardia",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -575,15 +561,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Gaillardia"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
         "commonName": "Globe Amaranth",
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "genus":"Gomphrena",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -597,15 +581,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Gomphrena"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "north american sunflower",
+        "genus":"Helianthus",
+        "species":"Helianthus Maximillianii",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -619,15 +601,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Helianthus Maximillianii"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
         "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "genus":"Hibiscus",
+        "species":null,
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -641,15 +621,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Hibiscus"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Hollyhock",
+        "genus":"Alcea",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -663,9 +641,7 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Hollyhock"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
