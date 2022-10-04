@@ -222,8 +222,8 @@
     {
         "commonType": "flower",
         "commonName": "Safflower",
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "genus":"Carthamus",
+        "species":"Carthamus tinctorius",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -237,9 +237,7 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Carthamus"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
@@ -645,9 +643,9 @@
     },
     {
         "commonType": "flower",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Hyacinth Bean",
+        "genus":"Lablab",
+        "species":"Lablab purpureus",
         "exposure": null,
         "hardenTime": "1",
         "harvestNotes": null,
@@ -661,9 +659,7 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Hyacinth Bean"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
