@@ -823,9 +823,9 @@
     },
     {
         "commonType": "flower",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Rose",
+        "genus":"Rosa",
+        "species":null,
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": null,
@@ -839,15 +839,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Rose"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
         "commonName": "Black Eyed Susan",
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "genus":"Rudbeckia",
+        "species":null,
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -861,9 +859,7 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Rudbeckia"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
