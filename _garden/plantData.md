@@ -60,9 +60,10 @@ categories: planning info
 <table id="myTable" class="hoverTable">
   <thead>
     <tr>
-      <th>type</th>
+      <th>commonType</th>
       <th>commonName</th>
-      <th>style</th>
+      <th>genus</th>
+      <th>species</th>
       <th>indoorSow</th>
       <th>hardenTime</th>
       <th>outdoorSow</th>
@@ -81,9 +82,10 @@ categories: planning info
   <tbody> 
 {% for itm in site.data.plantData %}
   <tr>
-    <td>{{ itm.type }} </td>
+    <td>{{ itm.commonType }} </td>
     <td>{{ itm.commonName }} </td>
-    <td>{{ itm.style }} </td>
+    <td>{{ itm.genus }} </td>
+    <td>{{ itm.species }} </td>
     <td>{{ itm.indoorSow }} </td>
     <td>{{ itm.hardenTime }} </td>
     <td>{{ itm.outdoorSow }} </td>
