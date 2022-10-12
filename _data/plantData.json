@@ -1305,9 +1305,9 @@
     },
     {
         "commonType": "herb",
-        "commonName": "",
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Savory",
+        "genus":"Satureja",
+        "species":"Satureja hortensis",
         "exposure": "full sun",
         "hardenTime": "0",
         "harvestNotes": "",
@@ -1321,15 +1321,13 @@
         "soilTemp": "",
         "soilType": "",
         "spacing": "",
-        "spacingNotes": "",
-        "style": "",
-        "type": "Savory"
+        "spacingNotes": ""
     },
     {
         "commonType": "herb",
-        "commonName": "",
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Tarragon",
+        "genus":"Artemisia",
+        "species":"Artemisia dracunculus",
         "exposure": "",
         "hardenTime": "0",
         "harvestNotes": "",
@@ -1343,15 +1341,13 @@
         "soilTemp": "",
         "soilType": "",
         "spacing": "",
-        "spacingNotes": "",
-        "style": "",
-        "type": "Tarragon"
+        "spacingNotes": ""
     },
     {
         "commonType": "herb",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Thyme",
+        "genus":"Thymus ",
+        "species":null,
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": null,
@@ -1365,9 +1361,7 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Thyme"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
