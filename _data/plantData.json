@@ -1605,9 +1605,9 @@
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Celery",
+        "genus":"Apium",
+        "species":"Apium graveolens",
         "exposure": null,
         "hardenTime": "-4",
         "harvestNotes": "Plant stands 12\" to 15\" tall; medium-thick stem",
@@ -1621,15 +1621,13 @@
         "soilTemp": "40",
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Celery"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Chard",
+        "genus":"Beta",
+        "species":"Beta vulgaris",
         "exposure": null,
         "hardenTime": "-2",
         "harvestNotes": null,
@@ -1643,15 +1641,13 @@
         "soilTemp": "40",
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Chard"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Chives",
+        "genus":"Allium",
+        "species":"Allium schoenoprasum",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": null,
@@ -1665,9 +1661,7 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Chives"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
