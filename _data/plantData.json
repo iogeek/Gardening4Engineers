@@ -1901,9 +1901,9 @@
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Mustard",
+        "genus":"Brassica",
+        "species":null,
         "exposure": null,
         "hardenTime": "-4",
         "harvestNotes": null,
@@ -1917,15 +1917,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Mustard"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Okra",
+        "genus":"Abelmoschus",
+        "species":"Abelmoschus esculentus",
         "exposure": null,
         "hardenTime": "2 to 4",
         "harvestNotes": "Harvest frequently to maintain productivity.",
@@ -1939,9 +1937,7 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Okra"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
