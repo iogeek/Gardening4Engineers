@@ -1681,9 +1681,9 @@
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Corn",
+        "genus":"Zea",
+        "species":"Zea mays",
         "exposure": "full",
         "hardenTime": "0 to 2",
         "harvestNotes": null,
@@ -1697,15 +1697,13 @@
         "soilTemp": "60",
         "soilType": "loam",
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Corn"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
         "commonName": "Mache",
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "genus":"Valerianella",
+        "species":"Valerianella locusta",
         "exposure": null,
         "hardenTime": "-3 to -6",
         "harvestNotes": null,
@@ -1719,9 +1717,7 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Corn Salad"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
