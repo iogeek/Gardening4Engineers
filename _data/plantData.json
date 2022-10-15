@@ -262,8 +262,8 @@
     {
         "commonType": "flower",
         "commonName": "Bachelor's Button",
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "genus":"Centaurea",
+        "species":"Centaurea cyanus",
         "exposure": null,
         "hardenTime": "0",
         "harvestNotes": null,
@@ -277,9 +277,7 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Centaurea"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
@@ -939,9 +937,7 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Snapdragon"
+        "spacingNotes": null
     },
     {
         "commonType": "flower",
@@ -1665,9 +1661,9 @@
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Collards",
+        "genus":"Brassica",
+        "species":"Brassica oleracea",
         "exposure": null,
         "hardenTime": "-4",
         "harvestNotes": null,
@@ -1681,9 +1677,7 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Collards"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
