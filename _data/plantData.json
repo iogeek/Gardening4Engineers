@@ -2041,9 +2041,9 @@
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Potatoes",
+        "genus":"Solanum",
+        "species":"Solanum tuberosum",
         "exposure": null,
         "hardenTime": "no",
         "harvestNotes": "Dig when tops turn brown and die.",
@@ -2057,9 +2057,7 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Potatoes"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
