@@ -2061,9 +2061,9 @@
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Pumpkin",
+        "genus":"Cucurbita",
+        "species":"Cucurbita pepo",
         "exposure": null,
         "hardenTime": "2",
         "harvestNotes": "Harvest when uniformly orange. Leave 3-4 on stem.",
@@ -2077,15 +2077,13 @@
         "soilTemp": "60",
         "soilType": null,
         "spacing": "24\"",
-        "spacingNotes": "2 with trellis",
-        "style": null,
-        "type": "Pumpkin"
+        "spacingNotes": "2 with trellis"
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Radicchio",
+        "genus":"Cichorium",
+        "species":"Cichorium intybus",
         "exposure": null,
         "hardenTime": "-3.5",
         "harvestNotes": null,
@@ -2099,15 +2097,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Radicchio"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Radish",
+        "genus":"Raphanus",
+        "species":"Raphanus raphanistrum",
         "exposure": null,
         "hardenTime": "no",
         "harvestNotes": "Radishes larger than 2 in diameter are often pithy and unusable.",
@@ -2121,15 +2117,13 @@
         "soilTemp": "40",
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Radish"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Rhubarb",
+        "genus":"Rheum",
+        "species":"Rheum hybridum",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": "Stem 8\" to 15\" long is best",
@@ -2143,15 +2137,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": "36\"",
-        "spacingNotes": null,
-        "style": null,
-        "type": "Rhubarb"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Rutabagas",
+        "genus":"Brassica",
+        "species":"Brassica napus",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": null,
@@ -2165,15 +2157,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Rutabagas"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Spinach",
+        "genus":"Spinacia",
+        "species":"Spinacia oleracea",
         "exposure": null,
         "hardenTime": "-3 to -6",
         "harvestNotes": null,
@@ -2187,15 +2177,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Spinach"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Squash",
+        "genus":"Cucurbita",
+        "species":null,
         "exposure": null,
         "hardenTime": "2",
         "harvestNotes": null,
@@ -2209,9 +2197,7 @@
         "soilTemp": "60",
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Squash"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
