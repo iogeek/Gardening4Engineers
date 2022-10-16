@@ -1941,9 +1941,9 @@
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Onion Bulb",
+        "genus":"Allium",
+        "species":"Allium cepa",
         "exposure": null,
         "hardenTime": "-4",
         "harvestNotes": "Harvest when tops fall over and begin to dry.",
@@ -1957,15 +1957,13 @@
         "soilTemp": "35",
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": "bulb",
-        "type": "Onion"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Onion Scallions",
+        "genus":"Allium",
+        "species":"Allium fistulosum",
         "exposure": null,
         "hardenTime": "-4",
         "harvestNotes": null,
@@ -1979,15 +1977,13 @@
         "soilTemp": "35",
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": "green",
-        "type": "Onion"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Parsnips",
+        "genus":"Pastinaca",
+        "species":"Pastinaca sativa",
         "exposure": null,
         "hardenTime": "-4",
         "harvestNotes": "Can be overwintered in the ground. Mulch and dig before new growth starts in spring.",
@@ -2001,15 +1997,13 @@
         "soilTemp": "35",
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Parsnips"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Pea",
+        "genus":"Pisum",
+        "species":"Pisum sativum",
         "exposure": null,
         "hardenTime": "-6 to -8",
         "harvestNotes": "Harvest when pods are long and thin as the seeds begin to develop.",
@@ -2023,9 +2017,7 @@
         "soilTemp": "40",
         "soilType": null,
         "spacing": null,
-        "spacingNotes": "trellis",
-        "style": null,
-        "type": "Pea"
+        "spacingNotes": "trellis"
     },
     {
         "commonType": "veg",
@@ -2180,28 +2172,6 @@
         "spacingNotes": null,
         "style": null,
         "type": "Rutabagas"
-    },
-    {
-        "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
-        "exposure": null,
-        "hardenTime": "-4",
-        "harvestNotes": null,
-        "id": 121,
-        "indoorSow": "11",
-        "maturity": null,
-        "notes": null,
-        "outdoorSow": "-4",
-        "perSquare": null,
-        "soilPH": null,
-        "soilTemp": null,
-        "soilType": null,
-        "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Scallions"
     },
     {
         "commonType": "veg",
