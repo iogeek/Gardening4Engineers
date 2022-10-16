@@ -2021,9 +2021,9 @@
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Pepper",
+        "genus":"Capsicum",
+        "species":null,
         "exposure": null,
         "hardenTime": "2",
         "harvestNotes": null,
@@ -2037,9 +2037,7 @@
         "soilTemp": "60",
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Pepper"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
