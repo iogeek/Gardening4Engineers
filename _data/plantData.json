@@ -2201,9 +2201,9 @@
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Strawberry",
+        "genus":"Fragaria",
+        "species":"Fragaria x ananassa",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": null,
@@ -2217,15 +2217,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Strawberry"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Summer Squash",
+        "genus":"Cucurbita",
+        "species":null,
         "exposure": null,
         "hardenTime": "2",
         "harvestNotes": "Harvest when skin is soft.",
@@ -2239,15 +2237,13 @@
         "soilTemp": "60",
         "soilType": null,
         "spacing": "24\"",
-        "spacingNotes": "4 with cage",
-        "style": null,
-        "type": "Summer Squash"
+        "spacingNotes": "4 with cage"
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Tatsoi",
+        "genus":"Brassica",
+        "species":"Brassica rapa",
         "exposure": null,
         "hardenTime": "-3.5",
         "harvestNotes": null,
@@ -2261,15 +2257,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Tatsoi"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Tomatillo",
+        "genus":"Physalis",
+        "species":"Physalis philadelphica",
         "exposure": null,
         "hardenTime": "2 to 2",
         "harvestNotes": null,
@@ -2283,9 +2277,7 @@
         "soilTemp": "",
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Tomatillo"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
