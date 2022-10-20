@@ -2281,9 +2281,9 @@
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Tomato",
+        "genus":"Solanum",
+        "species":"Solanum lycopersicum",
         "exposure": "full",
         "hardenTime": "1 to 2",
         "harvestNotes": "Foliage can be harvested for greens.",
@@ -2297,15 +2297,13 @@
         "soilTemp": "50",
         "soilType": "loam",
         "spacing": "12\"\n24\"\n36\"",
-        "spacingNotes": "1 withstakes\n4 with cage\n9 no support",
-        "style": null,
-        "type": "Tomato"
+        "spacingNotes": "1 withstakes\n4 with cage\n9 no support"
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Turnip",
+        "genus":"Brassica",
+        "species":"Brassica rapa",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": "Harvest when 'belly' turns from white to creamy yellow.",
@@ -2319,15 +2317,13 @@
         "soilTemp": "40",
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Turnip"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Watercress",
+        "genus":"Nasturtium",
+        "species":"Nasturtium officinale",
         "exposure": null,
         "hardenTime": "-2",
         "harvestNotes": null,
@@ -2341,15 +2337,13 @@
         "soilTemp": null,
         "soilType": null,
         "spacing": null,
-        "spacingNotes": null,
-        "style": null,
-        "type": "Watercress"
+        "spacingNotes": null
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Watermelon",
+        "genus":"Citrullus",
+        "species":"Citrullus lanatus",
         "exposure": null,
         "hardenTime": "2",
         "harvestNotes": "Rind should be hard and difficult to puncture with fingernail. Fruits are ready to harvest when stems turn from green to brown and begin to dry. In addition look for the underside — where the fruit rests on the ground — to turn from a greenish white to yellow or cream colored. Cut from vines with at least one inch of stem attached.",
@@ -2363,15 +2357,13 @@
         "soilTemp": "60",
         "soilType": null,
         "spacing": "24\"",
-        "spacingNotes": "2 with trellis",
-        "style": null,
-        "type": "Watermelon"
+        "spacingNotes": "2 with trellis"
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Winter Squash",
+        "genus":"Cucurbita",
+        "species":null,
         "exposure": null,
         "hardenTime": "2",
         "harvestNotes": "Mature kernels exude milky sap when punctured.",
@@ -2385,15 +2377,13 @@
         "soilTemp": "60",
         "soilType": null,
         "spacing": "24\"",
-        "spacingNotes": "2 with trellis",
-        "style": null,
-        "type": "Winter Squash"
+        "spacingNotes": "2 with trellis"
     },
     {
         "commonType": "veg",
-        "commonName": null,
-        "genus":"Cynara",
-        "species":"Cynara cardunculus",
+        "commonName": "Zucchini",
+        "genus":"Cucurbita",
+        "species":"Cucurbita pepo",
         "exposure": null,
         "hardenTime": null,
         "harvestNotes": null,
@@ -2407,8 +2397,6 @@
         "soilTemp": "60",
         "soilType": null,
         "spacing": "24\"",
-        "spacingNotes": "4 with cage",
-        "style": null,
-        "type": "Zucchini"
+        "spacingNotes": "4 with cage"
     }
 ]
