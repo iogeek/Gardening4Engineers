@@ -49,6 +49,11 @@ collections:
     path: _recipe
     sequence: 4
     title: Recipes
+  techTips:
+    output: true
+    path: _techTips
+    sequence: 4
+    title: Tech Tips    
 
 # Build settings
 theme: minima
