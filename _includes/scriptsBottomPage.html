@@ -46,8 +46,9 @@
       var pathLen = pathName.length;
       var strArray = pathName.substring(1, pathLen).split("/");
       var title = strArray[0];
-      title = title.charAt(0).toUpperCase()+title.slice(1);
-      ToggleDiv(title);      
+      title = title.charAt(0).toUpperCase()+title.slice(1) + "_panel";
+      if (document.getElementById(title))
+        document.getElementById(id).style.display = "block";   
     }
 
   </script>

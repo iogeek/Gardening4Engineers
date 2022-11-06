@@ -3,10 +3,10 @@
     {% if itm.title and itm.title != "" %}
       {% if itm.path and itm.path != "" %}
       <button class="accordion">{{ itm.title }}</button>
-      <div class="panel">
+      <div class="panel" id="{{ itm.title }}_panel">
       {% for gdoc in site[itm.label] %}
       <br>
-      <a data-target="#contentPanel" href="{{ gdoc.url | relative_url }}">{{ gdoc.title }}</a>
+      <a href="{{ gdoc.url | relative_url }}">{{ gdoc.title }}</a>
       {% endfor %}
       </div>
       {% else %}
