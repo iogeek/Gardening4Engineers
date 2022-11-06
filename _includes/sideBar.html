@@ -6,7 +6,7 @@
       <div class="panel">
       {% for gdoc in site[itm.label] %}
       <br>
-      <a href="{{ gdoc.url | relative_url }}">{{ gdoc.title }}</a>
+      <a data-target="#contentPanel" href="{{ gdoc.url | relative_url }}">{{ gdoc.title }}</a>
       {% endfor %}
       </div>
       {% else %}

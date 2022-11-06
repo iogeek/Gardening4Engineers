@@ -5,7 +5,7 @@
   {% assign sortedCollection = site.collections | sort: 'sequence' %}
   <div class="gridContainer">
   {% include sideBar.html %} 
-  <div class="gridContent">
+  <div class="gridContent" id="contentPanel">
   <h1>
       {% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}
   </h1>
