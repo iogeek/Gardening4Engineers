@@ -3,13 +3,15 @@
     var gVisible = "none";
   
     function ToggleDiv(id) {
+      alert ("ToggleDiv:" + id);
       if (gVisible !== "none")
         if (document.getElementById(gVisible))
           document.getElementById(gVisible).style.display = "none";
-        if (document.getElementById(id))
-          document.getElementById(id).style.display = "inline";
+      if (document.getElementById(id))
+        document.getElementById(id).style.display = "inline";
       gVisible = id;    
     }
+
     {% for itm in sortedCollection %}
     {% if itm.title and itm.title != "" %}
       if (document.getElementById("{{ itm.title }}_nav"))
@@ -22,7 +24,8 @@
     {% assign homePage = site.collections 
         | where_exp:"firstCollectionPage", "firstCollectionPage.sequence == 1" 
         | first %}
-    ToggleDiv("{{ homePage.title }}");
+
+    if ((window.location.pathname).length <= 1)  ToggleDiv("{{ homePage.title }}");
 
     var acc = document.getElementsByClassName("accordion");
     var i;

@@ -1,5 +1,15 @@
 <script>
 function onLoadBody() {
-    
+    var pathName = window.location.pathname;
+    var pathLen = pathName.length;
+    //alert(window.location.hostname);
+    //alert (window.location.href);
+    //alert (window.location.pathname);
+    if (pathLen <= 1) return;
+    var strArray = pathName.substring(1, pathLen).split("/");
+    var title = strArray[0];
+    title = title.charAt(0).toUpperCase()+title.slice(1);
+    alert (title);
+    //ToggleDiv(title);
 }
 </script>
