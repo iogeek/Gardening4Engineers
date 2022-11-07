@@ -1,17 +1,31 @@
-<div class="gridSideNav">
-    {% for itm in sortedCollection %}
-    {% if itm.title and itm.title != "" %}
-      {% if itm.path and itm.path != "" %}
-      <button class="accordion">{{ itm.title }}</button>
-      <div class="panel" id="{{ itm.title }}_panel">
-      {% for gdoc in site[itm.label] %}
-      <br>
-      <a href="{{ gdoc.url | relative_url }}">{{ gdoc.title }}</a>
-      {% endfor %}
-      </div>
-      {% else %}
-      <a href="{{ site.url | relative_url }}"  style="text-decoration: none;" class="linkBtn">{{ itm.title }}</a>
+<!--
+  <div class="gridSideNav">
+      {% for itm in sortedCollection %}
+      {% if itm.title and itm.title != "" %}
+        {% if itm.path and itm.path != "" %}
+        <button class="accordion">{{ itm.title }}</button>
+        <div class="panel" id="{{ itm.title }}_panel">
+        {% for gdoc in site[itm.label] %}
+        <br>
+        <a href="{{ gdoc.url | relative_url }}">{{ gdoc.title }}</a>
+        {% endfor %}
+        </div>
+        {% else %}
+        <a href="{{ site.url | relative_url }}"  style="text-decoration: none;" class="linkBtn">{{ itm.title }}</a>
+        {% endif %}
       {% endif %}
-    {% endif %}
-    {% endfor %}
+      {% endfor %}
   </div>
+-->
+
+<div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+</div>
