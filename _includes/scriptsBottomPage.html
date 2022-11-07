@@ -1,55 +1,60 @@
 <script>
     {% assign sortedCollection = site.collections | sort: 'sequence' %}
-    var gVisible = "none";
-  
-    function ToggleDiv(id) {
-      //alert ("ToggleDiv:" + id);
-      if (gVisible !== "none")
-        if (document.getElementById(gVisible))
-          document.getElementById(gVisible).style.display = "none";
-      if (document.getElementById(id))
-        document.getElementById(id).style.display = "inline";
-      gVisible = id;    
-    }
+    
+    <!--
+      var gVisible = "none";
+    
+      function ToggleDiv(id) {
+        //alert ("ToggleDiv:" + id);
+        if (gVisible !== "none")
+          if (document.getElementById(gVisible))
+            document.getElementById(gVisible).style.display = "none";
+        if (document.getElementById(id))
+          document.getElementById(id).style.display = "inline";
+        gVisible = id;    
+      }
 
-    {% for itm in sortedCollection %}
-    {% if itm.title and itm.title != "" %}
-      if (document.getElementById("{{ itm.title }}_nav"))
-        document.getElementById("{{ itm.title }}_nav").onclick = function() {
-          ToggleDiv("{{ itm.title }}");
-        }
-    {% endif %}
-    {% endfor %}
-  
+      {% for itm in sortedCollection %}
+      {% if itm.title and itm.title != "" %}
+        if (document.getElementById("{{ itm.title }}_nav"))
+          document.getElementById("{{ itm.title }}_nav").onclick = function() {
+            ToggleDiv("{{ itm.title }}");
+          }
+      {% endif %}
+      {% endfor %}
+    -->
+
     {% assign homePage = site.collections 
         | where_exp:"firstCollectionPage", "firstCollectionPage.sequence == 1" 
         | first %}
 
-    var acc = document.getElementsByClassName("accordion");
-    var i;
+    <!--
+      var acc = document.getElementsByClassName("accordion");
+      var i;
 
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-          panel.style.display = "none";
-        } else {
-          panel.style.display = "block";
-        }
-      });
-    }
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
 
-    if ((window.location.pathname).length <= 1)  ToggleDiv("{{ homePage.title }}");
-    else  {
-      var pathName = window.location.pathname;
-      var pathLen = pathName.length;
-      var strArray = pathName.substring(1, pathLen).split("/");
-      var title = strArray[0];
-      title = title.charAt(0).toUpperCase()+title.slice(1) + "_panel";
-      if (document.getElementById(title))
-        document.getElementById(id).style.display = "block";   
-    }
+      if ((window.location.pathname).length <= 1)  ToggleDiv("{{ homePage.title }}");
+      else  {
+        var pathName = window.location.pathname;
+        var pathLen = pathName.length;
+        var strArray = pathName.substring(1, pathLen).split("/");
+        var title = strArray[0];
+        title = title.charAt(0).toUpperCase()+title.slice(1) + "_panel";
+        if (document.getElementById(title))
+          document.getElementById(id).style.display = "block";   
+      }
+  -->
 
   </script>
   

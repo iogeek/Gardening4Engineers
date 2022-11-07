@@ -1,11 +1,9 @@
 <head>
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--
-      <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-      <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
   
     
     <!-- Meta tags -->
@@ -29,6 +27,7 @@
           grid-template-columns: auto auto;
         }
 
+        /*
         .gridSideNav {
           color: #444;
           position: sticky;
@@ -40,6 +39,7 @@
           position: fixed;
           padding: 5px
         }
+        */
         
         .gridContent {
           position: relative;
@@ -50,8 +50,8 @@
           padding: 5px;
           right: 0;
         }
-        
-        .linkBtn, .accordion {
+ 
+        .linkBtn /*, .accordion*/ {
           background-color: #eee;
           color: #444;
           cursor: pointer;
@@ -64,7 +64,7 @@
           transition: 0.4s;
         }
         
-        .active, .linkBtn:hover, .accordion:hover {
+        .active, .linkBtn:hover /*, .accordion:hover */ {
           background-color: #ccc; 
         }
           
