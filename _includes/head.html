@@ -6,20 +6,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
   
     <script>
-
-var searchIndex = [
-  {% for post in site.posts %}
-    {
-      date: {
-        human: "{{ post.date | date: '%e %B %Y' }}",
-        machine: "{{ post.date | date: '%Y-%m-%d' }}"
-      },
-      excerpt: "{{ post.excerpt | strip_html | escape | strip }}",
-      title: "{{ post.title | escape }}",
-      url: "{{ site.baseurl }}{{ post.url }}"
-    }{% unless forloop.last %},{% endunless %}
-  {% endfor %}
-];
+      var searchIndex = [
+        {% for itm in site.collections %}
+          {
+            title: "{{ itm.title | escape }}",
+            path: "{{ itm.path | escape }}",
+            sequence: {{ itm.sequence }}
+          }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ];
 
       // To control active panel in accordion,  https://api.jqueryui.com/accordion/#option-active 
       $( function() {

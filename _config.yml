@@ -52,7 +52,7 @@ collections:
   techTips:
     output: true
     path: _techTips
-    sequence: 4
+    sequence: 5
     title: Tech Tips    
 
 # Build settings
