@@ -6,7 +6,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
   
     <script>
-      var searchIndex = [
+      var gNavCollection = [
         {% for itm in site.collections %}
           {
             title: "{{ itm.title | escape }}",
@@ -18,7 +18,27 @@
 
       // To control active panel in accordion,  https://api.jqueryui.com/accordion/#option-active 
       $( function() {
-        $( "#accordion" ).accordion();
+          
+          //var result = ages.find(({ name }) => name === "cherries");
+          var result = ages.find(({ a }) => a === "pic");
+          //var result = ages.find(a === "zz");
+          var str = 99;
+          if(result === undefined){ str = 99}
+          else {str = result.b;}
+
+          //var result = ages.find(({ a }) => a === "apples");
+          var pathName = window.location.pathname;
+          var pathLen = pathName.length;
+          //alert(window.location.hostname);
+          //alert (window.location.href);
+          //alert (window.location.pathname);
+          if (pathLen <= 1) {   // We at the home/root page
+            $( "#accordion" ).accordion();
+            return;
+          }
+          var strArray = pathName.substring(1, pathLen).split("/");
+          var title = strArray[0];
+          title = title.charAt(0).toUpperCase()+title.slice(1);
       } );
       </script>
     <!-- Meta tags -->
