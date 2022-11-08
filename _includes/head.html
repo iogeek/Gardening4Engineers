@@ -18,27 +18,24 @@
 
       // To control active panel in accordion,  https://api.jqueryui.com/accordion/#option-active 
       $( function() {
-          
-          //var result = ages.find(({ name }) => name === "cherries");
-          var result = ages.find(({ a }) => a === "pic");
-          //var result = ages.find(a === "zz");
-          var str = 99;
-          if(result === undefined){ str = 99}
-          else {str = result.b;}
-
-          //var result = ages.find(({ a }) => a === "apples");
           var pathName = window.location.pathname;
           var pathLen = pathName.length;
           //alert(window.location.hostname);
           //alert (window.location.href);
           //alert (window.location.pathname);
           if (pathLen <= 1) {   // We at the home/root page
-            $( "#accordion" ).accordion();
+            $( "#accordion" ).accordion(active: false);
             return;
           }
-          var strArray = pathName.substring(1, pathLen).split("/");
-          var title = strArray[0];
-          title = title.charAt(0).toUpperCase()+title.slice(1);
+          var t = pathName.substring(1, pathLen).split("/")[0];
+          t = t.charAt(0).toUpperCase()+t.slice(1);
+          var result = gNavCollection.find(({ title }) => title === t);
+          if (result === undefined) {   // Not a known path
+            $( "#accordion" ).accordion(active: false);
+            return;
+          }
+          var cnt = result.sequence - 1;
+          $( "#accordion" ).accordion(active: cnt);
       } );
       </script>
     <!-- Meta tags -->
