@@ -33,12 +33,17 @@
           var t = pathName.substring(1, pathLen).split("/")[0];
           t = t.charAt(0).toUpperCase()+t.slice(1);
           var result = gNavCollection.find(({ title }) => title === t);
+          //alert ("Accordian:title:"+ result.title);
           if (result === undefined) {   // Not a known path
             $( "#accordion" ).accordion({active: false});
             return;
           }
-          //alert ("Accordian:"+ result.navIdx);
-          $( "#accordion" ).accordion({active: result.navIdx});
+
+          //alert ("Accordian:sequence:"+ result.sequence);
+          //alert ("Accordian:nav_offset:"+ {{ site.nav_offset }} );
+          var navIdx = result.sequence - {{ site.nav_offset }};
+          //alert ("Accordian:navIdx:"+ navIdx);
+          $( "#accordion" ).accordion({active: navIdx});
       } );
       </script>
     <!-- Meta tags -->

@@ -18,7 +18,7 @@
   </div>
 -->
 <div>
-{% assign homeBtn = site.collections | sort: 'sequence' | first %}
+{% assign homeBtn = site.collections | where_exp: "site.collections", "title" | sort: 'sequence' | first %}
 <a href="{{ site.url | relative_url }}"  class="linkBtn">{{ homeBtn.title }}</a>
 <div id="accordion">
   {% for itm in sortedCollection %}
