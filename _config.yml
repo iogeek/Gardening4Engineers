@@ -37,22 +37,26 @@ collections:
     output: true
     path: _garden
     sequence: 2
+    navIdx: 0
     title: Garden
   projects:
     output: true
     path: _projects
     sequence: 3
+    navIdx: 1
     title: Projects
   recipes:
     layout: recipe
     output: true
     path: _recipe
     sequence: 4
+    navIdx: 2
     title: Recipes
   techTips:
     output: true
     path: _techTips
     sequence: 5
+    navIdx: 3
     title: Tech Tips    
 
 # Build settings

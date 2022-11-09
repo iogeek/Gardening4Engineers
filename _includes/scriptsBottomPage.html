@@ -1,7 +1,7 @@
 <script>
     {% assign sortedCollection = site.collections | sort: 'sequence' %}
     
-    <!--
+    /*<!--
       var gVisible = "none";
     
       function ToggleDiv(id) {
@@ -22,13 +22,13 @@
           }
       {% endif %}
       {% endfor %}
-    -->
+    --> */
 
     {% assign homePage = site.collections 
         | where_exp:"firstCollectionPage", "firstCollectionPage.sequence == 1" 
         | first %}
 
-    <!--
+    /*<!--
       var acc = document.getElementsByClassName("accordion");
       var i;
 
@@ -54,7 +54,7 @@
         if (document.getElementById(title))
           document.getElementById(id).style.display = "block";   
       }
-  -->
+  -->*/
 
   </script>
   

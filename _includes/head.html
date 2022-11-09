@@ -6,13 +6,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
   
     <script>
+      {% assign navCollection = site.collections | sort: 'sequence' %}
       var gNavCollection = [
         {% for itm in site.collections %}
-          {
-            title: "{{ itm.title | escape }}",
-            path: "{{ itm.path | escape }}",
-            sequence: {{ itm.sequence }}
-          }{% unless forloop.last %},{% endunless %}
+          {% if itm.title and itm.title != "" %}
+            {
+              title: "{{ itm.title | escape }}",
+              path: "{{ itm.path | escape }}",
+              sequence: {{ itm.sequence }}
+            }{% unless forloop.last %},{% endunless %}
+          {% endif %}
         {% endfor %}
       ];
 
@@ -24,18 +27,18 @@
           //alert (window.location.href);
           //alert (window.location.pathname);
           if (pathLen <= 1) {   // We at the home/root page
-            $( "#accordion" ).accordion(active: false);
+            $( "#accordion" ).accordion({active: true});
             return;
           }
           var t = pathName.substring(1, pathLen).split("/")[0];
           t = t.charAt(0).toUpperCase()+t.slice(1);
           var result = gNavCollection.find(({ title }) => title === t);
           if (result === undefined) {   // Not a known path
-            $( "#accordion" ).accordion(active: false);
+            $( "#accordion" ).accordion({active: false});
             return;
           }
-          var cnt = result.sequence - 1;
-          $( "#accordion" ).accordion(active: cnt);
+          //alert ("Accordian:"+ result.navIdx);
+          $( "#accordion" ).accordion({active: result.navIdx});
       } );
       </script>
     <!-- Meta tags -->
