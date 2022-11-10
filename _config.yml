@@ -25,7 +25,7 @@ baseurl: "/"  # the subpath of your site, e.g. /blog
 imagePath: /images
 url: "https://www.Gardening4Engineers.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  iogeek
-nav_offset: 2
+nav_offset: 2  # used by query ui accordion widget to determine panel to display
 
 collections: 
   home:
@@ -47,7 +47,7 @@ collections:
   recipes:
     layout: recipe
     output: true
-    path: _recipe
+    path: _recipes
     sequence: 4
     title: Recipes
   techTips:
