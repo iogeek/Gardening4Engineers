@@ -1,8 +1,8 @@
 ---
 layout: home
-title:  "Plant Information"
+title:  "Plant Data"
 date:   2020-09-01
-categories: planning info
+categories: plant data
 ---
  
 <style style="text/css">
@@ -55,7 +55,7 @@ categories: planning info
     }
   }
 </script>
-
+Plant data used in spreadsheets for planning.<br>
 <input type="text" id="myInput" onkeyup="myTableFilter()" placeholder="Search for..">
 <table id="myTable" class="hoverTable">
   <thead>

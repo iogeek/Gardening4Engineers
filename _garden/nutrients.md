@@ -1,14 +1,14 @@
 ---
 layout: home
-title:  "Nutrient Mixes"
+title:  "Nutrients"
 date:   2020-09-02
 categories: hydroponic nutrients 
 regenerate: true
 ---
  
 
-# Nutrient Deficiencies 
-
+# Deficiencies 
+Common symptoms and possible deficiencies to consider.
 <table id="myTable" class="hoverTable">
   <thead>
     <tr>
