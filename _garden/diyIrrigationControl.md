@@ -5,6 +5,7 @@ date:   2020-09-02
 categories: irrigation arduino
 regenerate: true
 ---
+This covers my v1 setup.  V2 is better...  way better.  Documentation to come.
  
 This project controls watering through a microcontroller/relay in a waterproof box with a  soleniod to regulate water.
 

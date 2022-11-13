@@ -12,7 +12,10 @@ regenerate: true
 ## DIY potting soil mix
 - https://sfyl.ifas.ufl.edu/lawn-and-garden/homemade-potting-mix/
 
-**Soil mix/blend I use**
+Pasteurizing soil - https://extension.oregonstate.edu/news/how-make-your-own-potting-soil
+
+**Potting mix I use**
 - 1 part compost
 - 1 part peat
 - 1 part vermiculite
+- Bonemeal (1cup per 5gal)
