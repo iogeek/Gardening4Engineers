@@ -2,14 +2,91 @@
 <html lang="en"><head>
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+  
+    <script>
+      
+      var gNavCollection = [
+        
+          
+            {
+              title: "Garden",
+              path: "_garden",
+              sequence: 2
+            },
+          
+        
+          
+            {
+              title: "Home",
+              path: "",
+              sequence: 1
+            },
+          
+        
+          
+        
+          
+            {
+              title: "Projects",
+              path: "_projects",
+              sequence: 3
+            },
+          
+        
+          
+            {
+              title: "Recipes",
+              path: "_recipes",
+              sequence: 4
+            },
+          
+        
+          
+            {
+              title: "Tech Tips",
+              path: "_techTips",
+              sequence: 5
+            }
+          
+        
+      ];
+
+      // To control active panel in accordion,  https://api.jqueryui.com/accordion/#option-active 
+      $( function() {
+          var pathName = window.location.pathname;
+          var pathLen = pathName.length;
+          //alert(window.location.hostname);
+          //alert (window.location.href);
+          //alert (window.location.pathname);
+          if (pathLen <= 1) {   // We at the home/root page
+            $( "#accordion" ).accordion({active: true});
+            return;
+          }
+          var t = "_" + pathName.substring(1, pathLen).split("/")[0];
+          //t = t.charAt(0).toUpperCase()+t.slice(1);
+         // alert ("Accordian:path:"+ t);
+          var result = gNavCollection.find(({ path }) => path === t);
+          //alert ("Accordian:title:"+ result.title);
+          if (result === undefined) {   // Not a known path
+            $( "#accordion" ).accordion({active: false});
+            return;
+          }
+
+          //alert ("Accordian:sequence:"+ result.sequence);
+          //alert ("Accordian:nav_offset:"+ 2 );
+          var navIdx = result.sequence - 2;
+          //alert ("Accordian:navIdx:"+ navIdx);
+          $( "#accordion" ).accordion({active: navIdx});
+      } );
+      </script>
     <!-- Meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico">
-    <title>
+     <title>
          About 
     </title>
       <meta name="description"
@@ -30,11 +107,13 @@
           top: 0; 
         }
 
+        /*
         .gridSideNavOld {
           float:left;
           position: fixed;
           padding: 5px
         }
+        */
         
         .gridContent {
           position: relative;
@@ -45,8 +124,8 @@
           padding: 5px;
           right: 0;
         }
-        
-        .linkBtn, .accordion {
+ 
+        .linkBtn /*, .accordion*/ {
           background-color: #eee;
           color: #444;
           cursor: pointer;
@@ -59,39 +138,39 @@
           transition: 0.4s;
         }
         
-          .active, .linkBtn:hover, .accordion:hover {
-            background-color: #ccc; 
-          }
+        .active, .linkBtn:hover /*, .accordion:hover */ {
+          background-color: #ccc; 
+        }
           
-          .panel {
-            padding: 0 18px;
-            display: none;
-            background-color: white;
-            overflow: hidden;
+        .panel {
+          padding: 0 18px;
+          display: none;
+          background-color: white;
+          overflow: hidden;
+        }
+
+        table {
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            border-bottom: 0;
           }
 
-          table {
-              border-left: 0;
-              border-right: 0;
-              border-top: 0;
-              border-bottom: 0;
-            }
+          table tr td {
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            border-bottom: 0;
+          }
 
-            table tr td {
-              border-left: 0;
-              border-right: 0;
-              border-top: 0;
-              border-bottom: 0;
-            }
-
-            table th {
-              border-left: 0;
-              border-right: 0;
-              border-top: 0;
-              border-bottom:1pt solid black;
-            }
+          table th {
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            border-bottom:1pt solid black;
+          }
             
-            .panel-note {
+          .panel-note {
             -moz-border-radius: 6px;
             -webkit-border-radius: 6px;
             background-color: #f0f7fb;
@@ -121,7 +200,9 @@
           }
         </style>
         <script>
+function onLoadBody() {
 
+}
 </script> 
 </head><body><header class="site-header" role="banner">
 

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+  
+    <script>
+      
+      var gNavCollection = [
+        
+          
+            {
+              title: "Garden",
+              path: "_garden",
+              sequence: 2
+            },
+          
+        
+          
+            {
+              title: "Home",
+              path: "",
+              sequence: 1
+            },
+          
+        
+          
+        
+          
+            {
+              title: "Projects",
+              path: "_projects",
+              sequence: 3
+            },
+          
+        
+          
+            {
+              title: "Recipes",
+              path: "_recipes",
+              sequence: 4
+            },
+          
+        
+          
+            {
+              title: "Tech Tips",
+              path: "_techTips",
+              sequence: 5
+            }
+          
+        
+      ];
+
+      // To control active panel in accordion,  https://api.jqueryui.com/accordion/#option-active 
+      $( function() {
+          var pathName = window.location.pathname;
+          var pathLen = pathName.length;
+          //alert(window.location.hostname);
+          //alert (window.location.href);
+          //alert (window.location.pathname);
+          if (pathLen <= 1) {   // We at the home/root page
+            $( "#accordion" ).accordion({active: true});
+            return;
+          }
+          var t = "_" + pathName.substring(1, pathLen).split("/")[0];
+          //t = t.charAt(0).toUpperCase()+t.slice(1);
+         // alert ("Accordian:path:"+ t);
+          var result = gNavCollection.find(({ path }) => path === t);
+          //alert ("Accordian:title:"+ result.title);
+          if (result === undefined) {   // Not a known path
+            $( "#accordion" ).accordion({active: false});
+            return;
+          }
+
+          //alert ("Accordian:sequence:"+ result.sequence);
+          //alert ("Accordian:nav_offset:"+ 2 );
+          var navIdx = result.sequence - 2;
+          //alert ("Accordian:navIdx:"+ navIdx);
+          $( "#accordion" ).accordion({active: navIdx});
+      } );
+      </script>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+     <title>
+         Hydroponic Setup 
+    </title>
+      <meta name="description"
+        content="Collection of tips about gardening and any other life adventures." />
+      <style>
+        .gridContainer {
+          display: grid;
+          grid-template-columns: max-content auto;
+        }
+
+        .gridContainerOld {
+          grid-template-columns: auto auto;
+        }
+
+        .gridSideNav {
+          color: #444;
+          position: sticky;
+          top: 0; 
+        }
+
+        /*
+        .gridSideNavOld {
+          float:left;
+          position: fixed;
+          padding: 5px
+        }
+        */
+        
+        .gridContent {
+          position: relative;
+        }
+
+        .gridContentOld {        
+          float:right;
+          padding: 5px;
+          right: 0;
+        }
+ 
+        .linkBtn /*, .accordion*/ {
+          background-color: #eee;
+          color: #444;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 15px;
+          transition: 0.4s;
+        }
+        
+        .active, .linkBtn:hover /*, .accordion:hover */ {
+          background-color: #ccc; 
+        }
+          
+        .panel {
+          padding: 0 18px;
+          display: none;
+          background-color: white;
+          overflow: hidden;
+        }
+
+        table {
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            border-bottom: 0;
+          }
+
+          table tr td {
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            border-bottom: 0;
+          }
+
+          table th {
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            border-bottom:1pt solid black;
+          }
+            
+          .panel-note {
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            background-color: #f0f7fb;
+            background-position: 5px 15px;
+            background-repeat: no-repeat;
+            border: solid 1px #3498db;
+            border-radius: 6px;
+            overflow: hidden;
+            padding: 13px 20px 15px 65px;
+            min-height: 80px;
+          }
+
+          .panel-note.top-padding {
+            padding-top: 25px;
+          }
+          
+          p.codeBlock{
+            box-sizing: border-box;
+            white-space: pre;
+            display: inline-block;
+            width: auto;
+            margin:auto;
+            padding: 10px; 
+            border: 2px solid #0066FF; 
+            background-color: lightgrey;
+            color: black;
+          }
+        </style>
+        <script>
+function onLoadBody() {
+
+}
+</script> 
+</head> 
+<body onload="onLoadBody()">
+  
+  <div class="gridContainer">
+  <div>
+
+<a href="https://www.Gardening4Engineers.com"  class="linkBtn"></a>
+<div id="accordion">
+  
+  
+  
+  
+    
+  
+  
+  
+    
+      <h3>Garden</h3>
+      <div>
+      
+        <br>
+        <a href="/garden/plantData.html">Plant Data</a>
+      
+        <br>
+        <a href="/garden/diyIrrigationControl.html">Sprinkler Control</a>
+      
+        <br>
+        <a href="/garden/diySquareFootIrrigation.html">Irrigation Grids</a>
+      
+        <br>
+        <a href="/garden/nutrients.html">Nutrients</a>
+      
+        <br>
+        <a href="/garden/readingSeedPacket.html">Reading seed packets</a>
+      
+        <br>
+        <a href="/garden/plantSpacing.html">Spacing</a>
+      
+        <br>
+        <a href="/garden/soilTips.html">Soil tips</a>
+      
+        <br>
+        <a href="/garden/diyHydroponic.html">Hydroponic Setup</a>
+      
+      </div>
+    
+  
+  
+  
+    
+      <h3>Projects</h3>
+      <div>
+      
+        <br>
+        <a href="/projects/settingUpPi.html">Setting up the Raspberry Pi</a>
+      
+        <br>
+        <a href="/projects/Pi-SoftwareRadio.html">Wireless 433mhz sensors</a>
+      
+        <br>
+        <a href="/projects/Pi-ePaper.html">Add ePaper display to Pi</a>
+      
+        <br>
+        <a href="/projects/debuggingRPi.html">Debugging Pi</a>
+      
+      </div>
+    
+  
+  
+  
+    
+      <h3>Recipes</h3>
+      <div>
+      
+        <br>
+        <a href="/recipes/meatloaf.html">Meatloaf</a>
+      
+        <br>
+        <a href="/recipes/pumpkinVeggieBurger.html">Pumpkin Veggie Burger</a>
+      
+        <br>
+        <a href="/recipes/spiceMixes/svanetiSalt.html">Svaneti Salt</a>
+      
+        <br>
+        <a href="/recipes/pizzaDough.html">Pizza Dough</a>
+      
+        <br>
+        <a href="/recipes/pizzaSourdough.html">Pizza Sourdough</a>
+      
+        <br>
+        <a href="/recipes/pumpkinLasagna.html">Pumpkin Lasagna</a>
+      
+        <br>
+        <a href="/recipes/squashWaffles.html">Squash Waffles</a>
+      
+        <br>
+        <a href="/recipes/pumpkinCurry.html">Pumpkin Curry</a>
+      
+      </div>
+    
+  
+  
+  
+    
+      <h3>Tech Tips</h3>
+      <div>
+      
+        <br>
+        <a href="/techTips/excel/excel.html">Excel - Find and color cells with notes</a>
+      
+        <br>
+        <a href="/techTips/regex.html">Regular Expressions</a>
+      
+      </div>
+    
+  
+  
+</div>
+</div> 
+  <div class="gridContent" id="contentPanel">
+  <h1>
+       Hydroponic Setup 
+  </h1>
+  <h1 id="documenting-my-hydroponic-setup">Documenting my hydroponic setup</h1>
+<p>Before building your own hydroponics, I strongly encourage to start with something small and simple.  My first setup was a simple bucket similar to <a href="https://blogs.ifas.ufl.edu/orangeco/2020/04/09/set-it-and-forget-it-hydroponics/">University of Florida blog</a>.  There is a lot of figure out  (lighting, nutrients, leaks, clogs, etc).</p>
+
+<p><a href="https://extension.okstate.edu/fact-sheets/hydroponics.html">Oklahoma State</a> has a great primer of the different types of hydroponic systems.</p>
+
+<h1 id="my-first-setup">My first setup</h1>
+<p>First setup was a “water culture system” using a rough tote container and an aquarium bubbler.</p>
+
+<p><img src="/images/hydroponics/waterCulture.jpg" alt="water culture system" /></p>
+
+<p><img src="/images/hydroponics/firstSetupPrep.jpg" alt="Prepping the container view" width="10%" />
+ <img src="/images/hydroponics/firstSetupDrilledHoles.jpg" alt="First hole drilled" width="10%" />
+ <img src="/images/hydroponics/drillingHoles.jpg" alt="Drilling the holes" width="10%" />
+ <img src="/images/hydroponics/firstSetupSuccess.jpg" alt="First success" width="10%" /></p>
+
+<h1 id="picking-a-nutrient-mix">Picking a nutrient mix</h1>
+<p>I purchase commercial nutrient mixes.  Ingredients between brands are inconsistent.  To help understands the nutrients your setup will need, typing “hydroponic recipe edu” into your browser should bring up some peer reviewed publications.</p>
+
+<h1 id="aeroponics-for-the-outdoors">Aeroponics for the outdoors</h1>
+<p>My outdoor lettuce / basil system sprays the roots from below.</p>
+
+<p><img src="/images/hydroponics/aeroponic.jpg" alt="aeroponics system" /></p>
+
+<p>Problems I avoided:</p>
+<ul>
+  <li>Lighting expense.  No charge to use the the sun.</li>
+</ul>
+
+<p>Problems I continue to have:</p>
+<ul>
+  <li>Leaking.  My mitigation is regular checks and planting strawberries underneath the hydroponics.</li>
+  <li>Clogging misters - Mitigation is  spot checks and the occasional cleaning of a nozzle.</li>
+</ul>
+
+<p><img src="/images/hydroponics/hydroRailTop.png" alt="Top view" width="20%" /></p>
+
+<p><img src="/images/hydroponics/hydroRailSide.jpg" alt="Top view" width="20%" /></p>
+
+    
+  </div>
+  </div>
+<script>
+    
+    
+
+    
+
+  </script>
+  
+</body>
+</html>

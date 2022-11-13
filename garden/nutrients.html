@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+  
+    <script>
+      
+      var gNavCollection = [
+        
+          
+            {
+              title: "Garden",
+              path: "_garden",
+              sequence: 2
+            },
+          
+        
+          
+            {
+              title: "Home",
+              path: "",
+              sequence: 1
+            },
+          
+        
+          
+        
+          
+            {
+              title: "Projects",
+              path: "_projects",
+              sequence: 3
+            },
+          
+        
+          
+            {
+              title: "Recipes",
+              path: "_recipes",
+              sequence: 4
+            },
+          
+        
+          
+            {
+              title: "Tech Tips",
+              path: "_techTips",
+              sequence: 5
+            }
+          
+        
+      ];
+
+      // To control active panel in accordion,  https://api.jqueryui.com/accordion/#option-active 
+      $( function() {
+          var pathName = window.location.pathname;
+          var pathLen = pathName.length;
+          //alert(window.location.hostname);
+          //alert (window.location.href);
+          //alert (window.location.pathname);
+          if (pathLen <= 1) {   // We at the home/root page
+            $( "#accordion" ).accordion({active: true});
+            return;
+          }
+          var t = "_" + pathName.substring(1, pathLen).split("/")[0];
+          //t = t.charAt(0).toUpperCase()+t.slice(1);
+         // alert ("Accordian:path:"+ t);
+          var result = gNavCollection.find(({ path }) => path === t);
+          //alert ("Accordian:title:"+ result.title);
+          if (result === undefined) {   // Not a known path
+            $( "#accordion" ).accordion({active: false});
+            return;
+          }
+
+          //alert ("Accordian:sequence:"+ result.sequence);
+          //alert ("Accordian:nav_offset:"+ 2 );
+          var navIdx = result.sequence - 2;
+          //alert ("Accordian:navIdx:"+ navIdx);
+          $( "#accordion" ).accordion({active: navIdx});
+      } );
+      </script>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+     <title>
+         Nutrients 
+    </title>
+      <meta name="description"
+        content="Collection of tips about gardening and any other life adventures." />
+      <style>
+        .gridContainer {
+          display: grid;
+          grid-template-columns: max-content auto;
+        }
+
+        .gridContainerOld {
+          grid-template-columns: auto auto;
+        }
+
+        .gridSideNav {
+          color: #444;
+          position: sticky;
+          top: 0; 
+        }
+
+        /*
+        .gridSideNavOld {
+          float:left;
+          position: fixed;
+          padding: 5px
+        }
+        */
+        
+        .gridContent {
+          position: relative;
+        }
+
+        .gridContentOld {        
+          float:right;
+          padding: 5px;
+          right: 0;
+        }
+ 
+        .linkBtn /*, .accordion*/ {
+          background-color: #eee;
+          color: #444;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 15px;
+          transition: 0.4s;
+        }
+        
+        .active, .linkBtn:hover /*, .accordion:hover */ {
+          background-color: #ccc; 
+        }
+          
+        .panel {
+          padding: 0 18px;
+          display: none;
+          background-color: white;
+          overflow: hidden;
+        }
+
+        table {
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            border-bottom: 0;
+          }
+
+          table tr td {
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            border-bottom: 0;
+          }
+
+          table th {
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            border-bottom:1pt solid black;
+          }
+            
+          .panel-note {
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            background-color: #f0f7fb;
+            background-position: 5px 15px;
+            background-repeat: no-repeat;
+            border: solid 1px #3498db;
+            border-radius: 6px;
+            overflow: hidden;
+            padding: 13px 20px 15px 65px;
+            min-height: 80px;
+          }
+
+          .panel-note.top-padding {
+            padding-top: 25px;
+          }
+          
+          p.codeBlock{
+            box-sizing: border-box;
+            white-space: pre;
+            display: inline-block;
+            width: auto;
+            margin:auto;
+            padding: 10px; 
+            border: 2px solid #0066FF; 
+            background-color: lightgrey;
+            color: black;
+          }
+        </style>
+        <script>
+function onLoadBody() {
+
+}
+</script> 
+</head> 
+<body onload="onLoadBody()">
+  
+  <div class="gridContainer">
+  <div>
+
+<a href="https://www.Gardening4Engineers.com"  class="linkBtn"></a>
+<div id="accordion">
+  
+  
+  
+  
+    
+  
+  
+  
+    
+      <h3>Garden</h3>
+      <div>
+      
+        <br>
+        <a href="/garden/plantData.html">Plant Data</a>
+      
+        <br>
+        <a href="/garden/diyIrrigationControl.html">Sprinkler Control</a>
+      
+        <br>
+        <a href="/garden/diySquareFootIrrigation.html">Irrigation Grids</a>
+      
+        <br>
+        <a href="/garden/nutrients.html">Nutrients</a>
+      
+        <br>
+        <a href="/garden/readingSeedPacket.html">Reading seed packets</a>
+      
+        <br>
+        <a href="/garden/plantSpacing.html">Spacing</a>
+      
+        <br>
+        <a href="/garden/soilTips.html">Soil tips</a>
+      
+        <br>
+        <a href="/garden/diyHydroponic.html">Hydroponic Setup</a>
+      
+      </div>
+    
+  
+  
+  
+    
+      <h3>Projects</h3>
+      <div>
+      
+        <br>
+        <a href="/projects/settingUpPi.html">Setting up the Raspberry Pi</a>
+      
+        <br>
+        <a href="/projects/Pi-SoftwareRadio.html">Wireless 433mhz sensors</a>
+      
+        <br>
+        <a href="/projects/Pi-ePaper.html">Add ePaper display to Pi</a>
+      
+        <br>
+        <a href="/projects/debuggingRPi.html">Debugging Pi</a>
+      
+      </div>
+    
+  
+  
+  
+    
+      <h3>Recipes</h3>
+      <div>
+      
+        <br>
+        <a href="/recipes/meatloaf.html">Meatloaf</a>
+      
+        <br>
+        <a href="/recipes/pumpkinVeggieBurger.html">Pumpkin Veggie Burger</a>
+      
+        <br>
+        <a href="/recipes/spiceMixes/svanetiSalt.html">Svaneti Salt</a>
+      
+        <br>
+        <a href="/recipes/pizzaDough.html">Pizza Dough</a>
+      
+        <br>
+        <a href="/recipes/pizzaSourdough.html">Pizza Sourdough</a>
+      
+        <br>
+        <a href="/recipes/pumpkinLasagna.html">Pumpkin Lasagna</a>
+      
+        <br>
+        <a href="/recipes/squashWaffles.html">Squash Waffles</a>
+      
+        <br>
+        <a href="/recipes/pumpkinCurry.html">Pumpkin Curry</a>
+      
+      </div>
+    
+  
+  
+  
+    
+      <h3>Tech Tips</h3>
+      <div>
+      
+        <br>
+        <a href="/techTips/excel/excel.html">Excel - Find and color cells with notes</a>
+      
+        <br>
+        <a href="/techTips/regex.html">Regular Expressions</a>
+      
+      </div>
+    
+  
+  
+</div>
+</div> 
+  <div class="gridContent" id="contentPanel">
+  <h1>
+       Nutrients 
+  </h1>
+  <h1 id="deficiencies">Deficiencies</h1>
+<p>Common symptoms and possible deficiencies to consider.</p>
+<table id="myTable" class="hoverTable">
+  <thead>
+    <tr>
+      <th>nutrient</th>
+      <th>symptom</th>
+    </tr>
+  </thead>
+  <tbody> 
+
+  <tr>
+    <td>Nitrogen </td>
+    <td>Entire plant is light green in color; lower leaves are yellow; growth is stunted </td>
+  </tr>
+
+  <tr>
+    <td>Boron </td>
+    <td>Young leaves are scorched at tips and margins </td>
+  </tr>
+
+  <tr>
+    <td>Molybdenum </td>
+    <td>Leaves are stunted, pale green, and malformed </td>
+  </tr>
+
+  <tr>
+    <td>Potassium </td>
+    <td>Leaves have a papery appearance; dead areas along the edges of the leaves; growth is stunted </td>
+  </tr>
+
+  <tr>
+    <td>Magnesium </td>
+    <td>Lower leaves turn yellow along the tips and margin and between the veins; the lower leaves wilt </td>
+  </tr>
+
+  <tr>
+    <td>Calcium </td>
+    <td>Young stems and new leaves die </td>
+  </tr>
+
+  <tr>
+    <td>Phosphorous </td>
+    <td>Entire plant is bluish-green, often developing a red or purplish cast; lower leaves may be yellow, drying to a greenish-brown to black color; growth may be stunted </td>
+  </tr>
+
+  <tr>
+    <td>Zinc </td>
+    <td>Leaf tissue between the veins is lighter in color; yellowed; papery in appearance </td>
+  </tr>
+
+  <tr>
+    <td>Nitrogen </td>
+    <td>Leaf tissue appears yellow, while the veins remain green </td>
+  </tr>
+
+  <tr>
+    <td>Copper </td>
+    <td>Leaf edges appear dark green or blue; leaf edges curl upward; young leaves permanently wilt </td>
+  </tr>
+
+  <tr>
+    <td>Sulfur </td>
+    <td>Young leaves turn pale green, while the older leaves remain green; plant is stunted and spindly </td>
+  </tr>
+
+  <tr>
+    <td>Manganese </td>
+    <td>Growth is stunted; lower leaves have a checkered pattern of yellow and green </td>
+  </tr>
+
+</tbody>
+</table>
+
+<p>Table sources from</p>
+<ul>
+  <li>https://ext.vt.edu/content/pubs_ext_vt_edu/en/426/426-084/426-084.html</li>
+  <li>https://www.pubs.ext.vt.edu/content/dam/pubs_ext_vt_edu/426/426-323/SPES-295.pdf</li>
+  <li>https://extension.umn.edu/how/small-scale-hydroponics#fertilizing-2645213</li>
+</ul>
+
+    
+  </div>
+  </div>
+<script>
+    
+    
+
+    
+
+  </script>
+  
+</body>
+</html>
