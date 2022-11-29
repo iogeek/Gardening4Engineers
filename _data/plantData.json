@@ -1,7 +1,7 @@
 [
     {
         "CommonType": "flower",
-        "CommonName": null,
+        "CommonName": "Ageratum",
         "Genus":"Ageratum",
         "Species":null,
         "Exposure": null,
@@ -41,7 +41,7 @@
     },
     {
         "CommonType": "flower",
-        "CommonName": null,
+        "CommonName": "Amaranthus",
         "Genus":"Amaranthus",
         "Species":null,
         "Exposure": null,
@@ -121,7 +121,7 @@
     },
     {
         "CommonType": "flower",
-        "CommonName": null,
+        "CommonName": "Aster",
         "Genus":"Aster",
         "Species":null,
         "Exposure": null,
@@ -141,7 +141,7 @@
     },
     {
         "CommonType": "flower",
-        "CommonName": null,
+        "CommonName": "Calendula",
         "Genus":"Calendula",
         "Species":null,
         "Exposure": null,
@@ -241,7 +241,7 @@
     },
     {
         "CommonType": "flower",
-        "CommonName": null,
+        "CommonName": "Celosia",
         "Genus":"Celosia",
         "Species":null,
         "Exposure": null,
@@ -301,7 +301,7 @@
     },
     {
         "CommonType": "flower",
-        "CommonName": null,
+        "CommonName": "Coleus",
         "Genus":"Coleus",
         "Species":null,
         "Exposure": null,
@@ -441,7 +441,7 @@
     },
     {
         "CommonType": "flower",
-        "CommonName": null,
+        "CommonName": "Eucalyptus",
         "Genus":"Eucalyptus",
         "Species":null,
         "Exposure": null,
@@ -561,7 +561,7 @@
     },
     {
         "CommonType": "flower",
-        "CommonName": null,
+        "CommonName": "Hibiscus",
         "Genus":"Hibiscus",
         "Species":null,
         "Exposure": null,
@@ -881,7 +881,7 @@
     },
     {
         "CommonType": "flower",
-        "CommonName": null,
+        "CommonName": "Salvia",
         "Genus":"Salvia",
         "Species":null,
         "Exposure": null,
