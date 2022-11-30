@@ -58,8 +58,12 @@ Problems I continue to have:
 
 
 # References
-Full credit to the university publications below for guiding me in my learning.  Please visit the links below for far more detail.
+Full credit to the university publications below as my learning guides.
 
 - [University of Florida blog](https://blogs.ifas.ufl.edu/orangeco/2020/04/09/set-it-and-forget-it-hydroponics/).
 - [Oklahoma State hydroponic fact sheet](https://extension.okstate.edu/fact-sheets/hydroponics.html)
-- 
+- https://extension.umn.edu/how/small-scale-hydroponics
+- https://www.nal.usda.gov/farms-and-agricultural-production-systems/hydroponics
+- https://www.nps.gov/articles/hydroponics.htm
+- https://ceac.arizona.edu/sites/default/files/Ch5.pdf
+- https://gardeningsolutions.ifas.ufl.edu/plants/edibles/vegetables/hydroponic-vegetable-gardening.html
