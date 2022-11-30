@@ -17,15 +17,27 @@ Before building your own hydroponics, I strongly encourage to start with somethi
  
 ![water culture system]({{ site.imagePath | relative_url }}/hydroponics/waterCulture.jpg)
 
- ![Prepping the container view]({{ site.imagePath | relative_url }}/hydroponics/firstSetupPrep.jpg){:width="10%"}
- ![First hole drilled]({{ site.imagePath | relative_url }}/hydroponics/firstSetupDrilledHoles.jpg){:width="10%"}
+## Building it
+ ![Prepping the container view]({{ site.imagePath | relative_url }}/hydroponics/firstSetupPrep.jpg){:width="20%"}
+ ![First hole drilled]({{ site.imagePath | relative_url }}/hydroponics/firstSetupDrilledHoles.jpg){:width="15%"}
  ![Drilling the holes]({{ site.imagePath | relative_url }}/hydroponics/drillingHoles.jpg){:width="10%"}
  ![First success]({{ site.imagePath | relative_url }}/hydroponics/firstSetupSuccess.jpg){:width="10%"}
+
+## Results
+I set this up in a greenhouse during winter.  The system worked but required heat mats to overcome the cold.  The increased greenhouse temp and lack of aphid predators provided a different challenge.
+
+# Second attempt.  A drip system
+ Outdoor drip system
+
+## Building it
+
+## Results
+System produced well.  Birds and other wildlife seemed to love the water supply and would introduce leaks as they knocked drip tubes away from  plants.
 
 # Picking a nutrient mix
 I purchase commercial nutrient mixes.  Ingredients between brands are inconsistent.  To help understands the nutrients your setup will need, typing "hydroponic recipe edu" into your browser should bring up some peer reviewed publications. 
 
-# Aeroponics for the outdoors
+# Third attempt - Aeroponics for the outdoors
 My outdoor lettuce / basil system sprays the roots from below. 
 
  ![aeroponics system]({{ site.imagePath | relative_url }}/hydroponics/aeroponic.jpg)
@@ -44,3 +56,10 @@ Problems I continue to have:
  ![Top view]({{ site.imagePath | relative_url }}/hydroponics/hydroRailSide.jpg){:width="20%"}
 
 
+
+# References
+Full credit to the university publications below for guiding me in my learning.  Please visit the links below for far more detail.
+
+- [University of Florida blog](https://blogs.ifas.ufl.edu/orangeco/2020/04/09/set-it-and-forget-it-hydroponics/).
+- [Oklahoma State hydroponic fact sheet](https://extension.okstate.edu/fact-sheets/hydroponics.html)
+- 
