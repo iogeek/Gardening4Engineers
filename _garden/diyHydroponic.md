@@ -6,9 +6,10 @@ categories: hydroponic diy
 regenerate: true
 ---
  
+Hydroponics is another of my "let's learn" journeys. Kudos to the University publications (listed at the end) and [Master Gardeners](https://en.wikipedia.org/wiki/Master_gardener_program) which have provided hints and guidance.
 
 # Documenting my hydroponic setup
-Before building your own hydroponics, I strongly encourage to start with something small and simple.  My first setup was a simple bucket similar to [University of Florida blog](https://blogs.ifas.ufl.edu/orangeco/2020/04/09/set-it-and-forget-it-hydroponics/).  There is a lot of figure out  (lighting, nutrients, leaks, clogs, etc). 
+   building your own hydroponics, I strongly encourage to start with something small and simple.  My first setup was a simple bucket similar to [University of Florida blog](https://blogs.ifas.ufl.edu/orangeco/2020/04/09/set-it-and-forget-it-hydroponics/).  There is a lot of figure out  (lighting, nutrients, leaks, clogs, etc). 
 
 [Oklahoma State](https://extension.okstate.edu/fact-sheets/hydroponics.html) has a great primer of the different types of hydroponic systems.
 
