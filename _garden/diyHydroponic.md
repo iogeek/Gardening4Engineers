@@ -58,16 +58,13 @@ Setup outdoors with lettuce and basil.  System produced well.  Birds and other w
 ![drip success]({{ site.imagePath | relative_url }}/hydroponics/secondSetupSuccess.jpg){:width="40%"}
 
 # Third setup - Aeroponics 
-My outdoor lettuce / basil system sprays the roots from below. 
-
 ![aeroponics system]({{ site.imagePath | relative_url }}/hydroponics/aeroponic.jpg)
 
-Problems I avoided:
-- Lighting expense.  No charge to use the the sun. 
+## Building it
+Similar to the drip system except 1/2" drip is run within the fence post sleeve with a mister underneath each plant. 
 
-Problems I continue to have:
-- Leaking.  My mitigation is regular checks and planting strawberries underneath the hydroponics.  
-- Clogging misters - Mitigation is  spot checks and the occasional cleaning of a nozzle.
+## Results
+Setup outdoors with lettuce and basil.  System produces well. No issues other than an occasional leak. Mitigated this by planting strawberries underneath.  As heavy feeders, they do not mind.
 
 
  ![Top view]({{ site.imagePath | relative_url }}/hydroponics/hydroRailTop.png){:width="20%"}
@@ -75,7 +72,9 @@ Problems I continue to have:
  ![Top view]({{ site.imagePath | relative_url }}/hydroponics/hydroRailSide.jpg){:width="20%"}
 
 # Nutrients
-I purchase commercial nutrient mixes.  Ingredients between brands are inconsistent.  To help understands the nutrients your setup will need, typing "hydroponic recipe edu" into your browser should bring up some peer reviewed publications. 
+Currently purchase commercial nutrient mixes.  Ingredients between brands are inconsistent.  To help understand  nutrients needed, typing "hydroponic recipe edu" into your browser should bring up some peer reviewed publications.  I have used these as a purchasing guide.
+
+Complete change out of the water every two weeks.  Old water is used in the "soil" garden. 
 
 # References
 Full credit to the university publications below as my learning guides.
@@ -87,3 +86,6 @@ Full credit to the university publications below as my learning guides.
 - https://www.nps.gov/articles/hydroponics.htm
 - https://ceac.arizona.edu/sites/default/files/Ch5.pdf
 - https://gardeningsolutions.ifas.ufl.edu/plants/edibles/vegetables/hydroponic-vegetable-gardening.html
+- https://extension.psu.edu/hydroponics-systems-nutrient-solution-programs-and-recipes
+- https://extension.psu.edu/hydroponics-systems-using-the-two-basic-equations-to-calculate-a-nutrient-solution-recipe
+- http://hort.cornell.edu/greenhouse/crops/factsheets/hydroponic-recipes.pdf
