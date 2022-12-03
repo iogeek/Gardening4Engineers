@@ -82,6 +82,7 @@ Full credit to the university publications below as my learning guides.
 - [University of Florida blog](https://blogs.ifas.ufl.edu/orangeco/2020/04/09/set-it-and-forget-it-hydroponics/).
 - [Oklahoma State hydroponic fact sheet](https://extension.okstate.edu/fact-sheets/hydroponics.html)
 - https://extension.umn.edu/how/small-scale-hydroponics
+- https://piedmontmastergardeners.org/article/a-hydroponics-primer/
 - https://www.nal.usda.gov/farms-and-agricultural-production-systems/hydroponics
 - https://www.nps.gov/articles/hydroponics.htm
 - https://ceac.arizona.edu/sites/default/files/Ch5.pdf
