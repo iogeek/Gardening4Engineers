@@ -82,23 +82,23 @@ Plant data used in spreadsheets for planning.<br>
   <tbody> 
 {% for itm in site.data.plantData %}
   <tr>
-    <td>{{ itm.commonType }} </td>
-    <td>{{ itm.commonName }} </td>
-    <td>{{ itm.genus }} </td>
-    <td>{{ itm.species }} </td>
-    <td>{{ itm.indoorSow }} </td>
-    <td>{{ itm.hardenTime }} </td>
-    <td>{{ itm.outdoorSow }} </td>
-    <td>{{ itm.perSquare }} </td>
-    <td>{{ itm.spacing }} </td>
-    <td>{{ itm.spacingNotes }} </td>
-    <td>{{ itm.exposure }} </td>
-    <td>{{ itm.soilPH }} </td>
-    <td>{{ itm.soilTemp }} </td>
-    <td>{{ itm.soilType }} </td>
-    <td>{{ itm.maturity }} </td>
-    <td>{{ itm.harvestNotes }} </td>
-    <td>{{ itm.notes }} </td>
+    <td>{{ itm.CommonType }} </td>
+    <td>{{ itm.CommonName }} </td>
+    <td>{{ itm.Genus }} </td>
+    <td>{{ itm.Species }} </td>
+    <td>{{ itm.IndoorSow }} </td>
+    <td>{{ itm.HardenTime }} </td>
+    <td>{{ itm.OutdoorSow }} </td>
+    <td>{{ itm.PerSquare }} </td>
+    <td>{{ itm.Spacing }} </td>
+    <td>{{ itm.SpacingNotes }} </td>
+    <td>{{ itm.Exposure }} </td>
+    <td>{{ itm.SoilPH }} </td>
+    <td>{{ itm.SoilTemp }} </td>
+    <td>{{ itm.SoilType }} </td>
+    <td>{{ itm.Maturity }} </td>
+    <td>{{ itm.HarvestNotes }} </td>
+    <td>{{ itm.Notes }} </td>
   </tr>
 {% endfor %}
 </tbody>
