@@ -61,7 +61,7 @@
     },
     {
         "CommonType": "flower",
-        "CommonName": "False Queen Anne's Lace",
+        "CommonName": "False Queen Annes Lace",
         "Genus":"Ammi",
         "Species":null,
         "Exposure": null,
@@ -261,7 +261,7 @@
     },
     {
         "CommonType": "flower",
-        "CommonName": "Bachelor's Button",
+        "CommonName": "Bachelors Button",
         "Genus":"Centaurea",
         "Species":"Centaurea cyanus",
         "Exposure": null,
@@ -641,7 +641,7 @@
     },
     {
         "CommonType": "flower",
-        "CommonName": "Lamb's Ear",
+        "CommonName": "Lambs Ear",
         "Genus":"Stachys",
         "Species":"Stachys byzantina",
         "Exposure": "",
@@ -2306,7 +2306,7 @@
         "Species":"Brassica rapa",
         "Exposure": null,
         "HardenTime": null,
-        "HarvestNotes": "Harvest when 'belly' turns from white to creamy yellow.",
+        "HarvestNotes": "Harvest when belly turns from white to creamy yellow.",
         "Id": 129,
         "IndoorSow": null,
         "Maturity": "80-100",
