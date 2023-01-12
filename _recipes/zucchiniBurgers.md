@@ -6,9 +6,8 @@ categories: burger vegetarian recipe
 ingredients: 
   - 2.5 C shredded Zucchini
  About 1 1/4 tsp. kosher salt, divided
- 4 1/2 tablespoons olive oil, divided
- 1 cup chopped mushrooms
- 1/3 cup chopped shallot
+  - 4 1/2 tablespoons high heat oil
+  - 1/3 cup chopped onion
  1 garlic clove, minced
  About 1/2 tsp. pepper, divided
  1/2 teaspoon ground coriander
