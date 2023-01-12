@@ -19,6 +19,9 @@ ingredients:
  1/2 lemon
 
 instructions: 
+
+Need to grab and modify instrustions from sunset
+
   - Preheat oven to 375°F.
   - Mix all in ingredients in a big bowl.
   - In a food processor, add in  all of the ingredients. Process for 30-45 seconds, or until all ingredients are blended together but still remain a bit chunky.
