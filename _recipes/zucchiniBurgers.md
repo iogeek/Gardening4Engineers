@@ -31,10 +31,10 @@ cookmins: 0
 image: flapjack.jpg
 thumbnail: flapjack.jpg
 tags: 
-  - pumpkin
+  - zucchini
   - recipe
   - vegetarian
 ---
-Loosely based on this recipe from Sunset 
+Loosely based on a recipe from Sunset 
 https://www.sunset.com/recipe/zucchini-burgers
 
