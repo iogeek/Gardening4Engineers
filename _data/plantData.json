@@ -61,11 +61,7 @@
     },
     {
         "CommonType": "flower",
-<<<<<<< HEAD
-        "CommonName": "False Queen Anne's Lace",
-=======
         "CommonName": "False Queen Annes Lace",
->>>>>>> dev
         "Genus":"Ammi",
         "Species":null,
         "Exposure": null,
@@ -265,11 +261,7 @@
     },
     {
         "CommonType": "flower",
-<<<<<<< HEAD
-        "CommonName": "Bachelor's Button",
-=======
         "CommonName": "Bachelors Button",
->>>>>>> dev
         "Genus":"Centaurea",
         "Species":"Centaurea cyanus",
         "Exposure": null,
@@ -648,28 +640,24 @@
         "SpacingNotes": null
     },
     {
-        "CommonType": "flower",
-<<<<<<< HEAD
-        "CommonName": "Lamb's Ear",
-=======
-        "CommonName": "Lambs Ear",
->>>>>>> dev
-        "Genus":"Stachys",
-        "Species":"Stachys byzantina",
-        "Exposure": "",
-        "HardenTime": "",
-        "HarvestNotes": "",
-        "Id": 142,
-        "IndoorSow": "no",
-        "Maturity": "",
-        "Notes": "drought, deer, and heat resistant",
-        "OutdoorSow": "fall",
-        "PerSquare": "",
-        "SoilPH": "",
-        "SoilTemp": "",
-        "SoilType": "loamy",
-        "Spacing": "",
-        "SpacingNotes": "12in"
+        "commonType": "flower",
+        "commonName": "Lambs Ear",
+        "genus":"Stachys",
+        "species":"Stachys byzantina",
+        "exposure": "",
+        "hardenTime": "",
+        "harvestNotes": "",
+        "id": 142,
+        "indoorSow": "no",
+        "maturity": "",
+        "notes": "drought, deer, and heat resistant",
+        "outdoorSow": "fall",
+        "perSquare": "",
+        "soilPH": "",
+        "soilTemp": "",
+        "soilType": "loamy",
+        "spacing": "",
+        "spacingNotes": "12in"
     },
     {
         "CommonType": "flower",
@@ -2312,28 +2300,24 @@
         "SpacingNotes": "1 withstakes\n4 with cage\n9 no support"
     },
     {
-        "CommonType": "veg",
-        "CommonName": "Turnip",
-        "Genus":"Brassica",
-        "Species":"Brassica rapa",
-        "Exposure": null,
-        "HardenTime": null,
-<<<<<<< HEAD
-        "HarvestNotes": "Harvest when 'belly' turns from white to creamy yellow.",
-=======
-        "HarvestNotes": "Harvest when belly turns from white to creamy yellow.",
->>>>>>> dev
-        "Id": 129,
-        "IndoorSow": null,
-        "Maturity": "80-100",
-        "Notes": null,
-        "OutdoorSow": null,
-        "PerSquare": "9",
-        "SoilPH": null,
-        "SoilTemp": "40",
-        "SoilType": null,
-        "Spacing": null,
-        "SpacingNotes": null
+        "commonType": "veg",
+        "commonName": "Turnip",
+        "genus":"Brassica",
+        "species":"Brassica rapa",
+        "exposure": null,
+        "hardenTime": null,
+        "harvestNotes": "Harvest when belly turns from white to creamy yellow.",
+        "id": 129,
+        "indoorSow": null,
+        "maturity": "80-100",
+        "notes": null,
+        "outdoorSow": null,
+        "perSquare": "9",
+        "soilPH": null,
+        "soilTemp": "40",
+        "soilType": null,
+        "spacing": null,
+        "spacingNotes": null
     },
     {
         "CommonType": "veg",
