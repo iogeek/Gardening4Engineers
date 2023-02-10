@@ -360,6 +360,7 @@
         "SpacingNotes": null
     },
     {
+        "Id": 20,
         "CommonType": "flower",
         "CommonName": "Drumstick Flower",
         "Genus":"Craspedia",
@@ -367,7 +368,6 @@
         "Exposure": null,
         "HardenTime": "0",
         "HarvestNotes": null,
-        "Id": 20,
         "IndoorSow": "8 to 10",
         "Maturity": null,
         "Notes": null,
@@ -380,6 +380,7 @@
         "SpacingNotes": null
     },
     {
+        "Id": 22,
         "CommonType": "flower",
         "CommonName": "larkspur",
         "Genus":"Delphinium",
@@ -387,7 +388,6 @@
         "Exposure": null,
         "HardenTime": "0",
         "HarvestNotes": null,
-        "Id": 22,
         "IndoorSow": "10 to 16",
         "Maturity": null,
         "Notes": null,
