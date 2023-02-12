@@ -10,11 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'pull master'
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v3.3.0
       - name: 'setup ruby'
-        uses: actions/setup-ruby@v1.1.2
+        uses: ruby/setup-ruby@v1
         with: 
-          ruby-version: '2.7'
+          ruby-version: '3.0'
       - name: 'install jekyll'
         run: |
           gem install bundler
@@ -23,7 +23,7 @@ jobs:
         run: | 
           bundle exec jekyll build -d _site
       - name: Deploy_To_GithubPage
-        uses: JamesIves/github-pages-deploy-action@3.7.1
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           ACCESS_TOKEN: ${{ secrets.JEKYLL_PAT }}
           BRANCH: gh-pages # The branch the action should deploy to.
