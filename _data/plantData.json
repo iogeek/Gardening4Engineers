@@ -1540,6 +1540,7 @@
         "SpacingNotes": "4 per 9 squares"
     },
     {
+        "Id": 81,
         "CommonType": "veg",
         "CommonName": "Cantaloupe",
         "Genus":"Cucumis",
@@ -1547,7 +1548,6 @@
         "Exposure": null,
         "HardenTime": "2",
         "HarvestNotes": "When mature, stem separates easily from melon.",
-        "Id": 81,
         "IndoorSow": "4.5",
         "Maturity": "75-100",
         "Notes": null,
@@ -1560,6 +1560,7 @@
         "SpacingNotes": "2 with trellis"
     },
     {
+        "Id": 82,
         "CommonType": "veg",
         "CommonName": "Carrot",
         "Genus":"Daucus",
@@ -1567,7 +1568,6 @@
         "Exposure": "full / partial",
         "HardenTime": "no",
         "HarvestNotes": "Harvest when orange shoulder pushes through the soil. ½\" to ¾\" at shoulder",
-        "Id": 82,
         "IndoorSow": "no",
         "Maturity": "60-80",
         "Notes": "slow to germinate (3-4 w)",
@@ -1580,6 +1580,7 @@
         "SpacingNotes": null
     },
     {
+        "Id": 83,
         "CommonType": "veg",
         "CommonName": "Cauliflower",
         "Genus":"Brassica",
@@ -1587,7 +1588,6 @@
         "Exposure": null,
         "HardenTime": "-2",
         "HarvestNotes": "Blanch heads when 2-3 across by carefully tying leaves over heads.",
-        "Id": 83,
         "IndoorSow": "4 to 6",
         "Maturity": "55-80*",
         "Notes": null,
@@ -1600,6 +1600,7 @@
         "SpacingNotes": "4 per 9 squares"
     },
     {
+        "Id": 84,
         "CommonType": "veg",
         "CommonName": "Celery",
         "Genus":"Apium",
@@ -1607,7 +1608,6 @@
         "Exposure": null,
         "HardenTime": "-4",
         "HarvestNotes": "Plant stands 12\" to 15\" tall; medium-thick stem",
-        "Id": 84,
         "IndoorSow": "6",
         "Maturity": null,
         "Notes": null,
@@ -1620,6 +1620,7 @@
         "SpacingNotes": null
     },
     {
+        "Id": 125,
         "CommonType": "veg",
         "CommonName": "Chard",
         "Genus":"Beta",
@@ -1627,7 +1628,6 @@
         "Exposure": null,
         "HardenTime": "-2",
         "HarvestNotes": null,
-        "Id": 125,
         "IndoorSow": "4 to 6",
         "Maturity": null,
         "Notes": null,
@@ -1640,6 +1640,7 @@
         "SpacingNotes": null
     },
     {
+        "Id": 87,
         "CommonType": "veg",
         "CommonName": "Chives",
         "Genus":"Allium",
@@ -1647,7 +1648,6 @@
         "Exposure": null,
         "HardenTime": null,
         "HarvestNotes": null,
-        "Id": 87,
         "IndoorSow": null,
         "Maturity": null,
         "Notes": null,
@@ -1660,6 +1660,7 @@
         "SpacingNotes": null
     },
     {
+        "Id": 88,
         "CommonType": "veg",
         "CommonName": "Collards",
         "Genus":"Brassica",
@@ -1667,7 +1668,6 @@
         "Exposure": null,
         "HardenTime": "-4",
         "HarvestNotes": null,
-        "Id": 88,
         "IndoorSow": "4 to 6",
         "Maturity": null,
         "Notes": null,
@@ -1680,6 +1680,7 @@
         "SpacingNotes": null
     },
     {
+        "Id": 89,
         "CommonType": "veg",
         "CommonName": "Corn",
         "Genus":"Zea",
@@ -1687,7 +1688,6 @@
         "Exposure": "full",
         "HardenTime": "0 to 2",
         "HarvestNotes": null,
-        "Id": 89,
         "IndoorSow": "2 to 4",
         "Maturity": null,
         "Notes": null,
@@ -1700,6 +1700,7 @@
         "SpacingNotes": null
     },
     {
+        "Id": 90,
         "CommonType": "veg",
         "CommonName": "Mache",
         "Genus":"Valerianella",
@@ -1707,7 +1708,6 @@
         "Exposure": null,
         "HardenTime": "-3 to -6",
         "HarvestNotes": null,
-        "Id": 90,
         "IndoorSow": "4 to 6",
         "Maturity": null,
         "Notes": null,
@@ -1720,6 +1720,7 @@
         "SpacingNotes": null
     },
     {
+        "Id": 91,
         "CommonType": "veg",
         "CommonName": "Cucumber",
         "Genus":"Cucumis",
@@ -1727,7 +1728,6 @@
         "Exposure": null,
         "HardenTime": "1 to 2",
         "HarvestNotes": "Harvest plants every 2 to 3 days. Leave small piece of stem attached to fruit.",
-        "Id": 91,
         "IndoorSow": "3 to 4",
         "Maturity": "55-65",
         "Notes": null,
@@ -1740,6 +1740,7 @@
         "SpacingNotes": "trellis"
     },
     {
+        "Id": 92,
         "CommonType": "veg",
         "CommonName": "Eggplant",
         "Genus":"Solanum",
@@ -1747,7 +1748,6 @@
         "Exposure": null,
         "HardenTime": "2 to 3",
         "HarvestNotes": "Fruit should have shiny finish. SIde springs back when pressed",
-        "Id": 92,
         "IndoorSow": "6 to 10",
         "Maturity": "75-90*",
         "Notes": null,
