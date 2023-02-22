@@ -2398,5 +2398,25 @@
         "SoilType": null,
         "Spacing": "24\"",
         "SpacingNotes": "4 with cage"
+    },
+    {
+        "Id": 134,
+        "CommonType": "herb",
+        "CommonName": "Fennel",
+        "Genus":"Foeniculum",
+        "Species":"Foeniculum vulgare",
+        "Exposure": null,
+        "HardenTime": null,
+        "HarvestNotes": null,
+        "IndoorSow": null,
+        "Maturity": "90",
+        "Notes": null,
+        "OutdoorSow": null,
+        "PerSquare": null,
+        "SoilPH": null,
+        "SoilTemp": "70",
+        "SoilType": null,
+        "Spacing": "4to12inches",
+        "SpacingNotes": ""
     }
 ]
