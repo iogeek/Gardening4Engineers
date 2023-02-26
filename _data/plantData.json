@@ -2418,5 +2418,25 @@
         "SoilType": null,
         "Spacing": "4to12inches",
         "SpacingNotes": ""
+    },
+    {
+        "Id": 135,
+        "CommonType": "herb",
+        "CommonName": "Quinoa",
+        "Genus":"Chenopodium",
+        "Species":"Chenopodium quinoa",
+        "Exposure": null,
+        "HardenTime": null,
+        "HarvestNotes": null,
+        "IndoorSow": null,
+        "Maturity": "90-120",
+        "Notes": null,
+        "OutdoorSow": null,
+        "PerSquare": null,
+        "SoilPH": null,
+        "SoilTemp": "70",
+        "SoilType": null,
+        "Spacing": "",
+        "SpacingNotes": ""
     }
 ]
