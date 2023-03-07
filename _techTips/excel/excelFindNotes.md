@@ -23,9 +23,7 @@ Click the special button and make sure note is selected
 
 When you click ok, all of the cells in the sheet with notes will be selected. Select the ‘paint can’ icon to fill the cells with the color of your choice.
 
+##
 ## Animated Guide
 
-![Graphical user interface, application, table, Excel Description automatically generated](media/colorCellsWithNotes.gif)
-
-* 1/2" paddle bit ![paddle bit]({{ site.imagePath | relative_url }}/irrigationControl/paddleBit.jpg){:height="30px" width="126px"}
-..
+![Demo of finding/coloring cells]({{ site.imagePath | relative_url }}/excel/demoColorCellsWithNotes.gif)
