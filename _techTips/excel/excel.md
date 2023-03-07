@@ -28,3 +28,4 @@ When you click ok, all of the cells in the sheet with notes will be selected. Se
 ![Graphical user interface, application, table, Excel Description automatically generated](media/colorCellsWithNotes.gif)
 
 * 1/2" paddle bit ![paddle bit]({{ site.imagePath | relative_url }}/irrigationControl/paddleBit.jpg){:height="30px" width="126px"}
+..
