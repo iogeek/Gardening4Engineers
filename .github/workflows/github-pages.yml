@@ -4,7 +4,12 @@ on:
   push:
     branches:
       - master
-
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: environment
+        default: DEV
+        required: true
 jobs:
   deploy:
     runs-on: ubuntu-latest
