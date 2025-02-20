@@ -88,7 +88,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
      <title>
-         Nutrients 
+         Bitlocker notice on boot 
     </title>
       <meta name="description"
         content="Collection of tips about gardening and any other life adventures." />
@@ -335,88 +335,27 @@ function onLoadBody() {
 </div> 
   <div class="gridContent" id="contentPanel">
   <h1>
-       Nutrients 
+       Bitlocker notice on boot 
   </h1>
-  <h1 id="deficiencies">Deficiencies</h1>
-<p>Common symptoms and possible deficiencies to consider.</p>
-<table id="myTable" class="hoverTable">
-  <thead>
-    <tr>
-      <th>nutrient</th>
-      <th>symptom</th>
-    </tr>
-  </thead>
-  <tbody> 
+  <p>Are you still having problems with the bit locker screen popping up every time you booted.</p>
 
-  <tr>
-    <td>Nitrogen </td>
-    <td>Entire plant is light green in color; lower leaves are yellow; growth is stunted </td>
-  </tr>
+<p>I came across something similar and found a work around and curious if it will work for you.</p>
 
-  <tr>
-    <td>Boron </td>
-    <td>Young leaves are scorched at tips and margins </td>
-  </tr>
+<p>Each of these commands will need to be entered from an “administrator prompt / terminal”.  You can get to this after you’ve gotten to the familiar windows screen  Use your keyboard and press the windows key and the letter ‘x’ simultaneously.  This should being up a menu where you can choose “terminal(admin)” or something very similar.</p>
 
-  <tr>
-    <td>Molybdenum </td>
-    <td>Leaves are stunted, pale green, and malformed </td>
-  </tr>
+<p>The first command to enter is</p>
 
-  <tr>
-    <td>Potassium </td>
-    <td>Leaves have a papery appearance; dead areas along the edges of the leaves; growth is stunted </td>
-  </tr>
+<p>manage-bde -unlock c: -RecoveryPassword Recovery-Code</p>
 
-  <tr>
-    <td>Magnesium </td>
-    <td>Lower leaves turn yellow along the tips and margin and between the veins; the lower leaves wilt </td>
-  </tr>
+<p>This will disable the Windows checking for oddities and asking for the recovery key validation.  This will command is instant.</p>
 
-  <tr>
-    <td>Calcium </td>
-    <td>Young stems and new leaves die </td>
-  </tr>
+<p>The second command is</p>
 
-  <tr>
-    <td>Phosphorous </td>
-    <td>Entire plant is bluish-green, often developing a red or purplish cast; lower leaves may be yellow, drying to a greenish-brown to black color; growth may be stunted </td>
-  </tr>
+<p>manage-bde -off c:</p>
 
-  <tr>
-    <td>Zinc </td>
-    <td>Leaf tissue between the veins is lighter in color; yellowed; papery in appearance </td>
-  </tr>
+<p>This will disable bitlocker for your boot drive.   This will take about 30 minutes to complete and run in the background…  which means your free to do other things while it is completing.  There is not a great way to determine when it is done.  Just give it about 30 minutes and it should be more than plenty.</p>
 
-  <tr>
-    <td>Nitrogen </td>
-    <td>Leaf tissue appears yellow, while the veins remain green </td>
-  </tr>
-
-  <tr>
-    <td>Copper </td>
-    <td>Leaf edges appear dark green or blue; leaf edges curl upward; young leaves permanently wilt </td>
-  </tr>
-
-  <tr>
-    <td>Sulfur </td>
-    <td>Young leaves turn pale green, while the older leaves remain green; plant is stunted and spindly </td>
-  </tr>
-
-  <tr>
-    <td>Manganese </td>
-    <td>Growth is stunted; lower leaves have a checkered pattern of yellow and green </td>
-  </tr>
-
-</tbody>
-</table>
-
-<p>Table sources from</p>
-<ul>
-  <li>https://ext.vt.edu/content/pubs_ext_vt_edu/en/426/426-084/426-084.html</li>
-  <li>https://www.pubs.ext.vt.edu/content/dam/pubs_ext_vt_edu/426/426-323/SPES-295.pdf</li>
-  <li>https://extension.umn.edu/how/small-scale-hydroponics#fertilizing-2645213</li>
-</ul>
+<p>After all this, reboot…  that will be the real test if this worked.</p>
 
     
   </div>
