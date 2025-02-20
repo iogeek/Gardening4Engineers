@@ -104,6 +104,13 @@ Plant data used in spreadsheets for planning.<br>
 </tbody>
 </table>
 
+References
+- Plant Temps
+    - https://kenosha.extension.wisc.edu/files/2021/03/Soil-Temp-Planting-V2docx.pdf
+    - https://extension.psu.edu/vegetable-planting-and-transplanting-guide
+    - https://s3.wp.wsu.edu/uploads/sites/2073/2014/09/Home-Vegetable-Gardening-in-Washington.pdf
+
+
 
 
 
